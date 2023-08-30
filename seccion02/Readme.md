@@ -1,6 +1,6 @@
 <div align="center">
   
-  <h1>Sección 1</h1>
+  <h1>Sección 2</h1>
 
   <h2>Modelo básico del  inventario de ciclo de vida</h2>
 </p>
@@ -12,10 +12,10 @@
 ### 1.1 Propósito de la sección
 Aprenderás cómo es la estructura de cálculo matemático para determinar el inventario de ciclo de vida con procesos monofuncionales.
 
-### El modelo de inventario básico
+### 1.2 El modelo de inventario básico
 
 
-Recordemos que en el paso del inventario de ciclo de vida, el resultado final es la cuantificación de todos las intervenciones ambientales que el sisteme producto a lo largo de su ciclo de vida ha tenido. Denominamos como modelo de inventario básico a la estructura fundamental  de naturaleza matemática que siempre nos va a permitir calcular el inventario de ciclo de vida. Lo primero que hay que hacer para determinar el inventario, es haber definido previamente la unidad funcional y los flujos de referencia. Luego hay que determinar cuál es el sistema producto que se va a tener en cuenta. Recordemos que el sistema producto es el conjunto de procesos unitarios que describen el ciclo de vida del producto. En principio una manera práctica de empezar a modelar el ciclo de vida del producto es elaborar un diagrama que visualiza el conjunto de procesos unitarios del sistema. Así que para empezar imaginemos que tenemos el el diagrama de flujno de los procesos unitarios que se muestra a continuación.
+Recordemos que en el paso del inventario de ciclo de vida, el resultado final es la cuantificación de todos las intervenciones ambientales que el sisteme producto a lo largo de su ciclo de vida ha tenido. Denominamos como modelo de inventario básico a la estructura fundamental  de naturaleza matemática que siempre nos va a permitir calcular el inventario de ciclo de vida. Lo primero que hay que hacer para determinar el inventario, es haber definido previamente la unidad funcional y los flujos de referencia. Luego hay que determinar cuál es el sistema producto que se va a tener en cuenta. Recordemos que el sistema producto es el conjunto de procesos unitarios que describen el ciclo de vida del producto. En principio una manera práctica de empezar a modelar el ciclo de vida del producto es elaborar un diagrama que visualiza el conjunto de procesos unitarios del sistema. Así que para empezar imaginemos que tenemos el el diagrama de flujno de los procesos unitarios que se muestra más abajo. Importante señalar que cada uno de los procesos solo presta un servició o función, si observas bien, verás que cada proceso entrega/produce solamente un solo flujo tecnológico o intermedio.
 
 ![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/DIAGRAMA%20CV_Imagen%201.png)
 
