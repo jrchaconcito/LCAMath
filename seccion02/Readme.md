@@ -39,11 +39,9 @@ Por otro lado, El total de servicios de transporte recibidos por los anteriores 
 
 El total de combustible requerido habiendo hecho los escalonamientos anteriores es de 47.8117 litros + 84824.53058 litros, para un total de 84872.34227 litros. El proceso de producción de combustible requiere escalonarse con el factor de 848.7234227 para satisfacer la demanda de combustible anterior.
 
-También existe los flujos económicos o tecnológicos (otras veces denominados flujos intermedios o flujos de la tecnosfera), los cuales son flujos de materia y energía que son creados por intervención del hombre. Se denominan tecnológicos porque para su creación fue necesario la aplicación de tecnología desarrollada por el ser humano. También se denominan económicos porque esos flujos se tranzan en el mercado. Un ejemplo de flujos económicos son la energía eléctrica, el poliestireno o el diésel.
 
-Otro concepto fundamental es proceso unitario, que corresponde a una función que es capaz de transformar unas entradas en unas salidas y se constituye como el elemento más pequeño para recolectar información cuantitativa sobre los flujos de entradas y salidas para el análisis de inventario del ciclo de vida del producto. Un ejemplo podría ser la producción de energía eléctrica o la extrusión de una pieza plástica. 
 
-Un concepto de especial relevancia es *unidad funcional" que refiere al desempeño cuantificado de la cantidad de servicio o función que se le demanda a un determinado sistema de producto. Un ejemplo sería *la cantidad de acero, en libras, necesarias para producir una parte automotriz que cumpla con todos los requisitos estructurales y de seguridad relevantes para una vida útil del vehículo de 200.000 kilómetros recorridos. Finalmente el concepto de flujo de referencia va a tener una estrecha conexión con la unidad funcional, en el sentido que el flujo de referencia es la manifestación física de las salidas que va a tener cada proceso unitario en el ciclo de vida del producto que van a satisfacer la función o servicio que se expresa a través de la unidad funcional. Retomando el ejemplo anterior de unidad funcional, aquél proceso que produce acero tendría como flujo de referencia, la cantidad de acero producido necesaria para fabricar la parte de acero del vehículo y que cumpla los requisitos de calidad y de vida útil expresados en la unidad funcional.
+
 
 
 
