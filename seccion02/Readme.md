@@ -33,9 +33,9 @@ Una vez hemos escalonado el proceso de producción de electrólisis, pasamos a e
 
 Una vez ha sido escalonado el proceso de producción de electrólisis se sabe que se requiere en este proceso 23 Kg de ánodo, por lo que debemos pasar a escalonar el proceso de producciónd e ánodo. Para que este proceso produzca 23 Kg de ánodo, debemos multiplicar las entradas y salidas del proceso por el factor de escalamiento de 23.115578. Lo que daría además un consumo de energía eléxtrica de 4345.7286 kwh.
 
-Ahora bien habiendo hecho el escalamiento anterior para los procesos allí referidos, encontramos que el total del consumo de energía para estos procesos es de: 409754.4743 kwh + 4345.7286 kwh + 0.15 Kwh +9019.3 kwh + 703 kwh +300 kwh, lo que daría un total de 424122.6529 Kwh. Para qu el proceso de producción de electricidad produzca este tota de energía eléctrica,se debe multiplicar por el factor de escalamiento de 42412.26529. Lo quedaría además un consumo de combustible de 84824.53058 litros.
+Ahora bien habiendo hecho el escalamiento anterior para los procesos allí referidos, encontramos que el total del consumo de energía para estos procesos es de: 409754.4743 kwh + 4345.7286 kwh + 0.15 Kwh +9019.3 kwh + 703 kwh +300 kwh, lo que daría un total de 424122.6529 Kwh. Para qu el proceso de producción de electricidad produzca esta cantidad total de energía eléctrica,se debe multiplicar por el factor de escalamiento de 42412.26529. Lo quedaría además un consumo de combustible de 84824.53058 litros.
 
-Veamos cómo sería el escalamiento para el proceso de producción de energía eléctrica.
+El total de servicios de transporte recibidos
 
 
 También existe los flujos económicos o tecnológicos (otras veces denominados flujos intermedios o flujos de la tecnosfera), los cuales son flujos de materia y energía que son creados por intervención del hombre. Se denominan tecnológicos porque para su creación fue necesario la aplicación de tecnología desarrollada por el ser humano. También se denominan económicos porque esos flujos se tranzan en el mercado. Un ejemplo de flujos económicos son la energía eléctrica, el poliestireno o el diésel.
