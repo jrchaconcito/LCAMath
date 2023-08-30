@@ -57,7 +57,7 @@ para luego finalizar cuantificando el  total  de cada tipo de flujo ambiental a 
 
 Con la evaluación del impacto se convierte el total de cada tipo de flujo ambiental determinado anteriormente en términos de cuál sería su impacto ambiental potencial en una determinada categoría de impacto.
 
-Finalmente en la etapa de interpretación se hace un análisis de la información recolectada y procesada en los pasos anteriores, entre algunos de los asuntos que se estudian la identificación de los asuntos significativos, una evaluación de la completitud, sensibilidad y consistencia, conclusiones y limitaciones y recomendaciones.
+Finalmente en la etapa de interpretación se hace un análisis de la información recolectada y procesada en los pasos anteriores, entre algunos de los asuntos que se estudian está la identificación de los asuntos significativos, una evaluación de la completitud, análisis de sensibilidad y consistencia, conclusiones y limitaciones y recomendaciones.
 
 </div>
 
