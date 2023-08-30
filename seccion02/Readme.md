@@ -1,1 +1,62 @@
+<div align="center">
+  
+  <h1>Sección 1</h1>
 
+  <h2>Modelo básico del  inventario de ciclo de vida</h2>
+</p>
+
+</div>
+
+<div align="justify">
+
+### 1.1 Propósito de la sección
+Aprenderás cómo es la estructura de cálculo matemático para determinar el inventario de ciclo de vida con procesos monofuncionales.
+
+### El modelo de inventario básico
+
+
+Recordemos que en el paso del inventario de ciclo de vida, el resultado final es la cuantificación de todos las intervenciones ambientales que el sisteme producto a lo largo de su ciclo de vida ha tenido. Denominamos como modelo de inventario básico a la estructura fundamental  de naturaleza matemática que siempre nos va a permitir calcular el inventario de ciclo de vida. Lo primero que hay que hacer para determinar el inventario, es haber definido previamente la unidad funcional y los flujos de referencia. Luego hay que determinar cuál es el sistema producto que se va a tener en cuenta. Recordemos que el sistema producto es el conjunto de procesos unitarios que describen el ciclo de vida del producto. En principio una manera práctica de empezar a modelar el ciclo de vida del producto es elaborar un diagrama que visualiza el conjunto de procesos unitarios del sistema. Así que para empezar imaginemos que tenemos el el diagrama de flujno de los procesos unitarios que se muestra a continuación.
+
+Se denomina sistema producto al conjunto de todos los procesos unitarios de cada una de las etapas del ciclo de vida del producto y que están interconectados con flujos de materia y energía. Aquí es importante resaltar que cuando se habla de producto se refiere a un bien físico o un servicio y que los impactos ambientales potenciales del ciclo de vida de un producto se hayan teniendo en cuenta la función o servicio que ofrece un producto en particular y que tiene como función principal elaborar probetas hechas de aluminio virgen para ser usadas por estudiantes de ingeniería que se están aprendiendo sobre ciencia de materiales y con lo cual requieren aprender a hacer pruebas a los materiales para determinar algunas de sus propiedades.
+
+
+
+### 1.3 Conceptos básicos
+Vamos a explicar algunos conceptos que van a ser relevantes a la hora de entender la estructura de cálculo del ACV, tomados de la norma ISO 14040:2006. Comencemos por entender el concepto de flujo elemental. Este se refiere a un recurso (material o energía) que viene directamente de la naturaleza sin que previamente dicho flujo haya sido creado por el hombre o aquél flujo que va directamente a la naturaleza sin que posteriormente sufra alguna transformación por parte del ser humano. A este tipo de flujo también se le conoce con los nombres de flujo ambiental, flujo natural, flujo de la ecosfera o intervención. Unos ejemplos de flujos ambientales serían el petróleo crudo, el mineral de hierro, las emisiones de dióxido de carbono, el carbón mineral o la generación de aguas residuales dispuestas directamente en un río. Los flujos materiales no necesariamente tienen que ser flujos de materia o energía, puede ser flujos como ocupación o transformación del suelo.
+
+También existe los flujos económicos o tecnológicos (otras veces denominados flujos intermedios o flujos de la tecnosfera), los cuales son flujos de materia y energía que son creados por intervención del hombre. Se denominan tecnológicos porque para su creación fue necesario la aplicación de tecnología desarrollada por el ser humano. También se denominan económicos porque esos flujos se tranzan en el mercado. Un ejemplo de flujos económicos son la energía eléctrica, el poliestireno o el diésel.
+
+Otro concepto fundamental es proceso unitario, que corresponde a una función que es capaz de transformar unas entradas en unas salidas y se constituye como el elemento más pequeño para recolectar información cuantitativa sobre los flujos de entradas y salidas para el análisis de inventario del ciclo de vida del producto. Un ejemplo podría ser la producción de energía eléctrica o la extrusión de una pieza plástica. 
+
+Un concepto de especial relevancia es *unidad funcional" que refiere al desempeño cuantificado de la cantidad de servicio o función que se le demanda a un determinado sistema de producto. Un ejemplo sería *la cantidad de acero, en libras, necesarias para producir una parte automotriz que cumpla con todos los requisitos estructurales y de seguridad relevantes para una vida útil del vehículo de 200.000 kilómetros recorridos. Finalmente el concepto de flujo de referencia va a tener una estrecha conexión con la unidad funcional, en el sentido que el flujo de referencia es la manifestación física de las salidas que va a tener cada proceso unitario en el ciclo de vida del producto que van a satisfacer la función o servicio que se expresa a través de la unidad funcional. Retomando el ejemplo anterior de unidad funcional, aquél proceso que produce acero tendría como flujo de referencia, la cantidad de acero producido necesaria para fabricar la parte de acero del vehículo y que cumpla los requisitos de calidad y de vida útil expresados en la unidad funcional.
+
+
+
+### 1.4 Principios del ACV y sus limitaciones
+La norma internacional ISO 14040:2006 ofrece uno principios orientadores para llevar a cabo estudios de ACV:
+- Perspectiva de ciclo de vida: El ACV tiene en cuenta las etapas del ciclo de vida de un producto que fueron referidas anteriormente. Esta mirada holística ayudar a identificar, reducir o evitar el cambio o traslado de algún impacto ambiental entre las etapas del ciclo de vida.
+- Énfasis en lo ambiental: Se refiere que el ACV solo tiene en cuenta las consideraciones ambientales, dejando de lado aspectos como los sociales y económicos.
+- Enfoque basado en la función o servicio del sistema: El ACV se realiza teniendo como base la unidad funcional, de manera que todo el estudio de ACV tiene como fundamento en la cantidad de servicio o función que se haya determinado para el sistema producto.
+- Enfoque iterativo: Refiere a la interacción que existe entre una paso y otro para llevar a cabo el estudio de ACV y que permite una consistencia del estudio.
+- Transparencia: Los resultados de un estudio de ACV tiene el suficiente respaldo documental y explicaciones que facilitan una adecuada interpretación de los mismos
+- Basado en información científica: Las decisiones en un estudio de ACV tiene principalmente su fundamento en la ciencia y en ausencia de este principio es válido tener en cuenta juicios de valor.
+- Flexibilidad: No existe un único método para realizar un estudio de ACV y por lo tanto las organizaciones tienen la flexibilidad de escoger el método que consideren de acuerdo con los objetivos y alcance del estudio.
+
+
+### 1.5 Pasos para llevar a cabo un ACV
+De acuerdo con la norma internacional ISO 14040:2006 existen cuatro fases de un estudio de ACV:
+1. Definición del objetivo y del alcance
+2. Análisis del inventario
+3. Evaluación del impacto
+4. Interpretación
+
+En la definición del objetivo y del alcance se deja claro cuáles son las motivaciones para llevar a cabo el estudio y los parámetros a tener en cuenta. Dentro de los parámetros clave están, la determinación de la unidad funcional, los límites del sistema, reglas de asignación, método de evaluación del impacto potencial ambiental, requisitos de calidad de los datos, entre otros.
+
+El análisis del inventario identifica y cuantifica las entradas y salidas de cada uno de los procesos unitarios del sistema industrial  que satisfacen la unidad funcional escogida
+para luego finalizar cuantificando el  total  de cada tipo de flujo ambiental a lo largo de todo el sistema producto.
+
+Con la evaluación del impacto se convierte el total de cada tipo de flujo ambiental determinado anteriormente en términos de cuál sería su impacto ambiental potencial en una determinada categoría de impacto.
+
+Finalmente en la etapa de interpretación se hace un análisis de la información recolectada y procesada en los pasos anteriores, entre algunos de los asuntos que se estudian está la identificación de los asuntos significativos, una evaluación de la completitud, análisis de sensibilidad y consistencia, conclusiones y limitaciones y recomendaciones.
+
+</div>
