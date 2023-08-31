@@ -46,7 +46,7 @@ Nos hemos dado cuenta que cuando se escalona un proceso unitario, no solo los fl
 
 
 
-### 1.4 Cálculo del modelo básico del inventario  como una solución de un sistema de ecuaciones lineales
+### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
 Se observa que para el cálculo del inventario de ciclo de vida que se obtuvo anteriormente, lo que se hizo fue ir encontrando los factores de escalonamiento de cada proceso, al ir pasar de un proceso a otro. De manera que lo que era desconocido eran precisamente los factores de escalamiento, los demás datos de los procesos unitarios se conocían de antemano. Podemos entonces introducir un tratamiento más formal, partiendo que se tienen nueve (9) factores de escalamiento desconocidos. También asumimos la siguiente numeración para cada uno de los procesos unitarios del sistema:
 -Proceso 1: Minería de la bauxita
@@ -57,15 +57,18 @@ Se observa que para el cálculo del inventario de ciclo de vida que se obtuvo an
 -Proceso 6: Producción del ánodo
 -Proceso 7: Producción de parte de aluminio
 -Proceso 8: Producción de combustible
--Proceso 9: Producción de la probeta de alumninio
+-Proceso 9: Producción de energía eléctrica
 
 Los factores de escalamiento los denotaremos como s1 que sifnifica factor de escalamiento del proceso 1, s2 factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores s3, s4, s5, s6, s7, s8 y s9. Los flujos económicos se numneran de la siguiente manera:
--Flujo 1: Las toneladas de bauxita que produce el Proceso 1
--Flujo 2: Las toneladas de alúmina que produce el Proceso 2
--Flujo 3: tkm de servicio de transporte por camión prewstado por el Proceso 3
--Flujo 4: Las toneladas de aluminio líquido producidas por el proceso 4
--Flujo 5: Las toneladas de lingotes producidas por el proceso 5
--Flujo 6: Las 
+-Flujo económico 1: toneladas de bauxita que produce el Proceso 1
+-Flujo económico 2: toneladas de alúmina que produce el Proceso 2
+-Flujo económico 3: tkm de servicio de transporte por camión prewstado por el Proceso 3
+-Flujo económico 4: toneladas de aluminio líquido producidas por el proceso 4
+-Flujo económico 5: toneladas de lingotes producidas por el proceso 5
+-Flujo económico 6: toneladas de ánodo producidas por el proceso 6
+-Flujo económico 7: unidades de probetas de aluminio producidas por el proceso 7
+-Flujo económico 8: litros de combustible producidos por el proceso 8
+-Flujo económico 9: kwh de energía eléctrica producida por el proceso 9
 
 
 - Perspectiva de ciclo de vida: El ACV tiene en cuenta las etapas del ciclo de vida de un producto que fueron referidas anteriormente. Esta mirada holística ayudar a identificar, reducir o evitar el cambio o traslado de algún impacto ambiental entre las etapas del ciclo de vida.
