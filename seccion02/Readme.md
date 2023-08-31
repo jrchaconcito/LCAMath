@@ -75,7 +75,7 @@ Los factores de escalamiento los denotaremos como s1 que sifnifica factor de esc
 Para el primer flujo económico, toneladas de bauxita, se puede establer la siguiente ecuación de balance:
 
 ## 
-a₁₁s₁ + a₁₂s₂ + a₁₃s₃ + a₁₄s₄ + a₁₅s₅ + a₁₆s₆ + a₁₇s₇ + a₁₈s₈ + a₁₉s₉ = f₁
+a₁₁s₁ + a₁₂s₂ + a₁₃s₃ + a₁₄s₄ + a₁₅s₅ + a₁₆s₆ + a₁₇s₇ + a₁₈s₈ + a₁₉s₉ = f₁   (1)
 
 
 
