@@ -46,7 +46,8 @@ Nos hemos dado cuenta que cuando se escalona un proceso unitario, nos solo los f
 
 
 
-### 1.4 Principios del ACV y sus limitaciones
+### 1.4 Modelo básico de inventario: La solución matemática como una solución de un sistema de ecuaciones lineales
+
 La norma internacional ISO 14040:2006 ofrece uno principios orientadores para llevar a cabo estudios de ACV:
 - Perspectiva de ciclo de vida: El ACV tiene en cuenta las etapas del ciclo de vida de un producto que fueron referidas anteriormente. Esta mirada holística ayudar a identificar, reducir o evitar el cambio o traslado de algún impacto ambiental entre las etapas del ciclo de vida.
 - Énfasis en lo ambiental: Se refiere que el ACV solo tiene en cuenta las consideraciones ambientales, dejando de lado aspectos como los sociales y económicos.
