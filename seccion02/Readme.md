@@ -42,7 +42,7 @@ El total de combustible requerido habiendo hecho los escalonamientos anteriores 
 Nos hemos dado cuenta que cuando se escalona un proceso unitario, nos solo los flujos tecnológicos se ven afectados sino que también se afectan todas las demás entradas de forma proporcional, incluyendo las intervenciones ambientales. Así por ejemplo, para el caso del procceso de la minería de la bauxita y teniendo en cuenta el factor de escalamiento de 49667.209, la cantidad de dióxido de carbono que se liberaría sería de 49667.209 x 38.5, que daría como resultado 1912187.547 kg. La siguiente tabla ilustra la cantidad de cada uno de los tipos de flujos ambientales y económicos de cada proceso unitario, habiendo aplicado los factores de escalanamiento respectivos.
 
 
-
+![Procesos unitarios escalonados con respecto a la unidad funcional](https://github.com/jrchaconcito/REPOTEST/blob/main/Imagen3.png)
 
 
 
