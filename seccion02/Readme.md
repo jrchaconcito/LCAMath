@@ -39,7 +39,7 @@ Por otro lado, El total de servicios de transporte recibidos por los anteriores 
 
 El total de combustible requerido habiendo hecho los escalonamientos anteriores es de 47.8117 litros + 84824.53058 litros, para un total de 84872.34227 litros. El proceso de producción de combustible requiere escalonarse con el factor de 848.7234227 para satisfacer la demanda de combustible anterior.
 
-Nos hemos dado cuenta que cuando se escalona un proceso unitario, nos solo los flujos tecnológicos se ven afectados sino que también se afectan todas las demás entradas de forma proporcional, incluyendo las intervenciones ambientales. Así por ejemplo, para el caso del procceso de la minería de la bauxita, 
+Nos hemos dado cuenta que cuando se escalona un proceso unitario, nos solo los flujos tecnológicos se ven afectados sino que también se afectan todas las demás entradas de forma proporcional, incluyendo las intervenciones ambientales. Así por ejemplo, para el caso del procceso de la minería de la bauxita y teniendo en cuenta el factor de escalamiento de 49667.209, la cantidad de dióxido de carbono que se liberaría sería de 49667.209 x 38.5, que daría como resultado 1912187.547 kg. La siguiente tabla ilustra la cantidad de cada uno de los tipos de flujos ambientales y económicos de cada proceso unitario, habiendo aplicado los factores de escalanamiento respectivos.
 
 
 
