@@ -71,13 +71,13 @@ Los factores de escalamiento los denotaremos como s1 que sifnifica factor de esc
 -Flujo económico 9: kwh de energía eléctrica producida por el proceso 9
 
 
-- Perspectiva de ciclo de vida: El ACV tiene en cuenta las etapas del ciclo de vida de un producto que fueron referidas anteriormente. Esta mirada holística ayudar a identificar, reducir o evitar el cambio o traslado de algún impacto ambiental entre las etapas del ciclo de vida.
-- Énfasis en lo ambiental: Se refiere que el ACV solo tiene en cuenta las consideraciones ambientales, dejando de lado aspectos como los sociales y económicos.
-- Enfoque basado en la función o servicio del sistema: El ACV se realiza teniendo como base la unidad funcional, de manera que todo el estudio de ACV tiene como fundamento en la cantidad de servicio o función que se haya determinado para el sistema producto.
-- Enfoque iterativo: Refiere a la interacción que existe entre una paso y otro para llevar a cabo el estudio de ACV y que permite una consistencia del estudio.
-- Transparencia: Los resultados de un estudio de ACV tiene el suficiente respaldo documental y explicaciones que facilitan una adecuada interpretación de los mismos
-- Basado en información científica: Las decisiones en un estudio de ACV tiene principalmente su fundamento en la ciencia y en ausencia de este principio es válido tener en cuenta juicios de valor.
-- Flexibilidad: No existe un único método para realizar un estudio de ACV y por lo tanto las organizaciones tienen la flexibilidad de escoger el método que consideren de acuerdo con los objetivos y alcance del estudio.
+ 
+Para el primer flujo económico, toneladas de bauxita, se puede establer la siguiente ecuación de balance:
+
+## 
+a₁₁s₁ + a₁₂s₂ + a₁₃s₃ + a₁₄s₄ + a₁₅s₅ + a₁₆s₆ + a₁₇s₇ + a₁₈s₈ + a₁₉s₉ = f₁
+
+
 
 
 ### 1.5 Pasos para llevar a cabo un ACV
