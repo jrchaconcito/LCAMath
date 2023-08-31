@@ -84,13 +84,32 @@ Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utili
 5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0                        (2)
 Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos (menos para las entradas y el "más" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
 
-a₁₁s₁ + a₁₂s₂ + a₁₃s₃ + a₁₄s₄ + a₁₅s₅ + a₁₆s₆ + a₁₇s₇ + a₁₈s₈ + a₁₉s₉ = f₁ 
-a₂₁s₁ + a₂₂s₂ + a₂₃s₃ + a₂₄s₄ + a₂₅s₅ + a₂₆s₆ + a₂₇s₇ + a₂₈s₈ + a₂₉s₉ = f₂
-a₃₁s₁ + a₃₂s₂ + a₃₃s₃ + a₃₄s₄ + a₃₅s₅ + a₃₆s₆ + a₃₇s₇ + a₃₈s₈ + a₃₉s₉ = f₃
-a₄₁s₁ + a₄₂s₂ + a₄₃s₃ + a₄₄s₄ + a₄₅s₅ + a₄₆s₆ + a₄₇s₇ + a₄₈s₈ + a₄₉s₉ = f₄
-a₅₁s₁ + a₅₂s₂ + a₅₃s₃ + a₅₄s₄ + a₅₅s₅ + a₅₆s₆ + a₅₇s₇ + a₅₈s₈ + a₅₉s₉ = f₅
+\[
+\begin{align*}
+a_{21}s_1 + a_{22}s_2 + a_{23}s_3 + a_{24}s_4 + a_{25}s_5 + a_{26}s_6 + a_{27}s_7 + a_{28}s_8 + a_{29}s_9 &= f_2 \\
+a_{31}s_1 + a_{32}s_2 + a_{33}s_3 + a_{34}s_4 + a_{35}s_5 + a_{36}s_6 + a_{37}s_7 + a_{38}s_8 + a_{39}s_9 &= f_3 \\
+a_{41}s_1 + a_{42}s_2 + a_{43}s_3 + a_{44}s_4 + a_{45}s_5 + a_{46}s_6 + a_{47}s_7 + a_{48}s_8 + a_{49}s_9 &= f_4 \\
+a_{51}s_1 + a_{52}s_2 + a_{53}s_3 + a_{54}s_4 + a_{55}s_5 + a_{56}s_6 + a_{57}s_7 + a_{58}s_8 + a_{59}s_9 &= f_5 \\
+\end{align*}
+\]
+
+a21s1 + a22s2 + a23s3 + a24s4 + a25s5 + a26s6 + a27s7 + a28s8 + a29s9 = f2
+a31s1 + a32s2 + a33s3 + a34s4 + a35s5 + a36s6 + a37s7 + a38s8 + a39s9 = f3
+a41s1 + a42s2 + a43s3 + a44s4 + a45s5 + a46s6 + a47s7 + a48s8 + a49s9 = f4
+a51s1 + a52s2 + a53s3 + a54s4 + a55s5 + a56s6 + a57s7 + a58s8 + a59s9 = f5
+
+$$
+\begin{align}
+5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉  &= 10\\
+x - y &= 2
+\end{align}
+$$
 
 
+
+
+
+Regenerate
 
 
 
