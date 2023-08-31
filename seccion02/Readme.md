@@ -85,7 +85,7 @@ Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utili
 Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos (menos para las entradas y el "más" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
 
 a₁₁s₁ + a₁₂s₂ + a₁₃s₃ + a₁₄s₄ + a₁₅s₅ + a₁₆s₆ + a₁₇s₇ + a₁₈s₈ + a₁₉s₉ = f₁ 
-a₁s₁ + a₁₂s₂ + a₁₃s₃ + a₁₄s₄ + a₁₅s₅ + a₁₆s₆ + a₁₇s₇ + a₁₈s₈ + a₁₉s₉ = f₁ 
+
 
 
 
