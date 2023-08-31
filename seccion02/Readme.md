@@ -46,9 +46,28 @@ Nos hemos dado cuenta que cuando se escalona un proceso unitario, nos solo los f
 
 
 
-### 1.4 Modelo básico de inventario: La solución matemática como una solución de un sistema de ecuaciones lineales
+### 1.4 Cálculo del modelo básico del inventario  como una solución de un sistema de ecuaciones lineales
 
-La norma internacional ISO 14040:2006 ofrece uno principios orientadores para llevar a cabo estudios de ACV:
+Se observa que para el cálculo del inventario de ciclo de vida que se obtuvo anteriormente, lo que se hizo fue ir encontrando los factores de escalonamiento de cada proceso, al ir pasar de un proceso a otro. De manera que lo que era desconocido eran precisamente los factores de escalamiento, los demás datos de los procesos unitarios se conocían de antemano. Podemos entonces introducir un tratamiento más formal, partiendo que se tienen nueve (9) factores de escalamiento desconocidos. También asumimos la siguiente numeración para cada uno de los procesos unitarios del sistema:
+-Proceso 1: Minería de la bauxita
+-Proceso 2: Producción de alúmina
+-Proceso 3: Transporte (Si bien apareece en el diagrama dos veces, se asume que es un mismo proceso el que está prestando el servicio de transporte por camión)
+-Proceso 4: Electrólisis
+-Proceso 5: Fundición de lingotes de aluminio
+-Proceso 6: Producción del ánodo
+-Proceso 7: Producción de parte de aluminio
+-Proceso 8: Producción de combustible
+-Proceso 9: Producción de la probeta de alumninio
+
+Los factores de escalamiento los denotaremos como s1 que sifnifica factor de escalamiento del proceso 1, s2 factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores s3, s4, s5, s6, s7, s8 y s9. Los flujos económicos se numneran de la siguiente manera:
+-Flujo 1: Las toneladas de bauxita que produce el Proceso 1
+-Flujo 2: Las toneladas de alúmina que produce el Proceso 2
+-Flujo 3: tkm de servicio de transporte por camión prewstado por el Proceso 3
+-Flujo 4: Las toneladas de aluminio líquido producidas por el proceso 4
+-Flujo 5: Las toneladas de lingotes producidas por el proceso 5
+-Flujo 6: Las 
+
+
 - Perspectiva de ciclo de vida: El ACV tiene en cuenta las etapas del ciclo de vida de un producto que fueron referidas anteriormente. Esta mirada holística ayudar a identificar, reducir o evitar el cambio o traslado de algún impacto ambiental entre las etapas del ciclo de vida.
 - Énfasis en lo ambiental: Se refiere que el ACV solo tiene en cuenta las consideraciones ambientales, dejando de lado aspectos como los sociales y económicos.
 - Enfoque basado en la función o servicio del sistema: El ACV se realiza teniendo como base la unidad funcional, de manera que todo el estudio de ACV tiene como fundamento en la cantidad de servicio o función que se haya determinado para el sistema producto.
