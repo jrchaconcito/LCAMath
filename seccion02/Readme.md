@@ -77,16 +77,16 @@ Podemos entonces introducir un tratamiento más formal, partiendo que se tienen 
   
 Los factores de escalamiento los denotaremos como s₁ que significa factor de escalamiento del proceso 1, s₂ factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores de escalamiento. Por otro lado, los flujos económicos se numneran de la siguiente manera:
 
--Flujo económico 1: toneladas de bauxita que produce el Proceso 1
--Flujo económico 2: toneladas de alúmina que produce el Proceso 2
--Flujo económico 3: tkm de servicio de transporte por camión prestado por el Proceso 3
--Flujo económico 4: toneladas de aluminio líquido producidas por el proceso 4
--Flujo económico 5: toneladas de lingotes producidas por el proceso 5
--Flujo económico 6: toneladas de ánodo producidas por el proceso 6
--Flujo económico 7: unidades de probetas de aluminio producidas por el proceso 7
--Flujo económico 8: litros de combustible producidos por el proceso 8
--Flujo económico 9: kwh de energía eléctrica producida por el proceso 9
-</p>
+  -  Flujo económico 1: toneladas de bauxita que produce el Proceso 1
+  -  Flujo económico 2: toneladas de alúmina que produce el Proceso 2
+  -  Flujo económico 3: tkm de servicio de transporte por camión prestado por el Proceso 3
+  -  Flujo económico 4: toneladas de aluminio líquido producidas por el proceso 4
+  -  Flujo económico 5: toneladas de lingotes producidas por el proceso 5
+  -  Flujo económico 6: toneladas de ánodo producidas por el proceso 6
+    -Flujo económico 7: unidades de probetas de aluminio producidas por el proceso 7
+  -  Flujo económico 8: litros de combustible producidos por el proceso 8
+  -  Flujo económico 9: kwh de energía eléctrica producida por el proceso 9
+  </p>
 
 Para el primer flujo económico, toneladas de bauxita, se puede establer la siguiente ecuación de balance:
 
