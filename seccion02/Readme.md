@@ -59,7 +59,7 @@ Se observa que para el cálculo del inventario de ciclo de vida que se obtuvo an
 -Proceso 8: Producción de combustible
 -Proceso 9: Producción de energía eléctrica
 
-Los factores de escalamiento los denotaremos como s1 que sifnifica factor de escalamiento del proceso 1, s2 factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores s3, s4, s5, s6, s7, s8 y s9. Los flujos económicos se numneran de la siguiente manera:
+Los factores de escalamiento los denotaremos como s1 que sifnifica factor de escalamiento del proceso 1, s2 factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores s<sub>3<sub>, s<sub>4<sub>, s<sub>5<sub>, s<sub>6<sub>, s<sub>7<sub>, s<sub>8<sub> y s<sub>9<sub>. Los flujos económicos se numneran de la siguiente manera:
 -Flujo económico 1: toneladas de bauxita que produce el Proceso 1
 -Flujo económico 2: toneladas de alúmina que produce el Proceso 2
 -Flujo económico 3: tkm de servicio de transporte por camión prewstado por el Proceso 3
@@ -84,30 +84,20 @@ Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utili
 5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0                        (2)
 Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos (menos para las entradas y el "más" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
 
-\[
-\begin{align*}
-a_{21}s_1 + a_{22}s_2 + a_{23}s_3 + a_{24}s_4 + a_{25}s_5 + a_{26}s_6 + a_{27}s_7 + a_{28}s_8 + a_{29}s_9 &= f_2 \\
-a_{31}s_1 + a_{32}s_2 + a_{33}s_3 + a_{34}s_4 + a_{35}s_5 + a_{36}s_6 + a_{37}s_7 + a_{38}s_8 + a_{39}s_9 &= f_3 \\
-a_{41}s_1 + a_{42}s_2 + a_{43}s_3 + a_{44}s_4 + a_{45}s_5 + a_{46}s_6 + a_{47}s_7 + a_{48}s_8 + a_{49}s_9 &= f_4 \\
-a_{51}s_1 + a_{52}s_2 + a_{53}s_3 + a_{54}s_4 + a_{55}s_5 + a_{56}s_6 + a_{57}s_7 + a_{58}s_8 + a_{59}s_9 &= f_5 \\
-\end{align*}
-\]
 
-a21s1 + a22s2 + a23s3 + a24s4 + a25s5 + a26s6 + a27s7 + a28s8 + a29s9 = f2
-a31s1 + a32s2 + a33s3 + a34s4 + a35s5 + a36s6 + a37s7 + a38s8 + a39s9 = f3
-a41s1 + a42s2 + a43s3 + a44s4 + a45s5 + a46s6 + a47s7 + a48s8 + a49s9 = f4
-a51s1 + a52s2 + a53s3 + a54s4 + a55s5 + a56s6 + a57s7 + a58s8 + a59s9 = f5
+
 
 $$
 \begin{align}
-5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉  &= 10\\
-x - y &= 2
-\end{align}
-$$
+a<sub>11<sub>s<sub>1<sub> + a<sub>12<sub>s<sub>2<sub> + a<sub>13<sub>s<sub>3<sub> + a<sub>14<sub>s<sub>4<sub> + a<sub>15<sub>s<sub>5<sub> + a<sub>16<sub>s<sub>6<sub> + a<sub>17<sub>s<sub>7<sub> + a<sub>18<sub>s<sub>7<sub> + a<sub>19<sub>s<sub>9<sub>  &= f1\\
+ 
 
 
 
+![image](https://github.com/jrchaconcito/REPOTEST/assets/143435356/d0321e23-1695-4f25-989b-7cbddcd896a1)
 
+
+X<sub>11</sub>s<sub>1<sub>
 
 Regenerate
 
