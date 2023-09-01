@@ -90,9 +90,9 @@ Los factores de escalamiento los denotaremos como s₁ que significa factor de e
 
 Para el primer flujo económico, toneladas de bauxita, se puede establecer la siguiente ecuación de balance:
 
-"<div align="center">
-5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0
-</div
+<div align="center">
+  <img src="URL_de_la_imagen" alt="Ecuación de balance">
+</div>
 
 Donde a₁₁s₁ significa el flujo económico 1 del proceso 1 multiplicado por el factor de escalamiento del proceso 1; a₁₂s₂ significa el flujo económico 1 en el proceso 2 multiplicado por el factor de escalamiento del proceso 2, los demás elementos del lado izquierdo de la ecuación se interpretarían de manera similar a como se ha hecho aquí. f₁ sería el total del flujo económico 1 y así para sería su interpretación para el total de los demás flujos económicos.
 
