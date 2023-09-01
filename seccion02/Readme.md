@@ -88,22 +88,19 @@ Los factores de escalamiento los denotaremos como s₁ que significa factor de e
   -  Flujo económico 9: kwh de energía eléctrica producida por el proceso 9
   </p>
 
-Para el primer flujo económico, toneladas de bauxita, se puede establer la siguiente ecuación de balance:
+Para el primer flujo económico, toneladas de bauxita, se puede establecer la siguiente ecuación de balance:
 
- '<div align="center">
-  5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0
- </div
-
-Donde a₁₁s₁ significa el flujo económico 1 del proceso 1 multiplicado por el factor de escalamiento del proceso 1;   a₁₂s₂ significa el flujo económico 1 en el proceso 2 multiplicado por el factor de escalamiento del proceso 2, los demás elementos del lado izquierdo de la ecuación se interpretarían de manera similar a como se ha hecho aquí. f₁ sería el total del flujo económico 1 y así para sería su interpretación para el total de los demás flujos económicos.
-
-
-Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utilizará el signo menos si es una entrada y el signo + si es una salida, esto para garantizar que no debe sobrar de un flujo económico cuando se está haciendo el escalamiento, es decir, que lo que produce un proceso es la cantidad exacta de lo que necesita otro proceso, no debe sobrar ni faltar flujo.
-
-<div align="center">
+"<div align="center">
 5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0
 </div
 
+Donde a₁₁s₁ significa el flujo económico 1 del proceso 1 multiplicado por el factor de escalamiento del proceso 1; a₁₂s₂ significa el flujo económico 1 en el proceso 2 multiplicado por el factor de escalamiento del proceso 2, los demás elementos del lado izquierdo de la ecuación se interpretarían de manera similar a como se ha hecho aquí. f₁ sería el total del flujo económico 1 y así para sería su interpretación para el total de los demás flujos económicos.
 
+Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utilizará el signo menos si es una entrada y el signo + si es una salida, esto para garantizar que no debe sobrar de un flujo económico cuando se está haciendo el escalamiento, es decir, que lo que produce un proceso es la cantidad exacta de lo que necesita otro proceso, no debe sobrar ni faltar flujo.
+
+"<div align="center">
+5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0
+</div
 
 Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos ("–" para las entradas y el "+" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
 
