@@ -79,10 +79,14 @@ Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utili
 5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0                        
 Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos ("–" para las entradas y el "+" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
 
-![image](https://github.com/jrchaconcito/REPOTEST/assets/143435356/d0321e23-1695-4f25-989b-7cbddcd896a1)
 
+<p align="center">
+<img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen4.png" alt="Sistema de ecuaciones" width="700" height="350" />
+</p>
 
+Como se puede observar en el conjunto de ecuaciones simultáneas, lo que allí se está expresando es que el sistema producto está balanceado escalando cada proceso unitario con factores de escalamiento, que son las variables desconocidas. No olvidar que solo se está empleando los flujos económicos para hallar los factores de escalamiento desconocidos. Vemos entonces que tenemmos un conjunto de ecuaciones determinado, por que existe el número de ecuaciones es igual al número de variables desconocidas. A continuación ilustramos con los datos del ejercicio hipótético cuál es el conjunto de ecuaciones.
 
+ 
 ### 1.5 Pasos para llevar a cabo un ACV
 De acuerdo con la norma internacional ISO 14040:2006 existen cuatro fases de un estudio de ACV:
 1. Definición del objetivo y del alcance
