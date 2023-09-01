@@ -84,7 +84,7 @@ Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sob
 <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen4.png" alt="Sistema de ecuaciones" width="700" height="350" />
 </p>
 
-Como se puede observar en el conjunto de ecuaciones simultáneas, lo que allí se está expresando es que el sistema producto está balanceado escalando cada proceso unitario con factores de escalamiento, que son las variables desconocidas. No olvidar que solo se está empleando los flujos económicos para hallar los factores de escalamiento desconocidos. Vemos entonces que tenemmos un conjunto de ecuaciones determinado, por que existe el número de ecuaciones es igual al número de variables desconocidas. A continuación ilustramos con los datos del ejercicio hipótético cuál es el conjunto de ecuaciones.
+Como se puede observar en el conjunto de ecuaciones simultáneas, lo que allí se está expresando es que el sistema producto está balanceado escalando cada proceso unitario con factores de escalamiento, que son las variables desconocidas. No olvidar que solo se está empleando los flujos económicos para hallar los factores de escalamiento desconocidos. Vemos entonces que tenemmos un conjunto de ecuaciones determinado, por que el número de ecuaciones (nueve ecuaciones) es igual al número de variables desconocidas (nueve variables desconocidas). A continuación ilustramos con los datos del ejercicio hipótético cuál es el conjunto de ecuaciones.
 
  
 ### 1.5 Pasos para llevar a cabo un ACV
