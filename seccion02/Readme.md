@@ -83,16 +83,17 @@ Los factores de escalamiento los denotaremos como s₁ que significa factor de e
   -  Flujo económico 4: toneladas de aluminio líquido producidas por el proceso 4
   -  Flujo económico 5: toneladas de lingotes producidas por el proceso 5
   -  Flujo económico 6: toneladas de ánodo producidas por el proceso 6
-    -Flujo económico 7: unidades de probetas de aluminio producidas por el proceso 7
+  -  Flujo económico 7: unidades de probetas de aluminio producidas por el proceso 7
   -  Flujo económico 8: litros de combustible producidos por el proceso 8
   -  Flujo económico 9: kwh de energía eléctrica producida por el proceso 9
   </p>
 
 Para el primer flujo económico, toneladas de bauxita, se puede establer la siguiente ecuación de balance:
 
- <div align="center">
-  5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0
+ '<div align="center">
+5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0
  </div
+
 
 
 
@@ -105,7 +106,8 @@ Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utili
 5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0
 </div
 
-  
+
+
 Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos ("–" para las entradas y el "+" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
 
 
