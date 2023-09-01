@@ -44,8 +44,6 @@ Nos hemos dado cuenta que cuando se escalona un proceso unitario, no solo los fl
 
 ![Procesos unitarios escalonados con respecto a la unidad funcional](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen3.png)
 
-
-
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
 Se observa que para el cálculo del inventario de ciclo de vida que se obtuvo anteriormente, lo que se hizo fue ir encontrando los factores de escalonamiento de cada proceso, al ir pasar de un proceso a otro. De manera que lo que era desconocido eran precisamente los factores de escalamiento, los demás datos de los procesos unitarios se conocían de antemano. Podemos entonces introducir un tratamiento más formal, partiendo que se tienen nueve (9) factores de escalamiento desconocidos. También asumimos la siguiente numeración para cada uno de los procesos unitarios del sistema:
@@ -59,10 +57,10 @@ Se observa que para el cálculo del inventario de ciclo de vida que se obtuvo an
 -Proceso 8: Producción de combustible
 -Proceso 9: Producción de energía eléctrica
 
-Los factores de escalamiento los denotaremos como s1 que sifnifica factor de escalamiento del proceso 1, s2 factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores s<sub>3<sub>, s<sub>4<sub>, s<sub>5<sub>, s<sub>6<sub>, s<sub>7<sub>, s<sub>8<sub> y s<sub>9<sub>. Los flujos económicos se numneran de la siguiente manera:
+Los factores de escalamiento los denotaremos como s₁ que significa factor de escalamiento del proceso 1, s₂ factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores de escalamiento. Por otro lado, los flujos económicos se numneran de la siguiente manera:
 -Flujo económico 1: toneladas de bauxita que produce el Proceso 1
 -Flujo económico 2: toneladas de alúmina que produce el Proceso 2
--Flujo económico 3: tkm de servicio de transporte por camión prewstado por el Proceso 3
+-Flujo económico 3: tkm de servicio de transporte por camión prestado por el Proceso 3
 -Flujo económico 4: toneladas de aluminio líquido producidas por el proceso 4
 -Flujo económico 5: toneladas de lingotes producidas por el proceso 5
 -Flujo económico 6: toneladas de ánodo producidas por el proceso 6
@@ -70,38 +68,18 @@ Los factores de escalamiento los denotaremos como s1 que sifnifica factor de esc
 -Flujo económico 8: litros de combustible producidos por el proceso 8
 -Flujo económico 9: kwh de energía eléctrica producida por el proceso 9
 
-
- 
 Para el primer flujo económico, toneladas de bauxita, se puede establer la siguiente ecuación de balance:
 
-# 
-a₁₁s₁ + a₁₂s₂ + a₁₃s₃ + a₁₄s₄ + a₁₅s₅ + a₁₆s₆ + a₁₇s₇ + a₁₈s₈ + a₁₉s₉ = f₁                        (1)
+a₁₁s₁ + a₁₂s₂ + a₁₃s₃ + a₁₄s₄ + a₁₅s₅ + a₁₆s₆ + a₁₇s₇ + a₁₈s₈ + a₁₉s₉ = f₁                        
 
-Donde a₁₁s₁ significa el flujo económico 1 del proceso 1 multiplicado por el factor de escalamiento del proceso 1; a₁₂s₂ significa el flujo económico 1 en el proceso 2 multiplicado por el factor de escalamiento del proceso 2, los demás elementos del lado izquierdo de la ecuación se interpretarían de manera similar a como se ha hecho aquí. f₁ sería el total del flujo económico 1. 
+Donde a₁₁s₁ significa el flujo económico 1 del proceso 1 multiplicado por el factor de escalamiento del proceso 1;   a₁₂s₂ significa el flujo económico 1 en el proceso 2 multiplicado por el factor de escalamiento del proceso 2, los demás elementos del lado izquierdo de la ecuación se interpretarían de manera similar a como se ha hecho aquí. f₁ sería el total del flujo económico 1 y así para sería su interpretación para el total de los demás flujos económicos.
 
 Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utilizará el signo menos si es una entrada y el signo + si es una salida, esto para garantizar que no debe sobrar de un flujo económico cuando se está haciendo el escalamiento, es decir, que lo que produce un proceso es la cantidad exacta de lo que necesita otro proceso, no debe sobrar ni faltar flujo.
 
-5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0                        (2)
-Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos (menos para las entradas y el "más" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
-
-
-
-
-$$
-\begin{align}
-a<sub>11<sub>s<sub>1<sub> + a<sub>12<sub>s<sub>2<sub> + a<sub>13<sub>s<sub>3<sub> + a<sub>14<sub>s<sub>4<sub> + a<sub>15<sub>s<sub>5<sub> + a<sub>16<sub>s<sub>6<sub> + a<sub>17<sub>s<sub>7<sub> + a<sub>18<sub>s<sub>7<sub> + a<sub>19<sub>s<sub>9<sub>  &= f1\\
- 
-
-
+5.5s₁ - 5.694s₂ + 0s₃ + 0s₄ + 0s₅ + 0s₆ + 0s₇ + 0s₈ + 0s₉ = 0                        
+Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos ("–" para las entradas y el "+" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
 
 ![image](https://github.com/jrchaconcito/REPOTEST/assets/143435356/d0321e23-1695-4f25-989b-7cbddcd896a1)
-
-
-X<sub>11</sub>s<sub>1<sub>
-
-Regenerate
-
-
 
 
 
