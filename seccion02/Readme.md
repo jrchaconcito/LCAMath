@@ -125,11 +125,36 @@ Seguidamente vamos a ver los factores de escalamiento a partir de la solución d
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen8.png" alt="Ecuación de balance" width=15%>
 </div>
 
-Una vez hallados los factores de escalamiento podemos construir un conjunto de ecuaciones para determinar el inventario de ciclo de vida. Para ellos partimos de las siguientes convenciones:
+Una vez hallados los factores de escalamiento podemos construir un conjunto de ecuaciones para determinar el inventario de ciclo de vida, las cuales no es necesario resolver porque dado que utilizan los factores de escalamiento que previamente se han encontrado al resolver el conjunto anterior de ecuaciones simultáneas. Para ellos partimos de las siguientes convenciones:
 
-g<sub>1  = Flujo ambiental 1 (Kg de dióxido de carbono, CO<sub>2)
-g<sub>2  = Flujo ambiental 2 (Kg de metano)
+b<sub>1  = Flujo ambiental 1 (Kg de dióxido de carbono, CO<sub>2)
 
+b<sub>2  = Flujo ambiental 2 (Kg de metano, CH<sub>4)
+
+b<sub>3  = Flujo ambiental 3 (dióxido de azufrem SO<sub>2)
+
+b<sub>4  = Flujo ambiental 4 (Óxido nitroso, Ng<sub>2O)
+
+b<sub>5  = Flujo ambiental 5 (mineral de bauxita)
+
+b<sub>6  = Flujo ambiental 6 (petróleo) crudo
+
+b<sub>11 = Flujo ambiental 1 en el proceso 1
+
+b<sub>12 = Flujo ambiental 1 en el proceso 2
+
+... b<sub>19 = Flujo ambiental 1 en el proces 9, 
+
+g<sub>1 = el total del flujo 1 que satisface la unidad funcional
+
+g<sub>2 = el total del flujo 2 que satisface la unidad funcional
+
+...g<sub>6 el total del flujo 6 que satisface la unidad funcional
+
+A continuación veamos cuál es el conjunto de ecuaciones:
+
+
+ 
 
  
 ### 1.5 Pasos para llevar a cabo un ACV
