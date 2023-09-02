@@ -133,7 +133,7 @@ b<sub>2  = Flujo ambiental 2 (Kg de metano, CH<sub>4)
 
 b<sub>3  = Flujo ambiental 3 (dióxido de azufrem SO<sub>2)
 
-b<sub>4  = Flujo ambiental 4 (Óxido nitroso, Ng<sub>2O)
+b<sub>4  = Flujo ambiental 4 (Óxido nitroso, N<sub>2</sub>O)
 
 b<sub>5  = Flujo ambiental 5 (mineral de bauxita)
 
@@ -159,7 +159,7 @@ He aquí el conjunto ecuaciones que con los factores de escalamiento ofrece la c
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen9.png" alt="Ecuación de balance" width=60%>
 </div>
 
-Ahora bien, veamos cómo sería el conjunto de ecuaciones anterior pero con las cantidades de flujo ambiental.
+Ahora bien, veamos cómo sería el conjunto de ecuaciones anterior pero con las cantidades de de cada uno de los tipos de flujo ambiental.
 
 
  
