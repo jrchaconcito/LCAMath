@@ -75,7 +75,7 @@ Podemos entonces introducir un tratamiento más formal, partiendo que se tienen 
 
 
   
-Los factores de escalamiento los denotaremos como s₁ que significa factor de escalamiento del proceso 1, s₂ factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores de escalamiento. Por otro lado, los flujos económicos se numneran de la siguiente manera:
+Los factores de escalamiento los denotaremos como s₁ que significa factor de escalamiento del proceso 1, s₂ factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores de escalamiento. Por otro lado, los flujos económicos se numeran de la siguiente manera:
 
   -  Flujo económico 1: toneladas de bauxita que produce el Proceso 1
   -  Flujo económico 2: toneladas de alúmina que produce el Proceso 2
