@@ -153,6 +153,14 @@ g<sub>2 = el total del flujo 2 que satisface la unidad funcional
 
 A continuación veamos cuál es el conjunto de ecuaciones:
 
+He aquí el conjunto ecuaciones que con los factores de escalamiento ofrece la clave directa para la solución final del inventario. No olvidar que el escalonamiento de un proceso unitario afecta tanto a los flujos económicos como a los flujos ambientales.
+
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen9.png" alt="Ecuación de balance" width=60%>
+</div>
+
+Ahora bien, veamos cómo sería el conjunto de ecuaciones anterior pero con las cantidades de flujo ambiental.
+
 
  
 
