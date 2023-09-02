@@ -106,18 +106,30 @@ Veámolo con un ejemplo concreto teniendo en cuenta que por convención se utili
 </div>
 
 
-Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos ("–" para las entradas y el "+" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
+Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no deben sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos ("–" para las entradas y el "+" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
 
 
 <p align="center">
 <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen4.png" alt="Sistema de ecuaciones" width="700" height="350" />
 </p>
 
-Como se puede observar en el conjunto de ecuaciones simultáneas, lo que allí se está expresando es que el sistema producto está balanceado escalando cada proceso unitario con factores de escalamiento, que son las variables desconocidas. No olvidar que solo se está empleando los flujos económicos para hallar los factores de escalamiento desconocidos. Vemos entonces que tenemmos un conjunto de ecuaciones determinado, por que el número de ecuaciones (nueve ecuaciones) es igual al número de variables desconocidas (nueve variables desconocidas). Más abajo ilustramos con los datos del ejercicio hipótético cuál es el conjunto de ecuaciones. Óbsérvese que el lado de derecho de las ecuaciones todos los valores son iguales a cero, excepto para el total del flujo económico 7 que corresponde a un valor de 100 que es el flujo de referencia derivado de la unidad funcional (en este caso la unidad funcional y el flujo de referncia tienen los mismos valores, pero no siempre es así). Esto significa que de todos los otros flujos no deben sobrar ni faltar (esto matemáticamente se expresa con el valor cero) y para el caso del flujo económico 7, el total debe dar 100 que es la cantidad total que le estamos demandando producir al sistema producto, que de acuerdo con los datos del ejercicio es cien (100) probetas de aluminio. Así que una vez hallados los 9 factores de escalamiento (los mismos que aparecen anteriormente en la tabla sobre los datos de los procesos escalonados), podemos saber cuáles son las cantidades de entradas y salidas de cada proceso en términos de flujos económicos (en este caso denominados flujos de referencia) que satisfacen la unidad funcional especificada para el estudio de análisis de ciclo de vida.
+Como se puede observar en el conjunto de ecuaciones simultáneas, lo que allí se está expresando es que el sistema producto está balanceado escalando cada proceso unitario con factores de escalamiento, que son las variables desconocidas. No olvidar que solo se está empleando los flujos económicos para hallar los factores de escalamiento desconocidos. Vemos entonces que tenemmos un conjunto de ecuaciones determinado, por que el número de ecuaciones (nueve ecuaciones) es igual al número de variables desconocidas (nueve variables desconocidas). Más abajo ilustramos con los datos del ejercicio hipótético cuál es el conjunto de ecuaciones. Óbsérvese que el lado de derecho de las ecuaciones todos los valores son iguales a cero, excepto para el total del flujo económico 7 que corresponde a un valor de 100 que es el flujo de referencia derivado de la unidad funcional (en este caso la unidad funcional y el flujo de referncia tienen los mismos valores, pero no siempre es así). Esto significa que de todos los otros flujos no deben sobrar ni faltar (esto matemáticamente se expresa con el valor cero) y para el caso del flujo económico 7, el total debe dar 100 que es la cantidad total que le estamos demandando producir al sistema producto, que de acuerdo con los datos del ejercicio es cien (100) probetas de aluminio. Así que una vez hallados los 9 factores de escalamiento (los mismos que aparecen anteriormente en la tabla sobre los datos de los procesos escalonados), podemos saber cuáles son las cantidades de entradas y salidas de cada proceso en términos de flujos económicos (en este caso denominados flujos de referencia) que satisfacen la unidad funcional especificada para el estudio de análisis de ciclo de vida. 
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen7png.png" alt="Ecuación de balance" width=60%>
 </div>
+
+Seguidamente vamos a ver los factores de escalamiento a partir de la solución del conjunto de ecuaciones simultáneas que como se puede observar son los mismos que se hallaron cuando se hizo el escalamiento "manual".
+
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen8.png" alt="Ecuación de balance" width=15%>
+</div>
+
+Una vez hallados los factores de escalamiento podemos construir un conjunto de ecuaciones para determinar el inventario de ciclo de vida. Para ellos partimos de las siguientes convenciones:
+
+g<sub>1  = Flujo ambiental 1 (Kg de dióxido de carbono, CO<sub>2)
+g<sub>2  = Flujo ambiental 2 (Kg de metano)
+
 
  
 ### 1.5 Pasos para llevar a cabo un ACV
