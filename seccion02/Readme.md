@@ -115,6 +115,9 @@ Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no debe sob
 
 Como se puede observar en el conjunto de ecuaciones simultáneas, lo que allí se está expresando es que el sistema producto está balanceado escalando cada proceso unitario con factores de escalamiento, que son las variables desconocidas. No olvidar que solo se está empleando los flujos económicos para hallar los factores de escalamiento desconocidos. Vemos entonces que tenemmos un conjunto de ecuaciones determinado, por que el número de ecuaciones (nueve ecuaciones) es igual al número de variables desconocidas (nueve variables desconocidas). A continuación ilustramos con los datos del ejercicio hipótético cuál es el conjunto de ecuaciones.
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen5.png" alt="Ecuación de balance" width=50%>
+</div>
  
 ### 1.5 Pasos para llevar a cabo un ACV
 De acuerdo con la norma internacional ISO 14040:2006 existen cuatro fases de un estudio de ACV:
