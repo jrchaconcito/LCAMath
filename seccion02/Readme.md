@@ -197,6 +197,9 @@ Donde **A<sup>-1</sup>** es la matriz inversa de la matriz de tecnología **A**,
 Haciendo la multiplicación correspondiente se tendría el siguiente resultado para <strong>s</strong> = <strong>A<sup>-1</sup></strong><strong>f</strong>:</p>
 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen14.png" width=90%><p>
+</div>
 
 
 En la definición del objetivo y del alcance se deja claro cuáles son las motivaciones para llevar a cabo el estudio y los parámetros a tener en cuenta. Dentro de los parámetros clave están, la determinación de la unidad funcional, los límites del sistema, reglas de asignación, método de evaluación del impacto potencial ambiental, requisitos de calidad de los datos, entre otros.
