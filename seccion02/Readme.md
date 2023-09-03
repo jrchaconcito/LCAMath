@@ -170,6 +170,8 @@ Ahora bien, veamos cómo sería el conjunto de ecuaciones anterior pero con las 
 El uso de álgebra lineal y matrices para resolver ecuaciones simultáneas (como las referidas anteriormente) es una elección sólida debido a su eficiencia, precisión, escalabilidad y aplicabilidad general, así como a las herramientas disponibles que facilitan su implementación. Esta metodología es esencial en una amplia gama de campos y garantiza resultados más confiables y rápidos en comparación con los métodos manuales o tradicionales. Así que vamos a aprender cómo cálcular el inventario de ciclo de vida utilizando algebra matricial.
 
 
+
+
 En la definición del objetivo y del alcance se deja claro cuáles son las motivaciones para llevar a cabo el estudio y los parámetros a tener en cuenta. Dentro de los parámetros clave están, la determinación de la unidad funcional, los límites del sistema, reglas de asignación, método de evaluación del impacto potencial ambiental, requisitos de calidad de los datos, entre otros.
 
 El análisis del inventario identifica y cuantifica las entradas y salidas de cada uno de los procesos unitarios del sistema industrial  que satisfacen la unidad funcional escogida
