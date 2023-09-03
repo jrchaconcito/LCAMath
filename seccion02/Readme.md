@@ -178,7 +178,12 @@ Ahora bien, la matriz que contiene los flujos tecnológicos la denominaremos con
 
 <p align="center"><strong>A</strong><strong>s</strong> = <strong>f</strong></p>
 
-De la expresión algebraica anterior (matricialmente hablando),  la matriz **A** se conoce, lo mismo que el vector de demand **f**
+De la expresión algebraica anterior (matricialmente hablando),  la matriz **A** se conoce, lo mismo que el vector de demand **f** , por lo que para encontrar los factores de escalamiento, debemos despejar **s**, quedaría como resultado el siguiente:
+
+<p align="center"><strong>s</strong> = <strong>A<sup>-1</sup></strong><strong>f</strong></p>
+
+Donde **A<sup>-1</sup>** es la matriz inversa de la matriz de tecnología **A**, para el ejemplo que estamos tratando sería lo siguiente:
+
 
 En la definición del objetivo y del alcance se deja claro cuáles son las motivaciones para llevar a cabo el estudio y los parámetros a tener en cuenta. Dentro de los parámetros clave están, la determinación de la unidad funcional, los límites del sistema, reglas de asignación, método de evaluación del impacto potencial ambiental, requisitos de calidad de los datos, entre otros.
 
