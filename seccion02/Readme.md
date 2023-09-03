@@ -186,11 +186,16 @@ Donde **A<sup>-1</sup>** es la matriz inversa de la matriz de tecnología **A**,
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen12.png" width=70%>
-
+</div>
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen13.png" width=70%>
-</div
+</div>
+
+<br>
+<p>
+Haciendo la multiplicación correspondiente se tendría el siguiente resultado para <strong>s</strong> = <strong>A<sup>-1</sup></strong><strong>f</strong>:</p>
+
 
 
 
