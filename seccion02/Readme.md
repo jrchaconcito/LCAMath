@@ -182,10 +182,10 @@ De la expresión algebraica anterior (matricialmente hablando),  la matriz **A**
 
 <p align="center"><strong>s</strong> = <strong>A<sup>-1</sup></strong><strong>f</strong></p>
 
-Donde **A<sup>-1</sup>** es la matriz inversa de la matriz de tecnología **A**, para el ejemplo que estamos tratando sería lo siguiente:
+Donde **A<sup>-1</sup>** es la matriz inversa de la matriz de tecnología **A**, para el ejemplo que estamos tratando sería lo siguiente (solo lo que aparece entre corchetes corresponde a las matrices, lo demás se ofrece a modo de ilustración para comprender mejor la construcción de las matrices):
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen12.png" alt="Ecuación de balance" width=70%>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen12.png" width=70%>
 </div
 
 En la definición del objetivo y del alcance se deja claro cuáles son las motivaciones para llevar a cabo el estudio y los parámetros a tener en cuenta. Dentro de los parámetros clave están, la determinación de la unidad funcional, los límites del sistema, reglas de asignación, método de evaluación del impacto potencial ambiental, requisitos de calidad de los datos, entre otros.
