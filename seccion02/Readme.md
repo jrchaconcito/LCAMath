@@ -172,7 +172,8 @@ El uso de álgebra lineal y matrices para resolver ecuaciones simultáneas (como
  <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen11.png" alt="Ecuación de balance" width=50%>
 </div>
-https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen11.png
+
+Ahora bien, la matriz que contiene los flujos tecnolñogicos la denominaremos con la letra **A**, el vector donde aparecen los factores de escalamiento con la letra **s** y el vector donde aparece la demanda final con la letra **f**
 
 En la definición del objetivo y del alcance se deja claro cuáles son las motivaciones para llevar a cabo el estudio y los parámetros a tener en cuenta. Dentro de los parámetros clave están, la determinación de la unidad funcional, los límites del sistema, reglas de asignación, método de evaluación del impacto potencial ambiental, requisitos de calidad de los datos, entre otros.
 
