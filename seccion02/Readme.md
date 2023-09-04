@@ -201,6 +201,12 @@ Haciendo la multiplicación correspondiente se tendría el siguiente resultado p
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen14.png" width=90%><p>
 </div>
 
+Habiendo hallado los factores de escalamiento pasamos a resolver el problema del inventario de ciclo de vida. No olvidar como lo referíamos anteriormente, que el factor de escalamiento afecta a todas las entradas y salidas de cada proceso unitario, Así que veamos cómo se vería el resulado desde el punto de vista matricial, teniendo en cuenta que la letra **B** denota la matriz de intervención ambiental, **g** es el vector de inventario y que el inventario se obtendría mediante la ecuación matricial que aparece más abajo. Allí aparece el nombre de los flujos ambientales y el nombre de los procesos unitarios para ayudar en la comprensión de la construcción de la relación matricial : 
+
+<div align="center"><strong>B</strong>s</div><p>
+
+
+
 
 En la definición del objetivo y del alcance se deja claro cuáles son las motivaciones para llevar a cabo el estudio y los parámetros a tener en cuenta. Dentro de los parámetros clave están, la determinación de la unidad funcional, los límites del sistema, reglas de asignación, método de evaluación del impacto potencial ambiental, requisitos de calidad de los datos, entre otros.
 
