@@ -1,4 +1,5 @@
-<div align="center">
+![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg)
+
   
   <h1>Sección 2</h1>
 
