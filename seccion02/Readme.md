@@ -173,8 +173,8 @@ El uso de álgebra lineal y matrices para resolver ecuaciones simultáneas (como
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen11.png" alt="Ecuación de balance" width=50%>
 </div>
 
-Ahora bien, la matriz que contiene los flujos tecnológicos la denominaremos con la letra **A**, el vector donde aparecen los factores de escalamiento con la letra **s** y el vector donde aparece la demanda final con la letra **f**
-
+Ahora bien, la matriz que contiene los flujos tecnológicos la denominaremos con la letra **A**, el vector donde aparecen los factores de escalamiento con la letra **s** y el vector donde aparece la demanda final con la letra **f**.
+De manera que empleando las anteriores convenciones, podemos podemos establecer de manera generalizada un tratamiento en términos de una solución matricial, empleando la relación que se muestra a continuación, done **A* siembre deberá ser cuadra y ser invertible (tener inversa), si no  se cumplen estas dos condiciones, la estructura básica para calcular el inventarios con procesos monofuncionales no se puede llevar a cabo. Una manera práctica para determinar si la matriz **A** es no singular (es decir tiene inversa) es averiguar su determinante y si este valor es distinto de cero, estamos ante una matriz invertible.
 
 <p align="center"><strong>A</strong><strong>s</strong> = <strong>f</strong></p>
 
