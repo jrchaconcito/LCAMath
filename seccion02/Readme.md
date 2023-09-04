@@ -1,6 +1,8 @@
 ![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg)
 
+  <div align="center">
   
+  <h1>ESTRUCTURA DE CÁLCULO MATEMÁTICO DEL ANÁLISIS AMBIENTAL DEL CICLO DE VIDA DE UN PRODUCTO </h1>
   <h1>Sección 2</h1>
 
   <h2>Modelo básico del  inventario de ciclo de vida</h2>
