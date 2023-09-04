@@ -205,6 +205,9 @@ Habiendo hallado los factores de escalamiento pasamos a resolver el problema del
 
 <div align="center"><strong>B</strong>s</div><p>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen15.png" width=150%><p>
+</div>
 
 
 
