@@ -201,7 +201,7 @@ Haciendo la multiplicación correspondiente se tendría el siguiente resultado p
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen14.png" width=90%><p>
 </div>
 
-Habiendo hallado los factores de escalamiento pasamos a resolver el problema del inventario de ciclo de vida. No olvidar como lo referíamos anteriormente, que el factor de escalamiento afecta a todas las entradas y salidas de cada proceso unitario, Así que veamos cómo se vería el resulado desde el punto de vista matricial, teniendo en cuenta que la letra **B** denota la matriz de intervención ambiental, **g** es el vector de inventario y que el inventario se obtendría mediante la ecuación matricial que aparece más abajo. Allí aparece el nombre de los flujos ambientales y el nombre de los procesos unitarios para ayudar en la comprensión de la construcción de la relación matricial : 
+Habiendo hallado los factores de escalamiento pasamos a resolver el problema del inventario de ciclo de vida. No olvidar como lo referíamos anteriormente, que el factor de escalamiento afecta a todas las entradas y salidas de cada proceso unitario, Así que veamos cómo se vería el resulado desde el punto de vista matricial, teniendo en cuenta que la letra **B** denota la matriz de intervención ambiental, **g** es el vector de inventario y que el inventario se obtendría mediante la ecuación matricial que aparece más abajo. En el cuadro que aparece más abajo, se ha indicado el nombre de los flujos ambientales y el nombre de los procesos unitarios para ayudar en la comprensión de la construcción de la relación matricial respectiva.
 
 <div align="center"><strong>B</strong>s</div><p>
 
@@ -211,13 +211,10 @@ Habiendo hallado los factores de escalamiento pasamos a resolver el problema del
 
 
 
-En la definición del objetivo y del alcance se deja claro cuáles son las motivaciones para llevar a cabo el estudio y los parámetros a tener en cuenta. Dentro de los parámetros clave están, la determinación de la unidad funcional, los límites del sistema, reglas de asignación, método de evaluación del impacto potencial ambiental, requisitos de calidad de los datos, entre otros.
 
-El análisis del inventario identifica y cuantifica las entradas y salidas de cada uno de los procesos unitarios del sistema industrial  que satisfacen la unidad funcional escogida
-para luego finalizar cuantificando el  total  de cada tipo de flujo ambiental a lo largo de todo el sistema producto.
 
-Con la evaluación del impacto se convierte el total de cada tipo de flujo ambiental determinado anteriormente en términos de cuál sería su impacto ambiental potencial en una determinada categoría de impacto.
 
-Finalmente en la etapa de interpretación se hace un análisis de la información recolectada y procesada en los pasos anteriores, entre algunos de los asuntos que se estudian está la identificación de los asuntos significativos, una evaluación de la completitud, análisis de sensibilidad y consistencia, conclusiones y limitaciones y recomendaciones.
+
+
 
 </div>
