@@ -209,7 +209,9 @@ Habiendo hallado los factores de escalamiento pasamos a resolver el problema del
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen15.png" width=150%><p>
 </div>
 
+Teniendo en cuenta las relaciones matriciales anteriormenrte y sabiendo que la multiplicación de matrices también es una operación asociativa, podemos entonces determinar la fórmula para calcular el vector de inventario **g**:
 
+<p align="center"><strong>g = (BA<sup>-1</sup>)f</strong></p>
 
 
 
