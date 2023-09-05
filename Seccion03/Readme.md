@@ -63,8 +63,9 @@ Y finalmente el resultado final del modelo de inventario que era a donde quería
 Ahora bien, otra forma de tratar los sistemas incompletos es remover los flujos económicos para los cuales en la matriz de procesos no se tienen los procesos unitarios que los haya producido o absorbido. La matriz **A* sería la siguiente resaltando los flujos que habría que remover:
 
 
-
-
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen23.png" alt="Ecuación de balance" width=50%><p>
+</div>
 
 
 
