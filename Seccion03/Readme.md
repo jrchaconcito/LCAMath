@@ -64,7 +64,7 @@ Ahora bien, otra forma de tratar los sistemas incompletos es remover los flujos 
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen23.png" alt="Ecuación de balance" width=50%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen23.png" alt="Ecuación de balance" width=80%><p>
 </div>
 
 
