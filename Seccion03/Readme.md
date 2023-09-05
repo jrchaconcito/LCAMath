@@ -54,8 +54,11 @@ La matriz de intervención ambiental sería la siguiente:
 
 ![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen18.png)<p>
 
-Y finalmente el resultados final del modelo de inventario:
+Y finalmente el resultado final del modelo de inventario que era a donde queríamos llegar aplicando las relaciones matriciales vistas anteriormente.
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen22.png" alt="Ecuación de balance" width=30%><p>
+</div>
 
 
 
