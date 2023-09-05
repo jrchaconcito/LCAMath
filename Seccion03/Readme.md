@@ -23,22 +23,24 @@ Cuando se están llevando a cabo estudios de análisis de ciclo de vida, es com�
 * Incorporación de procesos ficticios
 * Eliminar de la matriz de tecnología **A** los flujos económicos de demás y que no tiene asociado un proceso unitario que los haya producido o que posteriormente los trate o los reciba.
 
-Veamos cómo sería, asumamos la siguiente matriz tecnológica teniendo en cuenta que asumimos que la producción que la electrólisis  y la producción de ánodo requiere 5 Kg de acero y 2 Kg de acero, respectivamente y que además la producción de la  probeta de aluminio necesita 0,0001 Kg de solvente. Así que en principio la matriz de tecnología sería la siguienrte:
+Veamos cómo sería, asumamos la siguiente matriz tecnológica teniendo en cuenta que asumimos que la producción que la electrólisis  y la producción de ánodo requiere 5 Kg de acero y 2 Kg de acero, respectivamente y que además la producción de la  probeta de aluminio necesita 0,0001 Kg de solvente. Así que en principio la matriz de tecnología sería la siguiente:
 
 
 ![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen16.png)<p>
 
-Ahora vamos a "cuadrar" la matriz de tecnología **A**, adicionando procesos ficticios. Como existe el flujo económico "Kg de acero", incorporamos en la matriz **A**, un proceso ficticio que se asume fue el que produjo los kg de acero que requiere los procesos de electrólisis y de producción de ánodo y otro que se asume fue el que produjo los Kg de solvente que se utilizan en el proceso de producción de la probeta de aluminio.  Como se puede ver a continuación, el proceso ficticio solo tiene el número 1 y las demás dimensiones son cero, tanto en la matriz **A** como en la matriz de intervención ambiental **B**. Obsérvese que los "unos" son con signo "+", por cuanto se asume que si un proceso está necesitando (necesitando significa una entrada y por lo tanto se indica con signo "menos") acero o solvente, entonces otro proceso (ficticio para nuestro caso) debió producir cada uno de estos flujos (producir significa una salida, y por lo tanto se indica con signo "+". Una vez hemos incorporado los procesos ficticios, vemos que ahora la matriz es cuadrada e invertible, veamos como luciría:
+Ahora vamos a "cuadrar" la matriz de tecnología **A**, adicionando procesos ficticios. Como existe el flujo económico "Kg de acero", incorporamos en la matriz **A**, un proceso ficticio que se asume fue el que produjo los kg de acero que requiere los procesos de electrólisis y de producción de ánodo y otro que se asume fue el que produjo los Kg de solvente que se utilizan en el proceso de producción de la probeta de aluminio.  Como se puede ver a continuación, el proceso ficticio solo tiene el número 1 y las demás dimensiones son cero, tanto en la matriz **A** como en la matriz de intervención ambiental **B**. Obsérvese que los "unos" son con signo "+", por cuanto se asume que si un proceso está necesitando (necesitando significa una entrada y por lo tanto se indica con signo "menos") acero o solvente, entonces otro proceso (ficticio para nuestro caso) debió producir cada uno de estos flujos (producir significa una salida, y por lo tanto se indica con signo "+". Una vez hemos incorporado los procesos ficticios, vemos que ahora la matriz **A** es cuadrada e invertible, veamos como luciría:
+
+
 
 La inversa de la anterior matriz sería la siguiente:
 
 
 
-![Datos de los procesos untarios](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen17.png)
+
 
 La matriz de intervención ambiental sería la siguiente:
 
-![Datos de los procesos untarios](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen18.png)
+
 
 
 
