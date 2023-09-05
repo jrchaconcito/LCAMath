@@ -96,9 +96,7 @@ El **método de substitución consiste en encontrar  un proceso unitario (ya sea
 
 
 <div align="center">
-  <img src="<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen26.png" alt="Ecuación de balance" width=80%><p>
-</div>" alt="Ecuación de balance" width=80%><p>
+  <img src="" alt="Ecuación de balance" width=80%><p>
 </div>
 
 
