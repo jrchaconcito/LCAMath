@@ -35,6 +35,11 @@ Ahora vamos a "cuadrar" la matriz de tecnología **A**, adicionando procesos fic
 El vector de demanda sería el siguiente:
 
 
+
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen19.png" alt="Ecuación de balance" width=30%><p>
+</div>
+
 La inversa de la anterior matriz sería la siguiente:
 
 
