@@ -15,7 +15,7 @@
 ### 1.1 Propósito de la sección
 Aprenderás cómo es la estructura de cálculo matemático para determinar el inventario de ciclo de vida cuando la matriz no es cuadrada.
 
-### 1.2 Modelo básico de inventario: Sistemas incompletos
+### 1.2 Modelo de inventario: Sistemas incompletos
 
 
 Cuando se están llevando a cabo estudios de análisis de ciclo de vida, es común que existan dificultades en la obtención de los datos para el inventario (s vuelve costoso recolectar la información, no se tiene el tiempo o simplemente se hace muy difícil tener el dato apropiado), por ejemplo, sabemos que en un determinado proceso unitario entra una determinada cantidad de flujo económico pero pero no tenemos información sobre el proceso que produjo dicha entrada tecnológica.Este caso se denomina sistemas incompletos y corresponde a aquellos  casos donde no se ha incluido los procesos unitarios para la producción de un determinado flujo económico que hemos incluido en la matriz de procesos y/o no se ha incluido tampoco los procesos unitarios encargados de recibir o tratar un flujo económico que se ha incluido en la matriz de procesos. Por lo anterior, es obvio que la ecuación fundamental **As = f** no se puede solucionar para **s**, por cuanto no podemos tener la inversa de una matriz que es rectangular, es decir que no es cuadrada. Así que para lograr la una solución, se han propuesto algunos "trucos matemáticos":
@@ -23,7 +23,7 @@ Cuando se están llevando a cabo estudios de análisis de ciclo de vida, es com�
 * Incorporación de procesos ficticios
 * Eliminar de la matriz de tecnología **A** los flujos económicos de demás y que no tiene asociado un proceso unitario que los haya producido o que posteriormente los trate o los reciba.
 
-Veamos cómo sería, asumamos la siguiente matriz tecnológica teniendo en cuenta que asumimos que la producción que la electrólisis  y la producción de ánodo requiere 5 Kg de acero y 2 Kg de acero, respectivamente y que además la producción de la  probeta de aluminio necesita 0,0001 Kg de solvente. Así que en principio la matriz de tecnología sería la siguiente:
+Veamos cómo sería, asumamos la siguiente matriz tecnológica teniendo en cuenta que asumimos que la producción que la electrólisis  y la producción de ánodo requiere 5 Kg de acero y 2 Kg de acero, respectivamente y que además la producción de la probeta de aluminio necesita 0,0001 Kg de solvente. Así que en principio la matriz de tecnología sería la siguiente:
 
 
 ![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen16.png)<p>
