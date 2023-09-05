@@ -86,10 +86,13 @@ Otro asunto que amerita resaltarse es que con los procesos multifuncionales se t
 
   -Método de substitución
 
-Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que el proceso de producción de la probeta genera residuos de aluminio y que estos residuos de aluminio los recoge una empresa que los utiliza para hacer lingotes con alumninio secundario, es decir, producidos mediannte el reciclaje de estos residuos de aluminio que genera la producción de la probeta de aluminio virgen. Veamos cómo sería el diagrama de flujo del ciclo de vida:
+Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que el proceso de producción del ánodo genera residuos de acero y que estos residuos de acero los recoge una empresa  que los utiliza para hacer envases. Veamos cómo sería el diagrama de flujo del ciclo de vida con la incorporación del coproducto que corresponde a la generaciónd de residuos de acero en una cantidad de 4.7 kilogramos: 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen24.png" alt="Ecuación de balance" width=80%><p>
+</div>
 
-
+El **método de substitución que se encuentre un proceso unitario (ya sea en la literatura técnica o especializada o en la realidad) que tenga como función o servicio principal la producción del coproducto. Lo que pasa es que cuando encuentro este proceso, lo que está pasando es que al incorporar este nuevo proceso a la matriz A, la información de entradas y salidas que tiene este proceso se restan de las entradas y salidas del proceso donde se está produciendo el coproducto (desde luego esta "resta" se hace con base en la aplicación de factores de escalonamiento, operación que se realiza cuando aplicamos el modelo básico del cálculo de inventario visto anteriormente). Veamos entonces cómo sería la  aplicaciónd de esta técnica o truco "matemático" para solucionar el problema de la asignación y al mismo tiempo convertir la  matriz A en una matriz cuadrada e invertible. Asumanos que se tiene un proceso unitario que su función principal es producir residuos de aluminio
 
 
 
@@ -107,11 +110,7 @@ Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que e
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
-Se observa que para el cálculo del inventario de ciclo de vida que se obtuvo anteriormente, lo que se hizo fue ir encontrando los factores de escalonamiento de cada proceso, al ir pasar de un proceso a otro. De manera que lo que era desconocido eran precisamente los factores de escalamiento, los demás datos de los procesos unitarios se conocían de antemano. Podemos entonces introducir un tratamiento más formal, partiendo que se tienen nueve (9) factores de escalamiento desconocidos. También asumimos la siguiente numeración para cada uno de los procesos unitarios del sistema:
-
-
-Se observa que para el cálculo del inventario de ciclo de vida que se obtuvo anteriormente, lo que se hizo fue ir encontrando los factores de escalonamiento de cada proceso, al ir pasar 
-de un proceso a otro. De manera que lo que era desconocido eran precisamente los factores de escalamiento, los demás datos de los procesos unitarios se conocían de antemano. 
+o más formal, partiendo que se tienen nueve (9) factores de escalamiento desconocidos. También asumimos la siguiente numeración para cada uno de los procesos unitarios del sistema:
 
 <p align="center">
 
