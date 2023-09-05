@@ -44,13 +44,17 @@ La inversa de la anterior matriz sería la siguiente:
 
 ![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen17.png)<p>
 
+El vector **s** de factores de escalamiento sería el siguiente:
 
-
-
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen21.png" alt="Ecuación de balance" width=30%><p>
+</div>
 
 La matriz de intervención ambiental sería la siguiente:
 
 ![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen18.png)<p>
+
+Y finalmente el resultados final del modelo de inventario:
 
 
 
