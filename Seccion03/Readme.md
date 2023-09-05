@@ -5,7 +5,7 @@
   <h1>ESTRUCTURA DE CÁLCULO MATEMÁTICO DEL ANÁLISIS AMBIENTAL DEL CICLO DE VIDA DE UN PRODUCTO </h1>
   <h1>Sección 3</h1>
 
-  <h2>Modelo ampliado del cálculo del inventario</h2>
+  <h2>Modelo ampliado del modelo de inventario</h2>
 </p>
 
 </div>
@@ -34,6 +34,11 @@ Ahora vamos a "cuadrar" la matriz de tecnología **A**, adicionando procesos fic
 
 
 ![Datos de los procesos untarios](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen17.png)
+
+La inversa de la anterior matriz sería la siguiente:
+
+
+
 
 ### 1.3 Modelo básico de inventario: La solución matemática con escalamiento manual
 
