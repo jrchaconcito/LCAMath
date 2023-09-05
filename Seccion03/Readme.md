@@ -37,6 +37,7 @@ Ahora vamos a "cuadrar" la matriz de tecnología **A**, adicionando procesos fic
 
 La inversa de la anterior matriz sería la siguiente:
 
+![Datos de los procesos untarios](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen18.png)
 
 
 
