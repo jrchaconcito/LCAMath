@@ -74,15 +74,19 @@ Una vez se han removido estos flujos económicos, encontramos que la matriz **A*
 
 Es común que los sistemas industriales produzcan más de un flujo económico. Pot ejemplo, una refinería produce diferentes tipos de combustibles o una empresa de lácteos produce diferentes tipos de productos (quesos, leche, etc.) o un matadero genere carne, cuero, vísceras, etc. que se venden en el mercado. Así que un proceso que tiene más de una función o presta más de un servicio se denomina proceso multifuncional. Las siguientes son categorías de procesos multifuncionales:
 
-  - Un proceso unitario que produce más de una salida valiosa, es decir coproductos, se generan inevitablemente por la misma naturaleza del proceso productivo. por ejemplo, en la   
-    producción de combustibles, invevitablemente se producen en ese proceso petroquímico diferentes tipos de combustibles a la vez.
-  - Procesos unitarios que tratan dos o más residuos, por ejemplo, un incinerador  para el tratamiento de residuos, le entra residuos de cartón , plástico, papel, etc.
-  - Procesos unitarios que tratan un tipo de residuo y producen una salida valiosa. Por ejemplo, una planta le entra residuos de papel (recicla este tipo de residuo) y los convierte en 
+   - Un proceso unitario que produce más de una salida valiosa, es decir coproductos, se generan inevitablemente por la misma naturaleza del proceso productivo. por ejemplo, en la       producción de combustibles, invevitablemente se producen en ese proceso petroquímico diferentes tipos de combustibles a la vez.
+   - Procesos unitarios que tratan dos o más residuos, por ejemplo, un incinerador  para el tratamiento de residuos, le entra residuos de cartón , plástico, papel, etc.
+   - Procesos unitarios que tratan un tipo de residuo y producen una salida valiosa. Por ejemplo, una planta le entra residuos de papel (recicla este tipo de residuo) y los convierte en 
     cartón corrugado
-  - Procesos unitarios que deliberadamenrte se les asigna más de una función o servicio. Por ejemplo, el transporte de pasajeros en un avión pero que al mismo tiempo en el mismo avión se 
+   - Procesos unitarios que deliberadamenrte se les asigna más de una función o servicio. Por ejemplo, el transporte de pasajeros en un avión pero que al mismo tiempo en el mismo avión se 
     transporta carga o mercancías
     </p>
 
+Otro asunto que amerita resaltarse es que con los procesos multifuncionales se tiene un problema denominado el problema de la asignación. Cuando un proceso unitario, por ejemplo, produce un bien en madera, se genera un coproducto que es el aserrín, este último material es un coproducto que se puede vender por ejemplo a las empresas que producen alimentos cárnicos para que allí lo utilicen por ejemplo para la preparación del jamón ahumado o con destino a otras empresas que producen muebles a base de compuestos aglomerados. Ahora bien, si estamos haciendo un estudio de análisis de ciclo de vida, por ejemplo, de un sistema producto hecho a base de madera, en principio no sabemos cuál es la carga ambiental que debemos asignarle al producto o bien en madera y cuál es la carga ambiental que debemos asignarle al coproducto. Por lo tanto debemos solucionar este problema y para ello existen diferentes enfoques metodológicos que son los que vamos a explicar a continuación.
+
+  -Método de substitución
+
+Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que el proceso de producción de la probeta genera residuos de aluminio y que estos residuos de aluminio los recoge una empresa que los utiliza para hacer lingotes con alumninio secundario, es decir, producidos mediannte el reciclaje de estos residuos de aluminio que genera la producción de la probeta de aluminio virgen. Veamos cómo sería el diagrama de flujo del ciclo de vida:
 
 
 
