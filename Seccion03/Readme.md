@@ -23,7 +23,7 @@ Cuando se están llevando a cabo estudios de análisis de ciclo de vida, es com�
 * Incorporación de procesos ficticios
 * Eliminar de la matriz de tecnología **A** los flujos económicos de demás y que no tiene asociado un proceso unitario que los haya producido o que posteriormente los trate o los reciba.
 
-Veamos cómo sería, asumamos la siguiente matriz tecnológica teniendo en cuenta que asumimos que la producción que la electrólisis  y la producción de ánodo requiere 5 Kg de acero y 2 Kg de acero, respectivamente y que además la producción de la probeta de aluminio necesita 0,0001 Kg de solvente. Así que en principio la matriz de tecnología sería la siguiente:
+Veamos cómo sería la inclusión de procesos ficticio Asumamos la siguiente matriz tecnológica teniendo en cuenta que asumimos que la producción que la electrólisis  y la producción de ánodo requiere 5 Kg de acero y 2 Kg de acero, respectivamente y que además la producción de la probeta de aluminio necesita 0,0001 Kg de solvente. Así que en principio la matriz de tecnología sería la siguiente:
 
 
 ![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen16.png)<p>
@@ -59,6 +59,9 @@ Y finalmente el resultado final del modelo de inventario que era a donde quería
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen22.png" alt="Ecuación de balance" width=30%><p>
 </div>
+
+Ahora bien, otra forma de tratar los sistemas incompletos es remover los flujos económicos para los cuales en la matriz de procesos no se tienen los procesos unitarios que los haya producido o absorbido. La matriz **A* sería la siguiente resaltando los flujos que habría que remover:
+
 
 
 
