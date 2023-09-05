@@ -42,6 +42,8 @@ El vector de demanda sería el siguiente:
 
 La inversa de la anterior matriz sería la siguiente:
 
+![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen17.png)<p>
+
 
 
 
