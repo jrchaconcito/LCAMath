@@ -70,7 +70,7 @@ Ahora bien, otra forma de tratar los sistemas incompletos es remover los flujos 
 Una vez se han removido estos flujos económicos, encontramos que la matriz **A** es cuadrada e invertible y por lo tanto podemos aplicar la estructura de cálculo matricial vista anteriormenre para hallar el inventario de ciclo de vida.
 
 
-### 1.3 Modelo de inventario: Procesos muultifuncionales
+### 1.3 Modelo de inventario: Procesos multifuncionales
 
 Es común que los sistemas industriales produzcan más de un flujo económico. Pot ejemplo, una refinería produce diferentes tipos de combustibles o una empresa de lácteos produce diferentes tipos de productos (quesos, leche, etc.) o un matadero genere carne, cuero, vísceras, etc. que se venden en el mercado. Así que un proceso que tiene más de una función o presta más de un servicio se denomina proceso multifuncional. Las siguientes son categorías de procesos multifuncionales:
 
@@ -103,9 +103,7 @@ El **método de substitución** consiste en encontrar  un proceso unitario (ya s
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen26.png" alt="Ecuación de balance" width=90%><p>
 </div>
 
-<div align="center">
-  <img src="" alt="Ecuación de balance" width=90%><p>
-</div>
+
 
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
