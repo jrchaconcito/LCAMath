@@ -118,6 +118,10 @@ El **método de substitución** consiste en encontrar  un proceso unitario (ya s
 
 
 
+
+
+
+
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
 o más formal, partiendo que se tienen nueve (9) factores de escalamiento desconocidos. También asumimos la siguiente numeración para cada uno de los procesos unitarios del sistema:
