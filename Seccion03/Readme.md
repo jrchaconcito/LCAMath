@@ -86,33 +86,27 @@ Otro asunto que amerita resaltarse es que con los procesos multifuncionales se t
 
   -**Método de substitución**
 
-Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que el proceso de producción del ánodo genera residuos de acero y que estos residuos de acero los recoge una empresa  que los utiliza para hacer envases. Veamos cómo sería el diagrama de flujo del ciclo de vida con la incorporación del coproducto que corresponde a la generaciónd de residuos de acero en una cantidad de 4.7 kilogramos y donde se observa que la matriz no es cuadrada y que de las cargas ambientales (ver matriz intervención ambiental que se mostró anteriormente) del proceso de producción del ánodo, no sabemos cuántas de ellas se las asignamos al flujo en toneldas de ánodo y cuántas al flujo en kilogramos de acero. A continuación se muestra el nuevo diagrama de ciclo de vida y la nueva matriz **A** de tecnología. Es importante anotar que este residuo de acero como producto, indica que es valioso para otra empresa, por ejemplo, para utlizarlo como materia prima. Cuando hablamos "para otra empresa" significa que el residuo puede ir a otro sistema producto diferente al sistema producto que está generando este tipo de residuo, esto se conoce como **reciclaje de bucle abierto**.
+Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que el proceso de producción del ánodo genera residuos de acero y que estos residuos de acero los recoge una empresa  que los utiliza para hacer envases. Veamos cómo sería el diagrama de flujo del ciclo de vida con la incorporación del coproducto que corresponde a la generaciónd de residuos de acero en una cantidad de 4.7 kilogramos y donde se observa que la matriz no es cuadrada y que de las cargas ambientales (ver matriz intervención ambiental que se mostró anteriormente) del proceso de producción del ánodo, no sabemos cuántas de ellas se las asignamos al flujo en toneldas de ánodo y cuántas al flujo en kilogramos de acero residual. A continuación se muestra el nuevo diagrama de ciclo de vida. Es importante anotar que este residuo de acero como coproducto, indica que es valioso para otra empresa, por ejemplo, para utlizarlo como materia prima. Cuando hablamos "para otra empresa" significa que el residuo puede ir a otro sistema producto diferente al sistema producto que está generando este tipo de residuo, esto se conoce como **reciclaje de bucle abierto**.
 
 <div align="center">
-  <img src="" alt="Ecuación de balance" width=80%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen28.png" alt="Ecuación de balance" width=80%><p>
 </div>
 
 
 
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen26.png" alt="Ecuación de balance" width=80%><p>
-</div>
 
-El **método de substitución consiste en encontrar  un proceso unitario (ya sea en la literatura técnica o especializada o en la realidad) que tenga como función o servicio principal la producción del coproducto (acero) o un material que sea equivalente o cumpla funciones similares al material de acero. Lo que sucede es que cuando encuentro este proceso, lo que está pasando es que al incorporar este nuevo proceso a la matriz A, la información de entradas y salidas que tiene este proceso se restan de las entradas y salidas del proceso donde se está produciendo el coproducto (desde luego esta "resta" se hace con base en la aplicación de factores de escalonamiento, operación que se realiza cuando aplicamos el modelo básico del cálculo de inventario visto anteriormente). Veamos entonces cómo sería la  aplicaciónd de esta técnica o truco "matemático" para solucionar el problema de la asignación y al mismo tiempo convertir la  matriz A en una matriz cuadrada e invertible. Asumamos que se tiene un proceso unitario que su función principal es producir acero. Se asume que este acero tiene funciones similares al residuo de acero que se genera en la producción del ánodo, esto tiene sentido porque el acero no pierde sus propiedades inherentes durante el reciclaje por lo que cnserva básicamente las mismas propiedades que el acero virgen. Este proceso de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O. Veamos entonces cómo quedaría la nueva matriz A al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
+
+El **método de substitución** consiste en encontrar  un proceso unitario (ya sea en la literatura técnica o especializada o en la realidad) que tenga como función o servicio principal la producción del coproducto (acero) o un material que sea equivalente o cumpla funciones similares al material de acero. Lo que sucede es que cuando encuentro este proceso, lo que está pasando es que al incorporar este nuevo proceso a la **matriz A**, la información de entradas y salidas que tiene este proceso se restan de las entradas y salidas del proceso donde se está produciendo el coproducto (desde luego esta "resta" se hace con base en la aplicación de factores de escalonamiento, operación que se realiza cuando aplicamos el modelo básico del cálculo de inventario visto anteriormente). Veamos entonces cómo sería la  aplicaciónd de esta técnica o truco "matemático" para solucionar el problema de la asignación y al mismo tiempo convertir la  **matriz A** en una matriz cuadrada e invertible. Asumamos que se tiene un proceso unitario que su función principal es producir acero. Se asume que este acero tiene funciones similares al residuo de acero que se genera en la producción del ánodo, esto tiene sentido porque el acero no pierde sus propiedades inherentes durante el reciclaje por lo que cnserva básicamente las mismas propiedades que el acero virgen. Este proceso de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virge. Veamos entonces cómo quedaría la nueva **matriz A** y el **vector de demanda f** al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
 
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen26.png" alt="Ecuación de balance" width=90%><p>
 </div>
 
+<div align="center">
+  <img src="" alt="Ecuación de balance" width=90%><p>
+</div>
 
-
-
-
-
-
-
-![Procesos unitarios escalonados con respecto a la unidad funcional](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen3.png)
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
