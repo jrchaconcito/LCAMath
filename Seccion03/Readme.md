@@ -109,7 +109,7 @@ El **método de substitución** consiste en encontrar  un proceso unitario (ya s
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/imagen29.png" alt="Ecuación de balance" width=35%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen30.png" alt="Ecuación de balance" width=90%><p>
 </div>
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
