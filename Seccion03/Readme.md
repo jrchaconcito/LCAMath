@@ -96,15 +96,21 @@ Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que e
 
 
 
-El **método de substitución** consiste en encontrar  un proceso unitario (ya sea en la literatura técnica o especializada o en la realidad) que tenga como función o servicio principal la producción del coproducto (acero) o un material que sea equivalente o cumpla funciones similares al material de acero. Lo que sucede es que cuando encuentro este proceso, lo que está pasando es que al incorporar este nuevo proceso a la **matriz A**, la información de entradas y salidas que tiene este proceso se restan de las entradas y salidas del proceso donde se está produciendo el coproducto (desde luego esta "resta" se hace con base en la aplicación de factores de escalonamiento, operación que se realiza cuando aplicamos el modelo básico del cálculo de inventario visto anteriormente). Veamos entonces cómo sería la  aplicaciónd de esta técnica o truco "matemático" para solucionar el problema de la asignación y al mismo tiempo convertir la  **matriz A** en una matriz cuadrada e invertible. Asumamos que se tiene un proceso unitario que su función principal es producir acero. Se asume que este acero tiene funciones similares al residuo de acero que se genera en la producción del ánodo, esto tiene sentido porque el acero no pierde sus propiedades inherentes durante el reciclaje por lo que cnserva básicamente las mismas propiedades que el acero virgen. Este proceso de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virge. Veamos entonces cómo quedaría la nueva **matriz A** y el **vector de demanda f** al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
+El **método de substitución** consiste en encontrar  un proceso unitario (ya sea en la literatura técnica o especializada o en la realidad) que tenga como función o servicio principal la producción del coproducto (acero) o un material que sea equivalente o cumpla funciones similares al material de acero. Lo que sucede es que cuando encuentro este proceso, lo que está pasando es que al incorporar este nuevo proceso a la **matriz A**, la información de entradas y salidas que tiene este proceso se restan de las entradas y salidas del proceso donde se está produciendo el coproducto (desde luego esta "resta" se hace con base en la aplicación de factores de escalonamiento, operación que se realiza cuando aplicamos el modelo básico del cálculo de inventario visto anteriormente). Veamos entonces cómo sería la  aplicaciónd de esta técnica o truco "matemático" para solucionar el problema de la asignación y al mismo tiempo convertir la  **matriz A** en una matriz cuadrada e invertible. Asumamos que se tiene un proceso unitario que su función principal es producir acero. Se asume que este acero tiene funciones similares al residuo de acero que se genera en la producción del ánodo, esto tiene sentido porque el acero no pierde sus propiedades inherentes durante el reciclaje por lo que cnserva básicamente las mismas propiedades que el acero virgen. Este proceso de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virge. Veamos entonces cómo quedaría la nueva **matriz A**, el **vector de demanda f**, **la matriz inversa de A** y el **vector de inventario g** al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
 
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen26.png" alt="Ecuación de balance" width=90%><p>
 </div>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/imagen29.png" alt="Ecuación de balance" width=35%><p>
+</div>
 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/imagen29.png" alt="Ecuación de balance" width=35%><p>
+</div>
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
