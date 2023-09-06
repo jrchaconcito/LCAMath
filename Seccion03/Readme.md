@@ -89,7 +89,7 @@ Otro asunto que amerita resaltarse es que con los procesos multifuncionales se t
 Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que el proceso de producción del ánodo genera residuos de acero y que estos residuos de acero los recoge una empresa  que los utiliza para hacer envases. Veamos cómo sería el diagrama de flujo del ciclo de vida con la incorporación del coproducto que corresponde a la generaciónd de residuos de acero en una cantidad de 4.7 kilogramos y donde se observa que la matriz no es cuadrada y que de las cargas ambientales (ver matriz intervención ambiental que se mostró anteriormente) del proceso de producción del ánodo, no sabemos cuántas de ellas se las asignamos al flujo en toneldas de ánodo y cuántas al flujo en kilogramos de acero. A continuación se muestra el nuevo diagrama de ciclo de vida y la nueva matriz **A** de tecnología. Es importante anotar que este residuo de acero como producto, indica que es valioso para otra empresa, por ejemplo, para utlizarlo como materia prima. Cuando hablamos "para otra empresa" significa que el residuo puede ir a otro sistema producto diferente al sistema producto que está generando este tipo de residuo, esto se conoce como **reciclaje de bucle abierto**.
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen27.png" alt="Ecuación de balance" width=80%><p>
+  <img src="" alt="Ecuación de balance" width=80%><p>
 </div>
 
 
