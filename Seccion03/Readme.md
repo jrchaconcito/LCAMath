@@ -146,7 +146,14 @@ Ahora bien, si lo que se decide es que existe una diferencia en la calidad en lo
  
  -**Método de partición**
 
- Otra técnica o "truco matemático"
+ Otra técnica o "truco matemático" para hacer que la matriz A tenga inversa (sea invertible). Este método consiste primero en dividir el proceso unitario multifuncional en procesos monofuncionales independientes, por esto a esta ténica se le denomina el método de la partición. Veamos entonces cómo se aplicaría este método:
+
+ -**Partir el proceso multifuncional en proceso monofuncional**
+ La mejor manera de ver esto es con el siguiente diagrama donde aparece primero el proceso unitario multifuncional y luego los procesos monofuncionales:
+
+ 
+
+ 
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
