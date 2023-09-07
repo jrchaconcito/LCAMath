@@ -124,9 +124,9 @@ El **método de substitución** consiste en encontrar  un proceso unitario (ya s
 
  Teniendo en cuenta las indicaciones dadas por heijungs % Suh (2002), a continuación las siguiientes considdraciones sobre el método de sustitución:
 
-- El factor de escalamiento para el proceso unitario que produce como servicio principal el acero tiene signo negativo.  Esto se interpreta que ese proceso unitario se resta del sistema, por esos este factor de escalamiento es negativo. Generalmente el proceso de producción de acero o cualquier otro proceso unitario que se haya incorporado para aplicar la técnica de sustitución, tendrá un factor de escalamiento más pequeño que el que podría tener en el sistema original con el producto respectivo.  Por otro lado, en general cuando se incorpora el nuevo proceso unitario al sistema, todas las intervenciones ambientalesw pueden permanecer inalteradas.
-   - Otro problema con la técnica de sustitución, es que puede haber dificultades en encontrar el nuevo proceso unitario o concluir que no exite tal proceso.
-   - Suele pasar que la incorporación del nuevo proceso unitario, su flujo económico puede sustituir el coproducto del sistema, aún cuanddo los dos flujos no son excatamente de la misma naturaleza. Por ejemplo, el acero producido como producto tiene una calidad X (por ejemplo,por razones de que es más fácil de conseguir en determinada instalación o por el contrario difícil de conseguir o porque tiene impurezas), mientras que el nuevo proceso unitario produce un acero de calidad Y (por ejemplo, sus propiedades son relativamente diferentes al coprooducto). Esto llevaría a que la **mattriz A** sea rectangular y por lo tanto no se pueda invertir (no tiene inversa). Veámolo cómo sería entonces la **matriz A**:
+- El factor de escalamiento para el proceso unitario que produce como servicio principal el acero tiene signo negativo.  Esto se interpreta que ese proceso unitario se resta del sistema, por esos este factor de escalamiento es negativo. Generalmente el proceso de producción de acero o cualquier otro proceso unitario que se haya incorporado para aplicar la técnica de sustitución, tendrá un factor de escalamiento más pequeño que el que podría tener en el sistema original con el producto respectivo.  Por otro lado, en general cuando se incorpora el nuevo proceso unitario al sistema, todas las intervenciones ambientales pueden permanecer inalteradas, porque el nuevo proceso unitario realmente no tiene un rol o participación en el sistema o si la tiene, su participación en el ciclo de vida es marginal o menor y eso hace que su involucramiento se de un alcance restringido.
+- Otro problema con la técnica de sustitución, es que puede haber dificultades en encontrar el nuevo proceso unitario o concluir que no existe tal proceso.
+- Suele pasar que la incorporación del nuevo proceso unitario, su flujo económico puede sustituir el coproducto del sistema, aún cuanddo los dos flujos no son excatamente de la misma naturaleza. Por ejemplo, el acero producido como producto tiene una calidad X (por ejemplo,por razones de que es más fácil de conseguir en determinada instalación o por el contrario difícil de conseguir o porque tiene impurezas), mientras que el nuevo proceso unitario produce un acero de calidad Y (por ejemplo, sus propiedades son relativamente diferentes al coprooducto). Esto llevaría a que la **mattriz A** sea rectangular y por lo tanto no se pueda invertir (no tiene inversa). Veámolo cómo sería entonces la **matriz A**:
  
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen34.png" alt="Ecuación de balance" width=110%><p>
@@ -142,14 +142,11 @@ Ahora bien, si lo que se decide es que existe una diferencia en la calidad en lo
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen36.png" alt="Ecuación de balance" width=110%><p>
-</div>
-
-
-
-   - Procesos unitarios que deliberadamenrte se les asigna más de una función o servicio. Por ejemplo, el transporte de pasajeros en un avión pero que al mismo tiempo en el mismo avión se 
-    transporta carga o mercancías
-    </p>
+</div></p>
  
+ -**Método de partición**
+
+ Otra técnica o "truco matemático"
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
