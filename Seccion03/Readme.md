@@ -132,12 +132,13 @@ El **método de substitución** consiste en encontrar  un proceso unitario (ya s
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen34.png" alt="Ecuación de balance" width=110%><p>
 </div>
 
-La anterior matriz podemos volverla "cuadrada" buscando una equivalencia o inequivalencia entre los dos tipos de acero, si asumimos que los dos tipos de flujos en cuanto a su calidad es la misma (por ejemplo, porque tanto los residuos de acero (coproducto) como el acero virgen producido por el nuevo proceso unitario que se incorporó al sistema, sus propiedades inherentes no cambian, entonces los dos flujos es una misma cosa (indistinguibles por así decirlo) y por lo tanto las dos nuevas filas se pueden fusionar en una sola:
+La anterior matriz podemos volverla "cuadrada" buscando una equivalencia o inequivalencia entre los dos tipos de acero, si asumimos que los dos tipos de flujos en cuanto a su calidad es la misma (por ejemplo, porque tanto los residuos de acero (coproducto) como el acero virgen producido por el nuevo proceso unitario que se incorporó al sistema, sus propiedades inherentes no cambian, entonces los dos flujos es una misma cosa (indistinguibles por así decirlo) y por lo tanto las dos nuevas filas se pueden fusionar en una sola fila:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen34.png" alt="Ecuación de balance" width=110%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen35.png" alt="Ecuación de balance" width=110%><p>
 </div>
 
+Ahora bien, si lo que se decide es que existe una diferencia en la calidad en los dos flujos anteriores, se puede usar un **factor de corrección**. Por ejemplo, supongamos que el acero virgen es de mejor calidad que el acero residual (coproducto) porque este viene por ejemplo, contaminado con lubricantes o porque el acero virgen es más rentable conseguirlo en un determinado lugar. Así que se puede pensar que el acero virgen es 20 % más valioso que el residuo de acero. Esto lo que quiere decir es que 1 Kg de acero virgen se asume equivalente a 1.2 Kilos de acero residual (coproducto). Por lo tanto,  podemos fusionar los dos flujos y dejar solo una fila, aplicando este factor de correción que contabiliza una diferencia en la calidad del 20 %:
 
    - Procesos unitarios que deliberadamenrte se les asigna más de una función o servicio. Por ejemplo, el transporte de pasajeros en un avión pero que al mismo tiempo en el mismo avión se 
     transporta carga o mercancías
