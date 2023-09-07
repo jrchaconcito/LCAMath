@@ -140,6 +140,12 @@ La anterior matriz podemos volverla "cuadrada" buscando una equivalencia o inequ
 
 Ahora bien, si lo que se decide es que existe una diferencia en la calidad en los dos flujos anteriores, se puede usar un **factor de corrección**. Por ejemplo, supongamos que el acero virgen es de mejor calidad que el acero residual (coproducto) porque este viene por ejemplo, contaminado con lubricantes o porque el acero virgen es más rentable conseguirlo en un determinado lugar. Así que se puede pensar que el acero virgen es 20 % más valioso que el residuo de acero. Esto lo que quiere decir es que 1 Kg de acero virgen se asume equivalente a 1.2 Kilos de acero residual (coproducto). Por lo tanto,  podemos fusionar los dos flujos y dejar solo una fila, aplicando este factor de correción que contabiliza una diferencia en la calidad del 20 %:
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen36.png" alt="Ecuación de balance" width=110%><p>
+</div>
+
+
+
    - Procesos unitarios que deliberadamenrte se les asigna más de una función o servicio. Por ejemplo, el transporte de pasajeros en un avión pero que al mismo tiempo en el mismo avión se 
     transporta carga o mercancías
     </p>
