@@ -158,8 +158,12 @@ Ahora bien, si lo que se decide es que existe una diferencia en la calidad en lo
   -  **Partir el proceso multifuncional en procesos monofuncionales**
 
  <div align="center">
-  <img src="" width=90%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen38.png" width=90%><p>
 </div></p>
+
+Una vez se ha hecho la partición anterior que se muestra en la imagen, se procede a ingresar esta información a la matriz A (eliminando el proceso multifuncional e ingresando la información de entradas y salidas de los procesos monofuncionales:
+
+
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
