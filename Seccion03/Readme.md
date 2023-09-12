@@ -168,7 +168,14 @@ Una vez se ha hecho la partición anterior que se muestra en la imagen, se proce
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen39.png" width=100%><p>
 </div></p>
 
+A continuación vamos explicar cómo sería la determinación de los factores de asignación con base en valor económico. La aplicación de este criterio tiene en cuenta el precio en el mercado tanto del ánodo como del acero residual que son las dos salidas del proceso multifuncional. Para comenzar asumamos que tenemos la siguiente información:
 
+| Material              | Cantidad | Unidad  | Precio venta por Unidad | Total ingreso por venta del material/producto |
+|-----------------------|----------|---------|-------------------|----------------------------------------------|
+| Ánodo                 | 1000     | Kg      | US$ 2/Kg          | U$ 2000.00                                      |
+| Residuos de acero     | 5.17     | KG      | U$ 0.30/Kg        | U$ 1.551                                      |
+                                                         
+                                                
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
