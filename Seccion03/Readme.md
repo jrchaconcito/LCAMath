@@ -161,7 +161,11 @@ Ahora bien, si lo que se decide es que existe una diferencia en la calidad en lo
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen38.png" width=90%><p>
 </div></p>
 
-Una vez se ha hecho la partición anterior que se muestra en la imagen, se procede a ingresar esta información a la matriz A (eliminando el proceso multifuncional e ingresando la información de entradas y salidas de los procesos monofuncionales, veamos entonces cómo quedaría la **matriz A**, **la matriz B**, **el vector de demanda f**, **el vector de escalamiento s** y **el vector de inventario g**:
+Una vez se ha hecho la partición anterior que se muestra en la imagen, se procede a ingresar esta información a la **matriz A** (eliminando el proceso multifuncional e ingresando la información de entradas y salidas de los dos procesos monofuncionales, veamos entonces cómo quedaría la **matriz A**, **la matriz B**, **el vector de demanda f**, **el vector de escalamiento s** y **el vector de inventario g**:
+
+ <div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen39.png" width=100%><p>
+</div></p>
 
 
 
