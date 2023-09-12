@@ -176,7 +176,7 @@ A continuación vamos explicar cómo sería la determinación de los factores de
 | Residuos de acero     | 5.17     | KG      | U$ 0.30/Kg        | U$ 1.551                                      |
 | Total venta           |          |         |                   |  U$ 2000.551
 
-Teniendo en cuenta la información de la tabla anterior, se procede de forma similar a como se hallaron los factores de asignación con base en unidades físicas, así que hallamos la proporción en que participa el ingreso por ventas del ánodo con respecto a la venta total tanto del ánodo como del acero residual, es decir 
+Teniendo en cuenta la información de la tabla anterior, se procede de forma similar a como se hallaron los factores de asignación con base en unidades físicas, así que hallamos la proporción en que participa el ingreso por ventas del ánodo con respecto a la venta total tanto del ánodo como del acero residual, es decir, U$ 2000/U$ 2000.551 = 0.9997, que sería el factor de asignación para la producción del ánodo; de igual forma, el factor de asignación para la producción de los residuos de acero sería U$ 1.551/2000.551 = 0.0003. 
 
 
 
