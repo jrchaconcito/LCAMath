@@ -190,6 +190,10 @@ Una vez se ha hecho la partición anterior que se muestra en la imagen, se proce
 
 Por otro lado, si se utliza el contenido energético o unidades de energía (ejemplo MJ) de los materiales como criterio para obtener los factores de asignación, se procede de forma similar a lo explicado anteriormente. En este caso, es importante que en el proceso multifuncional se tengan materiales/productos/coproductos que salen del proceso multifuncional con información sobre su poder calorífico inferior (como es el caso de los combustibles, madera, caucho, etc.), de manera que teniendo esta información y sabiendo la cantidad en Kg de estas salidas se puede obtener el contenido energético total (por ejemplo en MJ o BTU) y luego se haya la proporción con respecto a este total del producto/material principal y del coproducto y se procede a determinar el inventario conforme las explicaciones anteriores.
 
+-**Método del excedente**
+
+El último enfoque para solucionar los problemas que presentan los procesos multifuncionales consiste en el denominado método del 
+
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
 
