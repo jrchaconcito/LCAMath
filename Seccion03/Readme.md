@@ -181,6 +181,8 @@ Teniendo en cuenta la información de la tabla anterior, se procede de forma sim
 
 
 
+
+
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
 
