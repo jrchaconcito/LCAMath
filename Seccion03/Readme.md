@@ -192,7 +192,9 @@ Por otro lado, si se utliza el contenido energético o unidades de energía (eje
 
 -**Método del excedente**
 
-El último enfoque para solucionar los problemas que presentan los procesos multifuncionales consiste en el denominado método del 
+El último enfoque para solucionar los problemas que presentan los procesos multifuncionales consiste en el denominado **método del excedente** que tiene su sustento para aplicarlo en que un proceso unitario tiene como función principal prestar un solo servicio o en otras palabras, opera para el flujo principal mientras que para los otros flujos "secundarios", opera en un grado de menor importancia. Así que cuando se tiene un proceso multifuncional, uno podría tratarlo como si hubiera sido diseñado para producir el flujo principal y eliminar (quitar) los flujos secundarios (coproductos). Veamos cómo quedaría el proceso multifuncional:
+
+
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
