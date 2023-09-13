@@ -201,6 +201,11 @@ El último enfoque para solucionar los problemas que presentan los procesos mult
 Así que las matrices y vectores referidos con anterioridad que forman parte de la estructura básica para el cálculo del inventario serían los siguientes:
 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen43.png" width=80%><p>
+</div></p>
+
+Como se puede observar en la imagen anterior, nuevamente se han obtenido los mismos flujos ambientales con que iniciamos nuestra explicación sobre la estructura básica de cálculo para el inventario de ciclo de vida y eso era obvio de esperar por cuanto este método ignora el hecho de que se están produciendo coproductos.
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
