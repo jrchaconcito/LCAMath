@@ -162,7 +162,7 @@ como base unidades físicas de masa para hallar los respectivos **factores de as
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen38.png" width=90%><p>
 </div></p>
 
-Una vez se ha hecho la partición anterior que se muestra en la imagen, se procede a ingresar esta información a la **matriz A** (eliminando el proceso multifuncional e ingresando la información de entradas y salidas de los dos procesos monofuncionales, veamos entonces cómo quedaría la **matriz A**, **la matriz B**, **el vector de demanda f**, **el vector de escalamiento s** y **el vector de inventario g**:
+Una vez se ha hecho la partición anterior que se muestra en la imagen, se procede a ingresar esta información a la **matriz A** (eliminando el proceso multifuncional e ingresando la información de entradas y salidas de los dos procesos monofuncionales), veamos entonces cómo quedaría la **matriz A**, **la matriz B**, **el vector de demanda f**, **el vector de escalamiento s** y **el vector de inventario g**:
 
  <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen39.png" width=100%><p>
@@ -178,10 +178,11 @@ A continuación vamos explicar cómo sería la determinación de los factores de
 
 Teniendo en cuenta la información de la tabla anterior, se procede de forma similar a como se hallaron los factores de asignación con base en unidades físicas, así que hallamos la proporción en que participa el ingreso por ventas del ánodo con respecto a la venta total tanto del ánodo como del acero residual, es decir, U$ 2000/U$ 2000.551 = 0.9997, que sería el factor de asignación para la producción del ánodo; de igual forma, el factor de asignación para la producción de los residuos de acero sería U$ 1.551/2000.551 = 0.0003. Vericamos que 0.9997+0.0003 = 1.00 A continuación veamos cómo sería la  información de entradas y salidas para los procesos particionados:
 
+ <div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen40.png" width=80%><p>
+</div></p>
 
-
-
-
+Una vez se ha hecho la partición anterior que se muestra en la imagen, se procede a ingresar esta información a la matriz A (eliminando el proceso multifuncional e ingresando la información de entradas y salidas de los dos procesos monofuncionales), veamos entonces cómo quedaría **la matriz A**, **la matriz B**, **el vector de demanda f**, **el vector de escalamiento s** y **el vector de inventario g**:
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
