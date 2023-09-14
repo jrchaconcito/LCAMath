@@ -272,19 +272,13 @@ Finalmente multiplico la anterior matriz por el vector de demanda f, sabiendo qu
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen52.png" width=40%><p>
 </div></p>
 
+Si repasamos las fórmulas de la estructura básica para el cálculo del inventarios, el vector **f**, es el resultado de multiplicar la matriz **A** por el vector de escalamiento **s**, así que revisemos si hay un ajuste al multiplicar la matriz **A** por el vector de escalamiento que se obtuvo utilizando la seudoinversa, para ver si nos da el vector **f**:
 
 
-Podemos entonces introducir un tratamiento más formal, partiendo que se tienen nueve (9) factores de escalamiento desconocidos. También asumimos la siguiente numeración para cada uno de los procesos unitarios del sistema:
 
-  - Proceso 1: Minería de la bauxita
-  - Proceso 2: Producción de alúmina
-  - Proceso 3: Transporte (Si bien aparece en el diagrama dos veces, se asume que es un mismo proceso el que está prestando el servicio de transporte por camión)
-  - Proceso 4: Electrólisis
-  - Proceso 5: Fundición de lingotes de aluminio
-  - Proceso 6: Producción del ánodo
-  - Proceso 7: Producción de parte de aluminio
-  - Proceso 8: Producción de combustible
-  - Proceso 9: Producción de energía eléctrica
+
+
+
 </p>
 
 <p align="center">
