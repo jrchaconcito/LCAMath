@@ -220,8 +220,11 @@ Nos referimos al reciclaje de bucle cerrado cuand un residuo que produce un proc
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen44.png" width=80%><p>
 </div></p>
 
-Con datos hipotéticos y manteniendo la misma unidad funcional (una demanda de 100 unidades o probetas) veamos cómo se vería la **matriz de tecnología A**:
+Con datos hipotéticos y manteniendo la misma unidad funcional (una demanda de 100 unidades o probetas) veamos cómo se vería la **matriz de tecnología A** que como se observa no es cuadrada:
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen45.png" width=80%><p>
+</div></p>
 
 
 
