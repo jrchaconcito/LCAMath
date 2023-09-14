@@ -250,7 +250,11 @@ Luego procedamos a hallar el resultado de multiplicar la matriz transpuesta de A
 
 Continuamos ahora hallando la inversa de la multiplicación enre la transpuesta de A por A:
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen49.png" width=80%><p>
+</div></p>
 
+Continuamos multiplicando la anterior matriz por la transpuesta de A:
 
 
 
