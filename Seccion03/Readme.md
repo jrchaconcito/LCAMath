@@ -260,9 +260,12 @@ Continuamos multiplicando la anterior matriz por la transpuesta de A:
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen50.png" width=80%><p>
 </div></p>
 
-Finalmente multiplico la anterior matriz por el vector de demanda: 
+Finalmente multiplico la anterior matriz por el vector de demanda, sabiendo que el vector de demanda es el siguiente:
 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen50.png" width=80%><p>
+</div></p>
 
 
 
