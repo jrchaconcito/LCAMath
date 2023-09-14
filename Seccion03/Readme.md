@@ -207,7 +207,9 @@ Así que las matrices y vectores referidos con anterioridad que forman parte de 
 
 Como se puede observar en la imagen anterior, nuevamente se han obtenido los mismos flujos ambientales con que iniciamos nuestra explicación sobre la estructura básica de cálculo para el inventario de ciclo de vida y eso era obvio de esperar por cuanto este método ignora el hecho de que se están produciendo coproductos.
 
-### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
+### 1.4 Reciclaje de bucle cerrado
+
+Nos referimos al reciclaje de bucle cerradom cuand un residuo que produce un proceso unitario, en su totalidad es usado por otro proceso que forma parte del mismo sistema producto. Por ahora supongamos el siguiente diagrama de ciclo de vida donde se ilustra cómo los residuos de aluminio que se generan para la producción de la parte de aluminio (probeta) se utlizan en la producción de lingotes de alu
 
 
 
