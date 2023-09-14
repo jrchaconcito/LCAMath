@@ -214,13 +214,13 @@ Como se puede observar en la imagen anterior, nuevamente se han obtenido los mis
 
 ### 1.4 Reciclaje de bucle cerrado
 
-Nos referimos al reciclaje de bucle cerradom cuand un residuo que produce un proceso unitario, en su totalidad es usado por otro proceso que forma parte del mismo sistema producto. Por ahora supongamos el siguiente diagrama de ciclo de vida donde se ilustra cómo los residuos de aluminio que se generan para la producción de la parte de aluminio (probeta) se utlizan en la producción de lingotes de alu
+Nos referimos al reciclaje de bucle cerrado cuand un residuo que produce un proceso unitario, en su totalidad es usado por otro proceso que forma parte del mismo sistema producto. Por ahora supongamos el siguiente diagrama de ciclo de vida donde se ilustra cómo los residuos de aluminio que se generan para la producción de la parte de aluminio (probeta) se utlizan en la producción de lingotes de aluminio:
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen44.png" width=80%><p>
 </div></p>
 
-
+Con datos hipotéticos y manteniendo la misma unidad funcional (una demanda de 100 unidades o probetas) veamos cómo se vería la **matriz de tecnología A**:
 
 
 
