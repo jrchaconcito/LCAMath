@@ -260,11 +260,12 @@ Continuamos multiplicando la anterior matriz por la transpuesta de A:
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen50.png" width=80%><p>
 </div></p>
 
-Finalmente multiplico la anterior matriz por el vector de demanda, sabiendo que el vector de demanda es el siguiente:
+Finalmente multiplico la anterior matriz por el vector de demanda, sabiendo que el vector de demanda es el siguiente, con el fin de obtener el vector de escalamiento s:
+
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen50.png" width=80%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen51.png" width=30%><p>
 </div></p>
 
 
