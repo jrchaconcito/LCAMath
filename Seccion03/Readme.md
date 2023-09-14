@@ -237,19 +237,17 @@ La letra T significa que corresponde a la transpuesta de la matriz **A**
 A continuación vamos a iniciar aplicando la fórmula de la seudoinversa, para ello se recomienda inciar calculando la matriz transpuesta de A:
 
 
-
-Since the pseudo-inverse essentially performs a least-squares regression to minimize the discrepancy vector (d), A*s will not exactly equal the demand vector![image]
-
-
-
-
-
-
-
-
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen45.png" width=80%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen47.png" width=80%><p>
 </div></p>
+
+Luego procedamos a hallar el resultado de multiplicar la matriz transpuesta de A por la matriz A:
+
+
+
+
+
+
 
 
 
