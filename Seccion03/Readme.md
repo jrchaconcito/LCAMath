@@ -244,6 +244,12 @@ A continuación vamos a iniciar aplicando la fórmula de la seudoinversa, para e
 Luego procedamos a hallar el resultado de multiplicar la matriz transpuesta de A por la matriz A:
 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen48.png" width=80%><p>
+</div></p>
+
+Continuamos ahora hallando la inversa de la multiplicación enre la transpuesta de A por A:
+
 
 
 
