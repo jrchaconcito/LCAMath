@@ -269,7 +269,7 @@ Finalmente multiplico la anterior matriz por el vector de demanda f, sabiendo qu
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen52.png width=30%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen52.png" width=40%><p>
 </div></p>
 
 
