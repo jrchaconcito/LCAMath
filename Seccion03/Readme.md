@@ -268,6 +268,10 @@ Finalmente multiplico la anterior matriz por el vector de demanda f, sabiendo qu
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen51.png" width=30%><p>
 </div></p>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen52.png width=30%><p>
+</div></p>
+
 
 
 Podemos entonces introducir un tratamiento más formal, partiendo que se tienen nueve (9) factores de escalamiento desconocidos. También asumimos la siguiente numeración para cada uno de los procesos unitarios del sistema:
