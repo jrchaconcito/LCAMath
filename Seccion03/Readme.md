@@ -92,6 +92,11 @@ Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que e
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen28.png" alt="Ecuación de balance" width=80%><p>
 </div>
 
+Vamos asumir que del proceso unitario que produce la parte de aluminio se genera aluminio residual que se recicla en el proceso unitario de producción de lingotes de aluminio.Veamos entonces con datos hipotéticos cómo quedaría **la matriz de tecnología A** y manteniiendo la misma unidad funcional correspondiente a 100 unidades:
+
+
+
+
 
 
 
