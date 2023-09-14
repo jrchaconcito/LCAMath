@@ -220,7 +220,20 @@ Nos referimos al reciclaje de bucle cerrado cuand un residuo que produce un proc
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen44.png" width=80%><p>
 </div></p>
 
-Con datos hipotéticos y manteniendo la misma unidad funcional (una demanda de 100 unidades o probetas) veamos cómo se vería la **matriz de tecnología A** que como se observa no es cuadrada:
+Con datos hipotéticos y manteniendo la misma unidad funcional (una demanda de 100 unidades o probetas) veamos cómo se vería la **matriz de tecnología A** que como se observa no es cuadrada y por lo tanto no puede ser invertible, por lo tanto, la estructura básica de cálculo del inventario que se explicó al principio no se podría aplicar cuando se tieme un proceso de reciclaje de bucle cerrado. Cuando existe reciclaje de bucle cerrado, se presenta que una ecuación  es redundante, al ser combinación lineal de otras del conjunto de ecuaciones simultáneas, por lo que se configura un sistema  sobre determinado, porque existen más ecuaciones que variables desconocidas, generalmente un sistema sobre determinado es inconsistente (not tiene solución). Cuando se presenta la anterior situación se procede a hacer uso de la seudoinversa.
+
+La seudoinversa es un método matemático para tener una solución aproximada lo más cercana al valor de las variables desconocidas. Lo que se está haciendo con la aplicación de este método no es más que un análisis de regresión. En este caso emerge el concepto de vector de discrepancia indicado como **d**, el cual se intepreta como la variable que se requiere minimizar. El valor que se obtenga para **d** es una medida de la calidad del ajuste. Más adelante explicaremos cómo aplicar en un ejemplo el vector de discrepancia **d**.
+
+La expresión para la seudoinversa es la siguiente:
+
+
+
+\((A^T \cdot A)^{-1} \cdot A^T \cdot f\)
+
+
+
+In mathematics, a system of equations is considered overdetermined ithere are more equations than unknowns. An overdetermined system is almost always inconsistent (it has no solution) when constructed with random coefficients.
+
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen45.png" width=80%><p>
