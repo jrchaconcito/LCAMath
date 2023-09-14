@@ -274,7 +274,9 @@ Finalmente multiplico la anterior matriz por el vector de demanda f, sabiendo qu
 
 Si repasamos las fórmulas de la estructura básica para el cálculo del inventarios, el vector **f**, es el resultado de multiplicar la matriz **A** por el vector de escalamiento **s**, así que revisemos si hay un ajuste al multiplicar la matriz **A** por el vector de escalamiento que se obtuvo utilizando la seudoinversa, para ver si nos da el vector **f**:
 
-
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen53.png" width=70%><p>
+</div></p>
 
 
 
