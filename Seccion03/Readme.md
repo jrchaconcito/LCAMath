@@ -222,17 +222,29 @@ Nos referimos al reciclaje de bucle cerrado cuand un residuo que produce un proc
 
 Con datos hipotéticos y manteniendo la misma unidad funcional (una demanda de 100 unidades o probetas) veamos cómo se vería la **matriz de tecnología A** que como se observa no es cuadrada y por lo tanto no puede ser invertible, por lo tanto, la estructura básica de cálculo del inventario que se explicó al principio no se podría aplicar cuando se tieme un proceso de reciclaje de bucle cerrado. Cuando existe reciclaje de bucle cerrado, se presenta que una ecuación  es redundante, al ser combinación lineal de otras del conjunto de ecuaciones simultáneas, por lo que se configura un sistema  sobre determinado, porque existen más ecuaciones que variables desconocidas, generalmente un sistema sobre determinado es inconsistente (not tiene solución). Cuando se presenta la anterior situación se procede a hacer uso de la seudoinversa.
 
-La seudoinversa es un método matemático para tener una solución aproximada lo más cercana al valor de las variables desconocidas. Lo que se está haciendo con la aplicación de este método no es más que un análisis de regresión. En este caso emerge el concepto de vector de discrepancia indicado como **d**, el cual se intepreta como la variable que se requiere minimizar. El valor que se obtenga para **d** es una medida de la calidad del ajuste. Más adelante explicaremos cómo aplicar en un ejemplo el vector de discrepancia **d**.
+La seudoinversa es un método matemático para tener una solución aproximada lo más cercana al valor de las variables desconocidas. Lo que se está haciendo con la aplicación de este método no es más que un análisis de regresión de mínimos cuadrados para minimizar el vector de discrepancia **d** En este caso emerge el concepto de vector de discrepancia indicado como **d**, el cual se intepreta como la variable que se requiere minimizar. El valor que se obtenga para **d** es una medida de la calidad del ajuste. Así entonces, **As** no será exactamente igual al vector de demanda a menos que  todo el material se emplee en el proces unitario que lo recicla.  Más adelante explicaremos cómo aplicar en un ejemplo el vector de discrepancia **d**. 
 
-La expresión para la seudoinversa es la siguiente:
+La expresión para la seudoinversa  que permite solucionar sistemas redundantes de ecuaciones para el caso del reciclaje de bucle cerrado es la siguiente:
+
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen46.png" width=30%><p>
+</div></p>
+
+La letra T significa que corresponde a la transpuesta de la matriz **A**
+
+**El caso cuando el reciclaje de bucle cerrado no funciona**
+
+A continuación vamos a iniciar aplicando la fórmula de la seudoinversa, para ello se recomienda inciar calculando la matriz transpuesta de A:
 
 
 
-\((A^T \cdot A)^{-1} \cdot A^T \cdot f\)
+Since the pseudo-inverse essentially performs a least-squares regression to minimize the discrepancy vector (d), A*s will not exactly equal the demand vector![image]
 
 
 
-In mathematics, a system of equations is considered overdetermined ithere are more equations than unknowns. An overdetermined system is almost always inconsistent (it has no solution) when constructed with random coefficients.
+
+
+
 
 
 <div align="center">
