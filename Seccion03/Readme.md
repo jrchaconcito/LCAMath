@@ -256,9 +256,11 @@ Continuamos ahora hallando la inversa de la multiplicación enre la transpuesta 
 
 Continuamos multiplicando la anterior matriz por la transpuesta de A:
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen50.png" width=80%><p>
+</div></p>
 
-
-
+Finalmente multiplico la anterior matriz por el vector de demanda: 
 
 
 
