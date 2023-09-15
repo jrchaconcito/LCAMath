@@ -254,7 +254,7 @@ Es importante llamar la atención que con la aplicación de la técnica de la se
 
 En estudios reales de análisis de ciclo de vida el vector de discrepancia **d** puede desviarse de cero (0) debido al redondeo computacional y en este caso lo que daría son valores muy pequeños cercanos a **0**, por lo que con seguridad podemos ignorarlos y asumirlos como si fueran **0**. También es importante indicar, que también existen otras situaciones en que se pueden introducir errores que pueden ser importantes por cuanto se pierde precisión en los resultados. Para este último problema algunos autores han sugerido técnicas de reescalonado las cuales no serán objeto del presente curso, sin embargo, sigue este tema siendo un asunto de estudio y por lo tanto el problema del reescalonado óptimo todavía sigue sin tener una solución definitiva (Golub & Van Loan, 1996; Forsyth & Moler, 1967; Heijungs & Suh, 2002). Cuando se utiliza la técnica con la seudoinversa para hallar el inventario de ciclo de vida en una situación de reciclaje de bucle cerrado, lo mejor que podemos encontrar es una solución lo más aproximada al inventario que se esperaría tener realmente, de manera que hay que ser consciente que con esta técnica no siempre vamos a encontrar la solución exacta para el inventario de ciclo de vida. En el mejor de los casos, es posible que el vector de discrepancia **d** tenga valores muy cercanos a cero y al valor de la demanda o unidad funcional. En el peor de los casos, es posible, que el vector de discrepancia **d**, presente números de condición grande que desde luego hace que se pierda precisión lo cual por supuesto importa y habría que dejarlo claro en el informe del estudio de análisis de ciclo de vida, pero que en ciertas circuntancias al no tener otras opciones o el conocimiento sobre teoría de la perturbación y sus técnicas para mejorar la precisisón de los datos, los resultados que se obtienen podrían considerarse no como la solución óptima sino como una solución satisfactoria y que para los efectos prácticos en ciertos contexto donde se realiza el estudio de análisis de ciclo de vida, podrían ser útiles para los que encargan el estudio.
 
-La expresión para calcular el vector de escalamiento **s** usando la seudoinversa (que permite solucionar sistemas redundantes de ecuaciones para el caso del reciclaje de bucle cerrado) es la siguiente:
+Ahora bien, la expresión para calcular el vector de escalamiento **s** usando la seudoinversa (que permite solucionar sistemas redundantes de ecuaciones para el caso del reciclaje de bucle cerrado) es la siguiente:
 
 <p align="center">
   <b><i style="font-size:larger">s = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>f</i></b>
@@ -268,6 +268,8 @@ Donde la seudoinversa la indicaremos con la letra   <b>A<sup>+</sup></b> y corre
 </p>
 
 La letra T significa que corresponde a la transpuesta de la matriz **A**.
+
+A continuación vamos a ver cómo funciona esta estructura de cálculo.
 
 **El caso cuando el reciclaje de bucle cerrado no funciona**
 
