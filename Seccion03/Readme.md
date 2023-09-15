@@ -193,6 +193,9 @@ Una vez se ha hecho la partición anterior que se muestra en la imagen, se proce
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen68.png" width=100%><p>
 </div></p>
 
+ <div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen69.png" width=20%><p>
+</div></p>
 
 
 A continuación vamos explicar cómo sería la determinación de los factores de asignación con base en valor económico. La aplicación de este criterio tiene en cuenta el precio en el mercado tanto del ánodo como del acero residual que son las dos salidas del proceso multifuncional. Para comenzar asumamos que tenemos la siguiente información:
@@ -205,17 +208,9 @@ A continuación vamos explicar cómo sería la determinación de los factores de
 
 Teniendo en cuenta la información de la tabla anterior, se procede de forma similar a como se hallaron los factores de asignación con base en unidades físicas, así que hallamos la proporción en que participa el ingreso por ventas del ánodo con respecto a la venta total tanto del ánodo como del acero residual, es decir, U$ 2000/U$ 2000.551 = 0.9997, que sería el factor de asignación para la producción del ánodo; de igual forma, el factor de asignación para la producción de los residuos de acero sería U$ 1.551/2000.551 = 0.0003. Vericamos que 0.9997+0.0003 = 1.00 A continuación veamos cómo sería la  información de entradas y salidas para los procesos particionados:
 
- <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen40.png" width=80%><p>
-</div></p>
+ 
 
-Una vez se ha hecho la partición anterior que se muestra en la imagen, se procede a ingresar esta información a la matriz A (eliminando el proceso multifuncional e ingresando la información de entradas y salidas de los dos procesos monofuncionales), veamos entonces cómo quedaría **la matriz A**, **la matriz B**, **el vector de demanda f**, **el vector de escalamiento s** y **el vector de inventario g**:
-
- <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen41.png" width=80%><p>
-</div></p>
-
-Por otro lado, si se utliza el contenido energético o unidades de energía (ejemplo MJ) de los materiales como criterio para obtener los factores de asignación, se procede de forma similar a lo explicado anteriormente. En este caso, es importante que en el proceso multifuncional se tengan materiales/productos/coproductos que salen del proceso multifuncional con información sobre su poder calorífico inferior (como es el caso de los combustibles, madera, caucho, etc.), de manera que teniendo esta información y sabiendo la cantidad en Kg de estas salidas se puede obtener el contenido energético total (por ejemplo en MJ o BTU) y luego se haya la proporción con respecto a este total del producto/material principal y del coproducto y se procede a determinar el inventario conforme las explicaciones anteriores.
+Por otro lado, si se utliza el contenido energético o unidades de energía (ejemplo MJ o BTU) de los materiales como criterio para obtener los factores de asignación, se procede de forma similar a lo explicado anteriormente. En este caso, es importante que en el proceso multifuncional se tengan materiales/productos/coproductos que salen del proceso multifuncional con información sobre su poder calorífico inferior (como es el caso de los combustibles, madera, caucho, cartón, papel, carbón, etc.), de manera que teniendo esta información y sabiendo la cantidad en Kg de estas salidas se puede obtener el contenido energético total (por ejemplo en MJ o BTU) y luego se haya la proporción con respecto a este total del producto/material principal y del coproducto y se procede a determinar el inventario conforme las explicaciones anteriores.
 
 -**Método del excedente**
 
