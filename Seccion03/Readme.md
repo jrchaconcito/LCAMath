@@ -102,10 +102,20 @@ Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que e
 
 El **método de substitución** consiste en encontrar  un proceso unitario (ya sea en la literatura técnica o especializada o en la realidad o bases de datos especializadas) que tenga como función o servicio principal la producción del coproducto (acero) o un material que sea equivalente o cumpla funciones similares al material de acero. Lo que sucede es que cuando se encuentra este proceso, lo que está pasando es que al incorporar este nuevo proceso a la **matriz A**, la información de entradas y salidas que tiene este proceso se restan de las entradas y salidas del proceso donde se está produciendo el coproducto (desde luego esta "resta" se hace con base en la aplicación de factores de escalonamiento, operación que se realiza cuando aplicamos el modelo básico del cálculo de inventario visto anteriormente). Veamos entonces cómo sería la  aplicación de esta técnica o truco "matemático" para solucionar el problema de la asignación y al mismo tiempo convertir la  **matriz A** en una matriz cuadrada e invertible. 
 
-Asumamos que hemos encontrado un proceso unitario cuya función principal es producir acero. Veamos entonces cómo sería la **matriz A**:
+Asumamos que hemos encontrado un proceso unitario cuya función principal es producir acero. Veamos entonces cómo sería la **matriz A** con la incorporación de este nuevo proceso:
+
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen55.png" alt="Ecuación de balance" width=130%><p>
+</div>
+
+La anterior matriz podemos volverla "cuadrada" buscando una equivalencia o inequivalencia entre los dos tipos de acero, si asumimos que los dos tipos de flujos en cuanto a su calidad es la misma (por ejemplo, porque tanto los residuos de acero (coproducto) como el acero virgen producido por el nuevo proceso unitario que se incorporó al sistema, sus propiedades inherentes no cambian, entonces los dos flujos es una misma cosa (indistinguibles por así decirlo) y por lo tanto las dos nuevas filas se pueden fusionar en una sola fila:
 
 
-Se asume que este acero tiene funciones similares (calidad Y) al residuo de acero que se genera en la producción del ánodo (calidad X), esto tiene sentido porque el acero no pierde sus propiedades inherentes durante el reciclaje por lo que conserva básicamente las mismas propiedades que el acero virgen (es decir, tanto el acero que se genera en la producción del ánodo como el acero que se produce en el nuevo proceso unitario que acabamos de encontrar tienen la misma calidad. Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virgen. Veamos entonces cómo quedarían la nueva **matriz A**, el **vector de demanda f**, **la matriz inversa de A**, el **vector de factores de escalmiento s**, la **matriz de intervención ambiental B**y el **vector de inventario g**, al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
+
+
+
+
+Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virgen. Veamos entonces cómo quedarían la nueva **matriz A**, el **vector de demanda f**, **la matriz inversa de A**, el **vector de factores de escalmiento s**, la **matriz de intervención ambiental B**y el **vector de inventario g**, al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
 
 
 <div align="center">
@@ -131,7 +141,7 @@ Se asume que este acero tiene funciones similares (calidad Y) al residuo de acer
 
  -**Algunas consideraciones adicionales sobre el método de substitución**
 
- Teniendo en cuenta las indicaciones dadas por heijungs % Suh (2002), a continuación las siguiientes consideraciones sobre el método de sustitución:
+ Teniendo en cuenta las indicaciones dadas por Heijungs % Suh (2002), a continuación las siguientes consideraciones sobre el método de sustitución:
 
 - El factor de escalamiento para el proceso unitario que produce como servicio principal el acero tiene signo negativo. Esto se interpreta que ese proceso unitario se resta del sistema, por esos este factor de escalamiento es negativo. Generalmente el proceso de producción de acero o cualquier otro proceso unitario que se haya incorporado para aplicar la técnica de sustitución, tendrá un factor de escalamiento más pequeño que el que podría tener en el sistema original con el producto respectivo.  Por otro lado, en general cuando se incorpora el nuevo proceso unitario al sistema, todas las intervenciones ambientales pueden permanecer inalteradas, porque el nuevo proceso unitario realmente no tiene un rol o participación en el sistema o si la tiene, su participación en el ciclo de vida es marginal o menor y eso hace que su involucramiento se de un alcance restringido.
 - Otro problema con la técnica de sustitución, es que puede haber dificultades en encontrar el nuevo proceso unitario o concluir que no existe tal proceso.
@@ -141,7 +151,6 @@ Se asume que este acero tiene funciones similares (calidad Y) al residuo de acer
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen34.png" alt="Ecuación de balance" width=110%><p>
 </div>
 
-La anterior matriz podemos volverla "cuadrada" buscando una equivalencia o inequivalencia entre los dos tipos de acero, si asumimos que los dos tipos de flujos en cuanto a su calidad es la misma (por ejemplo, porque tanto los residuos de acero (coproducto) como el acero virgen producido por el nuevo proceso unitario que se incorporó al sistema, sus propiedades inherentes no cambian, entonces los dos flujos es una misma cosa (indistinguibles por así decirlo) y por lo tanto las dos nuevas filas se pueden fusionar en una sola fila:
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen35.png" alt="Ecuación de balance" width=110%><p>
