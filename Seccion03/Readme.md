@@ -189,6 +189,9 @@ Una vez se ha hecho la partición anterior que se muestra en la imagen, se proce
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen66.png" width=100%><p>
 </div></p>
 
+ <div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen68.png" width=100%><p>
+</div></p>
 
 
 
