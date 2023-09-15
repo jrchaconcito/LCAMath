@@ -179,6 +179,11 @@ Una vez se ha hecho la partición anterior que se muestra en la imagen, se proce
 </div></p>
 
 
+ <div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen66.png" width=100%><p>
+</div></p>
+
+
 
 
 A continuación vamos explicar cómo sería la determinación de los factores de asignación con base en valor económico. La aplicación de este criterio tiene en cuenta el precio en el mercado tanto del ánodo como del acero residual que son las dos salidas del proceso multifuncional. Para comenzar asumamos que tenemos la siguiente información:
