@@ -116,28 +116,20 @@ La anterior matriz podemos volverla "cuadrada" buscando una equivalencia o inequ
 
 Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virgen. Veamos entonces cómo quedarían, el **vector de demanda f**, **la matriz inversa de A**, el **vector de factores de escalamiento s**, la **matriz de intervención ambiental B**y el **vector de inventario g**, al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
 
-
-
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen57.png" alt="Ecuación de balance" width=90%><p>
-</div>
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/imagen29.png" alt="Ecuación de balance" width=35%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen58.png" alt="Ecuación de balance" width=15%><p>
 </div>
 
 
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen30.png" alt="Ecuación de balance" width=90%><p>
-</div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen31.png" alt="Ecuación de balance" width=90%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen57.png" alt="Ecuación de balance" width=120%><p>
 </div>
 
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen33.png" alt="Ecuación de balance" width=40%><p>
-</div>
+
+
+
+
 
  -**Algunas consideraciones adicionales sobre el método de substitución**
 
