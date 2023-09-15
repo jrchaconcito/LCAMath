@@ -130,6 +130,10 @@ Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de C
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen60.png" alt="Ecuación de balance" width=120%><p>
 </div>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen61.png" alt="Ecuación de balance" width=30%><p>
+</div>
+
 
 
  -**Algunas consideraciones adicionales sobre el método de substitución**
