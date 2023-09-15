@@ -105,17 +105,16 @@ El **método de substitución** consiste en encontrar  un proceso unitario (ya s
 Asumamos que hemos encontrado un proceso unitario cuya función principal es producir acero. Veamos entonces cómo sería la **matriz A** con la incorporación de este nuevo proceso:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen55.png" alt="Ecuación de balance" width=130%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen55.png" alt="Ecuación de balanc" width=130%><p>
 </div>
 
 La anterior matriz podemos volverla "cuadrada" buscando una equivalencia o inequivalencia entre los dos tipos de acero, si asumimos que los dos tipos de flujos en cuanto a su calidad es la misma (por ejemplo, porque tanto los residuos de acero (coproducto) como el acero virgen producido por el nuevo proceso unitario que se incorporó al sistema, sus propiedades inherentes no cambian, entonces los dos flujos es una misma cosa (indistinguibles por así decirlo) y por lo tanto las dos nuevas filas se pueden fusionar en una sola fila:
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen56.png" alt="Ecuación de balanc" width=130%><p>
+</div>
 
-
-
-
-
-Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virgen. Veamos entonces cómo quedarían la nueva **matriz A**, el **vector de demanda f**, **la matriz inversa de A**, el **vector de factores de escalmiento s**, la **matriz de intervención ambiental B**y el **vector de inventario g**, al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
+Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virgen. Veamos entonces cómo quedarían, el **vector de demanda f**, **la matriz inversa de A**, el **vector de factores de escalamiento s**, la **matriz de intervención ambiental B**y el **vector de inventario g**, al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
 
 
 <div align="center">
