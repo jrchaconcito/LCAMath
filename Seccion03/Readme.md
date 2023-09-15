@@ -134,6 +134,10 @@ Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de C
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen61.png" alt="Ecuación de balance" width=30%><p>
 </div>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen62.png" alt="Ecuación de balance" width=30%><p>
+</div>
+
 
 
  -**Algunas consideraciones adicionales sobre el método de substitución**
@@ -142,23 +146,9 @@ Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de C
 
 - El factor de escalamiento para el proceso unitario que produce como servicio principal el acero tiene signo negativo. Esto se interpreta que ese proceso unitario se resta del sistema, por esos este factor de escalamiento es negativo. Generalmente el proceso de producción de acero o cualquier otro proceso unitario que se haya incorporado para aplicar la técnica de sustitución, tendrá un factor de escalamiento más pequeño que el que podría tener en el sistema original con el producto respectivo.  Por otro lado, en general cuando se incorpora el nuevo proceso unitario al sistema, todas las intervenciones ambientales pueden permanecer inalteradas, porque el nuevo proceso unitario realmente no tiene un rol o participación en el sistema o si la tiene, su participación en el ciclo de vida es marginal o menor y eso hace que su involucramiento se de un alcance restringido.
 - Otro problema con la técnica de sustitución, es que puede haber dificultades en encontrar el nuevo proceso unitario o concluir que no existe tal proceso.
-- Suele pasar que la incorporación del nuevo proceso unitario, su flujo económico puede sustituir el coproducto del sistema, aún cuando los dos flujos no sean excatamente de la misma naturaleza. Por ejemplo, el acero producido como producto tiene una calidad X (por ejemplo,por razones de que es más fácil de conseguir en determinada instalación o por el contrario difícil de conseguir o porque tiene impurezas), mientras que el nuevo proceso unitario produce un acero de calidad Y (por ejemplo, sus propiedades son relativamente diferentes al coprooducto).
-- 
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen34.png" alt="Ecuación de balance" width=110%><p>
-</div>
-
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen35.png" alt="Ecuación de balance" width=110%><p>
-</div>
-
-Ahora bien, si lo que se decide es que existe una diferencia en la calidad en los dos flujos anteriores, se puede usar un **factor de corrección**. Por ejemplo, supongamos que el acero virgen es de mejor calidad (calidad Y) que el acero residual (coproducto) (calidad X) porque este último viene por ejemplo, contaminado con lubricantes o porque el acero virgen es más rentable conseguirlo en un determinado lugar. Así que se puede pensar que el acero virgen es 20 % más valioso que el residuo de acero. Esto lo que quiere decir es que 1 Kg de acero virgen se asume equivalente a 1.2 Kilos de acero residual (coproducto). Por lo tanto, podemos fusionar los dos flujos y dejar solo una fila, aplicando este factor de correción que contabiliza una diferencia en la calidad del 20 %:
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen36.png" alt="Ecuación de balance" width=110%><p>
-</div></p>
+- Suele pasar que la incorporación del nuevo proceso unitario, su flujo económico puede sustituir el coproducto del sistema, aún cuando los dos flujos no sean exactamente de la misma naturaleza. Por ejemplo, el acero producido como producto tiene una calidad X (por ejemplo,por razones de que es más fácil de conseguir en determinada instalación o por el contrario difícil de conseguir o porque tiene impurezas), mientras que el nuevo proceso unitario produce un acero de calidad Y (por ejemplo, sus propiedades son relativamente diferentes al coprooducto).
  
+
  -**Método de partición**
 
  Otra técnica o "truco matemático" para hacer que la matriz A tenga inversa (sea invertible) es el denominado método de partición. Este método consiste primero en dividir el proceso unitario multifuncional en procesos monofuncionales independientes, por esto a esta ténica se le denomina el método de la partición. El objetivo principal es distribuir equitativamente las cargas ambientales (recursos y emisiones), entre el producto principal (servicio principal del proceso unitario) y los coproductos. Paara este proopósito es práctica generalizada que esta asignación se haga sobre la base de la asignación basada en unidades físicas (masa, volumen, energía) y asignación económica.  Veamos entonces cómo se aplicaría este método empleando 
