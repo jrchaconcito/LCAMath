@@ -420,6 +420,10 @@ Como se hizo con anterioridad, se procede a través por ejemplo de una hoja exce
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen91.png" width=70%><p>
 </div></p>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen92.png" width=50%><p>
+</div></p>
+
 
 
 Para finalizar una breve observación, la técnica de la seudoinversa, es un enfoque útil que la mayoría de las veces se puede emplear con matrices que no son cuadradas y que no son invertibles como es el caso cuando se tiene reciclaje de bucle cerrado, pero también es cierto que esta técnica matemática también se puede emplear incluso con matrices invertibles cuadradas. 
