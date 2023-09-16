@@ -406,6 +406,13 @@ En el ejemplo anterior, observamos que fue necesario enviar el sobrante de resid
 
 Tal como se procedió anteriormente para explicar el caso de reciclaje de bucle cerrado donde existía un excedente de residuos de aluminio, comencemos haciendo un escalonamiento manual. Como la unidad funcional corresponde a 100 unidades de probetas, se debe multiplicar las entradas del proceso de producción de probetas por el factor de escalonamiento 100. Al escalar los flujos tecnológicos encontramos que se generan **0.001 x 100 = 0.1** Kg de residuos de aluminio y se requiere 0.0005 x 100 = 0.05 toneladas de aluminio. Luego paso al proceso que produce lingotes de aluminio y como el proceso de producción de probetas requiere 0.05 toneladas de aluminio, debo multiplicar las entradas y salidas del proceso de producción de lingotes de aluminio por el factor de escalamiento 0.05. Ahora, este proceso requiere **30 x 0.05 = 1.5** Kg de residuos de aluminio. Al observar la cantidad de residuos de aluminio que se producen en la producción de la probeta, vemos que es una cantidad inferior a la que se necesita en la producción de los lingotes de aluminio (0.1 < 1.5). Por lo tanto, se requiere incorporar un proceso que suministre el faltante para el proceso de producción de lingotes de aluminio. Ahora bien, el faltante o déficit de residuos de aluminio es **1.5 – 0.1 = 1.4** Kg de residuos de alumnio. Como ese nuevo proceso hay que escalonarlo también por el valor de 100, requerimos que ese proceso produzca una salida de residuos de aluminio tal que al multplicarla por 100 de como resultado el faltante que es de 1.4, así que con una ecuación como Zx100 = 1.4, podemos despejar Z = 0.014 Kg de residuos de aluminio. Veamos entonces cómo entonces incorporamos este nuevo proceso en la **matriz A**:
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen89.png" width=100%><p>
+</div></p>
+
+Como se hizo con anterioridad, se procede a través por ejemplo de una hoja excel con los cálculos de rutina aplicando la técnica de la seudoinversa. A continuación los resultados respectivos.
+
+
 Para finalizar una breve observación, la técnica de la seudoinversa, es un enfoque útil que la mayoría de las veces se puede emplear con matrices que no son cuadradas y que no son invertibles como es el caso cuando se tiene reciclaje de bucle cerrado, pero también es cierto que esta técnica matemática también se puede emplear incluso con matrices invertibles cuadradas. 
 
 </div>
