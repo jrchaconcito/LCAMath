@@ -384,6 +384,13 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
 </div></p>
 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen83.png" width=100%><p>
+</div></p>
+
+
+
+
   </p>
 
 Para el primer flujo económico, toneladas de bauxita, se puede establecer la siguiente ecuación de balance:
