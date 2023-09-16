@@ -365,6 +365,9 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen77.png" width=80%><p>
 </div></p>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen79.png" width=80%><p>
+</div></p>
 
 
 
