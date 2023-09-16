@@ -379,6 +379,9 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen81.png" width=45%><p>
 </div></p>
  
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen82.png" width=100%><p>
+</div></p>
 
 
   </p>
@@ -386,8 +389,9 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
 Para el primer flujo económico, toneladas de bauxita, se puede establecer la siguiente ecuación de balance:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen5.png" alt="Ecuación de balance" width=50%>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen5.png" alt="Ecuación de balance" width="500">
 </div>
+
 
 
 
