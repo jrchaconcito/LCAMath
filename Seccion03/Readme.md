@@ -263,7 +263,7 @@ Ahora bien, la expresión para calcular el vector de escalamiento **s** usando l
 
 
 
-Donde la seudoinversa la indicaremos con la letra <b>A<sup>+</sup></b> y corresponde a la siguiente expresión:
+Donde la seudoinversa la indicaremos con la letra <b>A<sup>+</sup></b> y corresponde a la siguiente expresión: 
 
 
 <p align="center">
