@@ -375,7 +375,10 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
 </div></p>
 
 
-  
+<div align="center">
+  <img src=" https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen81.png" width=80%><p>
+</div></p>
+ 
 
 
   </p>
