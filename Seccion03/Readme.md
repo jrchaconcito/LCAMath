@@ -345,13 +345,15 @@ Despejando X, encuentro que este valor debe ser igual a 0.0001 Kg de residuos de
 Despejando Y encontramos que su valor corresponde a 0.029999 Kg de residuos. Estos residuos de más de aluminio (excdente) que no requiere el proceso de producción de lingotes de aluminio, se envían a un proceso de reciclaje de bucle abierto. Veamos entonces cómo sería la matriz **A** incorporando la información anterior:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/edit/main/Seccion03/Readme.md#:~:text=Imagen73.png-,Imagen74,-.png" width=30%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen74.png" width=110%><p>
 </div></p>
 
+A continuación vamos a indicar todas las demás matrices y vectores que se requiere con el fin de calcular el vector de escalamiento **s** con la técnica de la seudoinversa:
 
 
 
-y el excedente 3 Kg – 0.01 Kg = 2.99 Kg de residuos se mande a un proceso para reciclaje de bucle cerrado (con destino a otro sistema producto). Veamos entonces cómo se vería la matriz **A**:
+
+
 
 
 
