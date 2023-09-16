@@ -209,8 +209,8 @@ A continuación vamos explicar cómo sería la determinación de los factores de
 | Material              | Cantidad | Unidad  | Precio venta por Unidad | Total ingreso por venta del material/producto |
 |-----------------------|----------|---------|-------------------|----------------------------------------------|
 | Ánodo                 | 1000     | Kg      | US$ 2/Kg          | U$ 2000.00                                      |
-| Residuos de acero     | 5.17     | Kg      | U$ 0.30/Kg        | U$ 1.551                                      |
-| Total venta           |          |         |                   |  U$ 2000.551
+| Residuos de acero     | 5.17     | Kg      | US$ 0.30/Kg       | US$ 1.551                                      |
+| Total venta           |          |         |                   | US$ 2000.551
 
 Teniendo en cuenta la información de la tabla anterior, se procede de forma similar a como se hallaron los factores de asignación con base en unidades físicas, así que hallamos la proporción en que participa el ingreso por ventas del ánodo con respecto a la venta total tanto del ánodo como del acero residual, es decir, U$ 2000/U$ 2000.551 = 0.9997, que sería el factor de asignación para la producción del ánodo; de igual forma, el factor de asignación para la producción de los residuos de acero sería U$ 1.551/2000.551 = 0.0003. Vericamos que 0.9997+0.0003 = 1.00 A continuación veamos cómo sería la  información de entradas y salidas para los procesos particionados:
 
@@ -252,27 +252,31 @@ Con datos hipotéticos y manteniendo la misma unidad funcional (una demanda de 1
 La seudoinversa es un método matemático para tener una solución aproximada lo más cercana al valor de las variables desconocidas. Lo que se está haciendo con la aplicación de este método no es más que un análisis de regresión de mínimos cuadrados para minimizar el vector de discrepancia **d** En este caso emerge el concepto de vector de discrepancia indicado como **d**, el cual se intepreta como la variable que se requiere minimizar. El valor que se obtenga para **d** es una medida de la calidad del ajuste. Así entonces, **As** no será exactamente igual al vector de demanda a menos que  todo el material se emplee en el proces unitario que lo recicla.  Más adelante explicaremos cómo aplicar con un ejemplo el vector de discrepancia **d**. 
 Es importante llamar la atención que con la aplicación de la técnica de la seudoinversa generalmente se tiene una solución aproximada y no siempre el vector de suministro final que es como algo así como el vector **f** que se obtiene con la seudoinversa, no siempre es igual al vector de demanda final **f** (donde está representada la unidad funcional).
 
-En estudios reales de análisis de ciclo de vida el vector de discrepancia **d** puede desviarse de cero (0) debido al redondeo computacional y en este caso lo que daría son valores muy pequeños cercanos a **0**, por lo que con seguridad podemos ignorarlos y asumirlos como si fueran **0**. También es importante indicar, que también existen otras situaciones en que se pueden introducir errores que pueden ser importantes por cuanto se pierde precisión en los resultados. Para este último problema algunos autores han sugerido técnicas de reescalonado las cuales no serán objeto del presente curso, sin embargo, sigue este tema siendo un asunto de estudio y por lo tanto el problema del reescalonado óptimo todavía sigue sin tener una solución definitiva (Golub & Van Loan, 1996; Forsyth & Moler, 1967; Heijungs & Suh, 2002). Cuando se utiliza la técnica con la seudoinversa para hallar el inventario de ciclo de vida en una situación de reciclaje de bucle cerrado, lo mejor que podemos encontrar es una solución lo más aproximada al inventario que se esperaría tener realmente, de manera que hay que ser consciente que con esta técnica no siempre vamos a encontrar la solución exacta para el inventario de ciclo de vida. En el mejor de los casos, es posible que el vector de discrepancia **d** tenga valores muy cercanos a cero y al valor de la demanda o unidad funcional. En el peor de los casos, es posible, que el vector de discrepancia **d**, presente números de condición grande que desde luego hace que se pierda precisión lo cual por supuesto importa y habría que dejarlo claro en el informe del estudio de análisis de ciclo de vida, pero que en ciertas circuntancias al no tener otras opciones o el conocimiento sobre teoría de la perturbación y sus técnicas para mejorar la precisisón de los datos, los resultados que se obtienen podrían considerarse no como la solución óptima sino como una solución satisfactoria y que para los efectos prácticos en ciertos contextos donde se realiza el estudio de análisis de ciclo de vida, podría ser útil para los que encargan el estudio.
+En estudios reales de análisis de ciclo de vida el vector de discrepancia **d** puede desviarse de cero (0) debido al redondeo computacional y en este caso lo que daría son valores muy pequeños cercanos a **0**, por lo que con seguridad podemos ignorarlos y asumirlos como si fueran **0**. También es importante indicar, que también existen otras situaciones en que se pueden introducir errores que pueden ser importantes por cuanto se pierde precisión en los resultados. Para este último problema algunos autores han sugerido técnicas de reescalonado las cuales no serán objeto del presente curso, sin embargo, sigue este tema siendo un asunto de estudio y por lo tanto el problema del reescalonado óptimo todavía sigue sin tener una solución definitiva (Golub & Van Loan, 1996; Forsyth & Moler, 1967; Heijungs & Suh, 2002). Cuando se utiliza la técnica con la seudoinversa para hallar el inventario de ciclo de vida en una situación de reciclaje de bucle cerrado, lo mejor que podemos encontrar es una solución lo más aproximada al inventario que se esperaría tener realmente, de manera que hay que ser consciente que con esta técnica no siempre vamos a encontrar la solución exacta para el inventario de ciclo de vida. En el mejor de los casos, es posible que el vector de discrepancia **d** tenga valores muy cercanos a cero y al valor de la demanda o unidad funcional. En el peor de los casos, es posible, que el vector de discrepancia **d**, presente números de condición grande que desde luego hace que se pierda precisión lo cual por supuesto importa y habría que dejarlo claro en el informe del estudio de análisis de ciclo de vida, pero que en ciertas circuntancias al no tener otras opciones o el conocimiento sobre teoría de la perturbación (donde se estudia la influencia de las perturbaciones de los coeficientes de las ecuaciones en las soluciones de dichas ecuaciones) y sus técnicas para mejorar la precisisón de los datos, los resultados que se obtienen podrían considerarse no como la solución óptima sino como una solución satisfactoria y que para los efectos prácticos en ciertos contextos donde se realiza el estudio de análisis de ciclo de vida, podría ser útil para los que encargan el estudio.
 
 Ahora bien, la expresión para calcular el vector de escalamiento **s** usando la seudoinversa (que permite solucionar sistemas redundantes de ecuaciones para el caso del reciclaje de bucle cerrado) es la siguiente:
 
 <p align="center">
-  <b><i style="font-size:larger">s = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>f</i></b>
+  <span style="font-size:larger"><b>A<sup>+</sup></b> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup></span>
 </p>
+
+
+
 
 Donde la seudoinversa la indicaremos con la letra <b>A<sup>+</sup></b> y corresponde a la siguiente expresión:
 
 
-<div align="center">
-  <b><i style="font-size:larger"><b>A<sup>+</sup></b> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</</i></b>
-</div></p>
+<p align="center">
+  <span style="font-size:larger"><b>A<sup>+</sup></b> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</<//span>
+</p>
+
 
 
 La letra T significa que corresponde a la transpuesta de la matriz **A**.
 
 A continuación vamos a ver cómo funciona esta estructura de cálculo.
 
-**El caso cuando el reciclaje de bucle cerrado no funciona**
+ - **El caso cuando el reciclaje de bucle cerrado no funciona**
 
 A continuación vamos a iniciar aplicando la fórmula de la seudoinversa, para ello se recomienda inciar calculando la matriz transpuesta de A:
 
@@ -288,7 +292,7 @@ Luego procedamos a hallar el resultado de multiplicar la matriz transpuesta de A
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen48.png" width=80%><p>
 </div></p>
 
-Continuamos ahora hallando la inversa de la multiplicación enre la transpuesta de A por A:
+Continuamos ahora hallando la inversa de la multiplicación entre la transpuesta de A por A:
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen49.png" width=80%><p>
@@ -323,24 +327,10 @@ Como se observa en los resultados anteriores no se tuvo un ajuste perfecto, veam
 
 
 
-</p>
-
-<p align="center">
-
-
 
   
-Los factores de escalamiento los denotaremos como s₁ que significa factor de escalamiento del proceso 1, s₂ factor de escalamiento del proceso 2 y de manera similar, se entenderán los demás factores de escalamiento. Por otro lado, los flujos económicos se numeran de la siguiente manera:
 
-  -  Flujo económico 1: toneladas de bauxita que produce el Proceso 1
-  -  Flujo económico 2: toneladas de alúmina que produce el Proceso 2
-  -  Flujo económico 3: tkm de servicio de transporte por camión prestado por el Proceso 3
-  -  Flujo económico 4: toneladas de aluminio líquido producidas por el proceso 4
-  -  Flujo económico 5: toneladas de lingotes producidas por el proceso 5
-  -  Flujo económico 6: toneladas de ánodo producidas por el proceso 6
-  -  Flujo económico 7: unidades de probetas de aluminio producidas por el proceso 7
-  -  Flujo económico 8: litros de combustible producidos por el proceso 8
-  -  Flujo económico 9: kwh de energía eléctrica producida por el proceso 9
+
   </p>
 
 Para el primer flujo económico, toneladas de bauxita, se puede establecer la siguiente ecuación de balance:
