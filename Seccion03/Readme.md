@@ -326,9 +326,30 @@ Como se observa en los resultados anteriores no se tuvo un ajuste perfecto, veam
 
  - **El caso cuando el reciclaje de bucle cerrado empieza a funcionar**
 
-Lo que vamos a llevar a cabo a continuación es buscar que la cantidad de residuos de aluminio que genera el proceso unitario de producción de la probeta de alumninio sea exactamente igual a la cantidad de estos residuos que requiere el proceso unitario de producción de lingotes de aluminio. Para ello, hacemos un escalamiento manual para lo cual procedemos de la sigueinte manera: Como la unidad funcional le pide al sistema producto que produzca 100 probetas, entonces las entradas y salidas del proceso unitario de producción de probetas se deben multiplicar por 100 (factor de escalamiento) dado que originalmente que este proceso tiene como salida una unidad de probeta. Como este factor afecta a todo el proceso, entonces también debo multiplicar los 0,030 Kg de residuos de aluminio por 100, lo que arroja un valor de 3 Kg de residuos de aluminio. También debo multiplicar la entrada al proceso de los lingotes de aluminio, es decir las 0.0005 toneladas las multiplico por 100 con lo cual se tiene como resultado 0.05 toneladas de lingotes. Luego paso al proceso unitario que produce los lingotes de aluminio y donde se emplean los residuos de aluminio que genera la producción de las probetas. Como la producción de probetas requiere 0.05 toneladas de lingotes, entonces la salida de una tonelada de lingotes que sale del proceso unitario de producción de lingotes debo multiplicarla por 0.05 (factor de escalamiento). También la entrada de residuos de aluminio que requiere este proceso debo multiplicar por este mismo factor de escalamiento, es decir 0.20 Kg de residuos de aluminio multiplicado por 0.05 que da un valor de 0.01 Kg de residuos de aluminio.
+Lo que vamos a llevar a cabo a continuación es buscar que la cantidad de residuos de aluminio que genera el proceso unitario de producción de la probeta de alumninio sea exactamente igual a la cantidad de estos residuos que requiere el proceso unitario de producción de lingotes de aluminio. Para ello, hacemos un escalamiento manual para lo cual procedemos de la siguiente manera: Como la unidad funcional le pide al sistema producto que produzca 100 probetas, entonces las entradas y salidas del proceso unitario de producción de probetas se deben multiplicar por 100 (factor de escalamiento) dado que originalmente que este proceso tiene como salida una unidad de probeta. Como este factor afecta a todo el proceso, entonces también debo multiplicar los 0,030 Kg de residuos de aluminio por 100, lo que arroja un valor de 3 Kg de residuos de aluminio. También debo multiplicar la entrada al proceso de los lingotes de aluminio, es decir las 0.0005 toneladas las multiplico por 100 con lo cual se tiene como resultado 0.05 toneladas de lingotes. Luego paso al proceso unitario que produce los lingotes de aluminio y donde se emplean los residuos de aluminio que genera la producción de las probetas. Como la producción de probetas requiere 0.05 toneladas de lingotes, entonces la salida de una tonelada de lingotes que sale del proceso unitario de producción de lingotes debo multiplicarla por 0.05 (factor de escalamiento). También la entrada de residuos de aluminio que requiere este proceso debo multiplicarla por este mismo factor de escalamiento, es decir 0.20 Kg de residuos de aluminio multiplicado por 0.05 que da un valor de 0.01 Kg de residuos de aluminio.
 
-Teniendo en cuenta las anteriores consideraciones, observe lo siguiente, una vez hecho este escalamiento manual: El proceso unitario de producción de probetas genera 3 Kg de residuos de aluminio, sin embargo, el proceso unitario que produce los lingotes de aluminio, solo necesita 0.01 Kg de residuos de aluminio, es decir, el proceso unitario de la producción de las probetas está produciendo más residuo del que se necesita en la producción de los lingotes de alumninio. Entonces lo que se hace es que la producciónd de probetas solo genere 0.01 Kg de residuos de aluminio y el excedente 3 Kg – 0.01 Kg = 2.99 Kg de residuos se mande a un proceso para reciclaje de bucle cerrado (con destino a otro sistema producto). Veamos entonces cómo se vería la matriz **A**:
+Teniendo en cuenta las anteriores consideraciones, observe lo siguiente, una vez hecho este escalamiento manual: El proceso unitario de producción de probetas genera 3 Kg de residuos de aluminio, sin embargo, el proceso unitario que produce los lingotes de aluminio, solo necesita 0.01 Kg de residuos de aluminio, es decir, el proceso unitario de la producción de las probetas está produciendo más residuo del que se necesita en la producción de los lingotes de alumninio. 
+
+Conm base en las consideraciones del párrafo anterior,  lo que se hace es que la producción de probetas solo genere 0.01 Kg de residuos de aluminio pero como ese proceso tiene como factor de escalamiento 100, entonces debo colocar una cantidad de residuos de aluminio que al multiplicarla me de como resultado 0.01 kg de residuos de aluminio. Entonces esablezco la siguiente expresión:
+
+<p align="center">
+  100X = 0.01
+</p>
+
+Despejando X, encuentro que este valor debe ser igual a 0.0001 Kg de residuos de aluminio. Pero no hay que olvidar de acuerdo con las explicaciones que se dieron anteriormente, el proceso de producción de probetas debe producir 3 Kg de residuos de alumninio, de manera que si ya se generaron 0.0001 Kg de residuos de aluminio, para completar los 3 Kg, se deberían generar por aparte 2.9999 Kg de residuos de aluminio, así que se debe buscar una cantidad Y que al multiplicarla por el factor de escalamiento 100 de como resultado 2.9999 Kg de residuos de aluminio:
+
+<p align="center">
+  100Y = 2.9999
+</p>
+
+Despejando Y encontramos que su valor corresponde a 0.029999 Kg de residuos. Estos residuos de más de aluminio (excdente) que no requiere el proceso de producción de lingotes de aluminio, se envían a un proceso de reciclaje de bucle abierto. Veamos entonces cómo sería la matriz **A** incorporando la información anterior:
+
+
+
+
+
+
+y el excedente 3 Kg – 0.01 Kg = 2.99 Kg de residuos se mande a un proceso para reciclaje de bucle cerrado (con destino a otro sistema producto). Veamos entonces cómo se vería la matriz **A**:
 
 
 
