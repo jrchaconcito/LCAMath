@@ -396,11 +396,7 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
 
   </p>
 
-Para el primer flujo económico, toneladas de bauxita, se puede establecer la siguiente ecuación de balance:
 
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen5.png" alt="Ecuación de balance" width="500">
-</div>
 
 Para finalizar, la técnica de la seudoinversa, es un enfoque útil que la mayoría de las veces se puede emplear con matrices que no son cuadradas y que no son invertibles como es el caso cuando se tiene reciclaje de bucle cerrado, pero también es cierto que esta técnica matemática también se puede emplear incluso con matrices invertibles cuadradas.
 
