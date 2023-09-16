@@ -388,8 +388,9 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen83.png" width=100%><p>
 </div></p>
 
-
-
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen84.png" width=50%><p>
+</div></p>
 
   </p>
 
