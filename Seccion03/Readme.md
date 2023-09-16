@@ -319,13 +319,14 @@ Finalmente multiplico la anterior matriz por el vector de demanda f, sabiendo qu
 Si repasamos las fórmulas de la estructura básica para el cálculo del inventarios, el vector **f**, es el resultado de multiplicar la matriz **A** por el vector de escalamiento **s**, así que revisemos si hay un ajuste al multiplicar la matriz **A** por el vector de escalamiento que se obtuvo utilizando la seudoinversa, para ver si nos da el vector **f**:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen72.png" width=70%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen73.png" width=70%><p>
 </div></p>
 
-Como se observa en los resultados anteriores no se tuvo un ajuste perfecto, veamos entonces cuál es el resultado para el vector de dicrepancia **d**, que se obtiene restando del valor anterior **f** que se obtuvo con la seudoinversa, el vector de demanda **f** original y vemos que de algunos materiales o productos sobra mientras que de otros falta, si hubiera habido un ajuste perfecto, el vector de discrepancia en todas sus dimensiones debió tener valores de cero (0), eso lo que significa es que de algunos productos está sobrando algo y para otros está faltando, cosa que no debió presentarse si hubiera habido un ajuste perfecto, pero es natural que se presenten estos resultados porque se está aplicando un análisis de regresión y lo que se busca con este análisis de regresión es que la diferencia  **As - f** sea lo más cercana a (cero) pero nunca desde luego va a ser igual a cero (0). Heijungs & Suh (2002) recomiendan asignar exactamente el material o producto suficiente para el proceso de reciclaje y enviar el resto ya sea a un proceso de reciclaje de bucle cerrado o a un proceso de tratamiento de residuos. A continuación explicaremos con el uso de excel cómo sería el cálculo a realizar.
+Como se observa en los resultados anteriores no se tuvo un ajuste perfecto, veamos entonces cuál es el resultado para el vector de dicrepancia **d**, que se obtiene restando del valor anterior **f** que se obtuvo con la seudoinversa, el vector de demanda **f** original y vemos que de algunos materiales o productos sobra mientras que de otros falta, si hubiera habido un ajuste perfecto, el vector de discrepancia en todas sus dimensiones debió tener valores de cero (0). Lo que muestran los resultados es que de algunos productos/materiales está sobrando algo y para otros está faltando, cosa que no debió presentarse si hubiera habido un ajuste perfecto, pero es natural que se presenten estos resultados porque se está aplicando un análisis de regresión y lo que se busca con este análisis de regresión es que la diferencia  **As - f** sea lo más cercana a (cero) pero no siempre desde luego va a ser igual a cero (0). Heijungs & Suh (2002) recomiendan asignar exactamente el material o producto suficiente para el proceso de reciclaje y enviar el resto ya sea a un proceso de reciclaje de bucle cerrado o a un proceso de tratamiento de residuos. A continuación explicaremos con el uso de excel cómo sería el cálculo a realizar.
 
+ - **El caso cuando el reciclaje de bucle cerrado empieza a funcionar**
 
-
+Lo primero que hay
 
 
   
