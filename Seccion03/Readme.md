@@ -350,8 +350,9 @@ Despejando Y encontramos que su valor corresponde a 0.029999 Kg de residuos. Est
 
 A continuación vamos a indicar todas las demás matrices y vectores que se requiere con el fin de calcular el vector de escalamiento **s** con la técnica de la seudoinversa:
 
-
-
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen75.png" width=60%><p>
+</div></p>
 
 
 
