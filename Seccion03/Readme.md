@@ -334,9 +334,11 @@ Como se observa en los resultados anteriores no se tuvo un ajuste perfecto, veam
 
 Lo que vamos a llevar a cabo a continuación es buscar que la cantidad de residuos de aluminio que genera el proceso unitario de producción de la probeta de alumninio sea exactamente igual a la cantidad de estos residuos que requiere el proceso unitario de producción de lingotes de aluminio. Para ello, hacemos un escalamiento manual para lo cual procedemos de la siguiente manera: Como la unidad funcional le pide al sistema producto que produzca 100 probetas, entonces las entradas y salidas del proceso unitario de producción de probetas se deben multiplicar por 100 (factor de escalamiento) dado que originalmente que este proceso tiene como salida una unidad de probeta. Como este factor afecta a todo el proceso, entonces también debo multiplicar los 0,030 Kg de residuos de aluminio por 100, lo que arroja un valor de 3 Kg de residuos de aluminio. También debo multiplicar la entrada al proceso de los lingotes de aluminio, es decir las 0.0005 toneladas las multiplico por 100 con lo cual se tiene como resultado 0.05 toneladas de lingotes. Luego paso al proceso unitario que produce los lingotes de aluminio y donde se emplean los residuos de aluminio que genera la producción de las probetas. Como la producción de probetas requiere 0.05 toneladas de lingotes, entonces la salida de una tonelada de lingotes que sale del proceso unitario de producción de lingotes debo multiplicarla por 0.05 (factor de escalamiento). También la entrada de residuos de aluminio que requiere este proceso debo multiplicarla por este mismo factor de escalamiento, es decir 0.20 Kg de residuos de aluminio multiplicado por 0.05 que da un valor de 0.01 Kg de residuos de aluminio.
 
-Teniendo en cuenta las anteriores consideraciones, observe lo siguiente, una vez hecho este escalamiento manual: El proceso unitario de producción de probetas genera 3 Kg de residuos de aluminio, sin embargo, el proceso unitario que produce los lingotes de aluminio, solo necesita 0.01 Kg de residuos de aluminio, es decir, el proceso unitario de la producción de las probetas está produciendo más residuo del que se necesita en la producción de los lingotes de alumninio. 
+Teniendo en cuenta las anteriores consideraciones, observe lo siguiente, una vez hecho este escalamiento manual: El proceso unitario de producción de probetas genera 3 Kg de residuos de aluminio, sin embargo, el proceso unitario que produce los lingotes de aluminio, solo necesita 0.01 Kg de residuos de aluminio, es decir, el proceso unitario de la producción de las probetas está produciendo más residuo del que se necesita en la producción de los lingotes de alumninio (hay excedentes del material). 
 
-Conm base en las consideraciones del párrafo anterior,  lo que se hace es que la producción de probetas solo genere 0.01 Kg de residuos de aluminio pero como ese proceso tiene como factor de escalamiento 100, entonces debo colocar una cantidad de residuos de aluminio que al multiplicarla me de como resultado 0.01 kg de residuos de aluminio. Entonces esablezco la siguiente expresión:
+En  el ejemplo que nos ocupa,  la producción de probetas produce más residuo de aluminio del que se requiere en la producción de lingotes de aluminio, pero puede suceder lo contrario, que la producción de probetas genere menos residuo del que se requiere en la producción de lingotes. En este caso se debe suministrar el faltante agregando un proceso que produzca el material faltante o requerido.
+
+Ahiora bien, retomando nuestro ejemplo y con base en las consideraciones anteriores,  lo que se hace es que la producción de probetas solo genere 0.01 Kg de residuos de aluminio pero como ese proceso tiene como factor de escalamiento 100, entonces debo colocar una cantidad de residuos de aluminio que al multiplicarla me de como resultado 0.01 kg de residuos de aluminio. Entonces esablezco la siguiente expresión:
 
 <p align="center">
   100X = 0.01
@@ -361,6 +363,9 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
 </div></p>
 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen77.png" width=80%><p>
+</div></p>
 
 
 
