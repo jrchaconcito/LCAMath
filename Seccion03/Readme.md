@@ -266,15 +266,12 @@ Ahora bien, la expresión para calcular el vector de escalamiento **s** usando l
 </p>
 
 
-
-
 Donde la seudoinversa la indicaremos con la letra <b>A<sup>+</sup></b> y corresponde a la siguiente expresión: 
 
 
 <p align="center">
   <span style="font-size:larger"><b>A<sup>+</sup></b> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</<//span>
 </p>
-
 
 
 La letra T significa que corresponde a la transpuesta de la matriz **A**.
@@ -405,131 +402,7 @@ Para el primer flujo económico, toneladas de bauxita, se puede establecer la si
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen5.png" alt="Ecuación de balance" width="500">
 </div>
 
-
-
-
-
-Con la representación del conjunto de ecuaciones que aparece más abajo, a₁₁s₁ significa el flujo económico 1 del proceso 1 multiplicado por el factor de escalamiento del proceso 1; a₁₂s₂ significa el flujo económico 1 en el proceso 2 multiplicado por el factor de escalamiento del proceso 2, los demás elementos del lado izquierdo de la ecuación se interpretarían de manera similar a como se ha hecho aquí. f₁ sería el total del flujo económico 1 y así para sería su interpretación para el total de los demás flujos económicos.
-
-Abajo también aparece un ejemplo concreto teniendo en cuenta que por convención se utilizará el signo menos si es una entrada y el signo + si es una salida, esto para garantizar que no debe sobrar de un flujo económico cuando se está haciendo el escalamiento, es decir, que lo que produce un proceso es la cantidad exacta de lo que necesita otro proceso, no debe sobrar ni faltar flujo.
-
-
-
-
-Cuando hacemos f₁ igual a cero, significa que toneladas de bauxita no deben sobrar, por que cuando escalamos, la cantidad de bauxita que debe producir el proceso de la minería de la bauxita (proceso 1) debe ser exactamente igual a la cantidad de bauxita que necesita el proceso de producción de alúmina (proceso 2). Así que el uso de signos ("–" para las entradas y el "+" para las salidas, nos va a permitir balancear la ecuación para  hacer f₁ igual a cero (no sobre ni falte el flujo económico 1). Ahora bien, la ecuación 2 por sí sola no nos permite despejar o solucionarla para s1 y s2 por lo que vamos a necesitar completar el conjunto de ecuaciones para hallar las incógnitas que son los factores de escalamiento, así que para una mejor comprensión indiquemos cuáles serían las ecuaciones en su totalidad:
-
-
-<p align="center">
-<img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen4.png" alt="Sistema de ecuaciones" width="700" height="350" />
-</p>
-
-Como se puede observar en el conjunto de ecuaciones simultáneas, lo que allí se está expresando es que el sistema producto está balanceado escalando cada proceso unitario con factores de escalamiento, que son las variables desconocidas. No olvidar que solo se está empleando los flujos económicos para hallar los factores de escalamiento desconocidos. Vemos entonces que tenemmos un conjunto de ecuaciones determinado, por que el número de ecuaciones (nueve ecuaciones) es igual al número de variables desconocidas (nueve variables desconocidas). Más abajo ilustramos con los datos del ejercicio hipótético cuál es el conjunto de ecuaciones. Óbsérvese que el lado de derecho de las ecuaciones todos los valores son iguales a cero, excepto para el total del flujo económico 7 que corresponde a un valor de 100 que es el flujo de referencia derivado de la unidad funcional (en este caso la unidad funcional y el flujo de referncia tienen los mismos valores, pero no siempre es así). Esto significa que de todos los otros flujos no deben sobrar ni faltar (esto matemáticamente se expresa con el valor cero) y para el caso del flujo económico 7, el total debe dar 100 que es la cantidad total que le estamos demandando producir al sistema producto, que de acuerdo con los datos del ejercicio es cien (100) probetas de aluminio. Así que una vez hallados los 9 factores de escalamiento (los mismos que aparecen anteriormente en la tabla sobre los datos de los procesos escalonados), podemos saber cuáles son las cantidades de entradas y salidas de cada proceso en términos de flujos económicos (en este caso denominados flujos de referencia) que satisfacen la unidad funcional especificada para el estudio de análisis de ciclo de vida. 
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen7png.png" alt="Ecuación de balance" width=60%>
-</div>
-
-Seguidamente vamos a ver los factores de escalamiento a partir de la solución del conjunto de ecuaciones simultáneas que como se puede observar son los mismos que se hallaron cuando se hizo el escalamiento "manual".
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen8.png" alt="Ecuación de balance" width=15%>
-</div>
-
-Una vez hallados los factores de escalamiento podemos construir un conjunto de ecuaciones para determinar el inventario de ciclo de vida, las cuales no es necesario resolver porque dado que utilizan los factores de escalamiento que previamente se han encontrado al resolver el conjunto anterior de ecuaciones simultáneas. Para ellos partimos de las siguientes convenciones:
-
-b<sub>1  = Flujo ambiental 1 (Kg de dióxido de carbono, CO<sub>2)
-
-b<sub>2  = Flujo ambiental 2 (Kg de metano, CH<sub>4)
-
-b<sub>3  = Flujo ambiental 3 (dióxido de azufrem SO<sub>2)
-
-b<sub>4  = Flujo ambiental 4 (Óxido nitroso, N<sub>2</sub>O)
-
-b<sub>5  = Flujo ambiental 5 (mineral de bauxita)
-
-b<sub>6  = Flujo ambiental 6 (petróleo) crudo
-
-b<sub>11 = Flujo ambiental 1 en el proceso 1
-
-b<sub>12 = Flujo ambiental 1 en el proceso 2
-
-... b<sub>19 = Flujo ambiental 1 en el proces 9, 
-
-g<sub>1 = el total del flujo 1 que satisface la unidad funcional
-
-g<sub>2 = el total del flujo 2 que satisface la unidad funcional
-
-...g<sub>6 el total del flujo 6 que satisface la unidad funcional
-
-A continuación veamos cuál es el conjunto de ecuaciones:
-
-He aquí el conjunto ecuaciones que con los factores de escalamiento ofrece la clave directa para la solución final del inventario. No olvidar que el escalonamiento de un proceso unitario afecta tanto a los flujos económicos como a los flujos ambientales.
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen9.png" alt="Ecuación de balance" width=60%>
-</div>
-
-Ahora bien, veamos cómo sería el conjunto de ecuaciones anterior pero con las cantidades de cada uno de los tipos de flujo ambiental.
-
-
- <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen10.png" alt="Ecuación de balance" width=100%>
-</div>
-
- 
-### 1.5 Modelo básico de inventario basado en álgebra matricial
-
-El uso de álgebra lineal y matrices para resolver ecuaciones simultáneas (como las referidas anteriormente) es una elección sólida debido a su eficiencia, precisión, escalabilidad y aplicabilidad general, así como a las herramientas disponibles que facilitan su implementación. Esta metodología es esencial en una amplia gama de campos y garantiza resultados más confiables y rápidos en comparación con los métodos manuales o tradicionales. Así que vamos a aprender cómo cálcular el inventario de ciclo de vida utilizando algebra matricial. A continuación la solución para hallar los factores de escalamiento empleando una solución matricial para el conjunto de ecuaciones simultáneas:
-
- <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen11.png" alt="Ecuación de balance" width=50%>
-</div>
-
-Ahora bien, la matriz que contiene los flujos tecnológicos la denominaremos con la letra **A**, el vector donde aparecen los factores de escalamiento con la letra **s** y el vector donde aparece la demanda final con la letra **f**.
-De manera que empleando las anteriores convenciones, podemos establecer de manera generalizada un tratamiento en términos de una solución matricial empleando la relación que se muestra a continuación, done **A* siempre deberá ser cuadrada y ser invertible (tener inversa), si no  se cumplen estas dos condiciones, la estructura básica para calcular el inventario con procesos monofuncionales no se puede llevar a cabo. Una manera práctica para determinar si la matriz **A** es no singular (es decir tiene inversa) es averiguar su determinante y si este valor es distinto de cero, estamos ante una matriz invertible.
-
-<p align="center"><strong>A</strong><strong>s</strong> = <strong>f</strong></p>
-
-De la expresión algebraica anterior (matricialmente hablando),  la matriz **A** se conoce, lo mismo que el vector de demand **f** , por lo que para encontrar los factores de escalamiento, debemos despejar **s**, quedaría como resultado el siguiente:
-
-<p align="center"><strong>s</strong> = <strong>A<sup>-1</sup></strong><strong>f</strong></p>
-
-Donde **A<sup>-1</sup>** es la matriz inversa de la matriz de tecnología **A**, para el ejemplo que estamos tratando sería lo siguiente (solo lo que aparece entre corchetes corresponde a las matrices, lo demás se ofrece a modo de ilustración para comprender mejor la construcción de las matrices):
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen12.png" width=70%>
-</div>
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen13.png" width=70%>
-</div>
-
-<br>
-<p>
-Haciendo la multiplicación correspondiente se tendría el siguiente resultado para <strong>s</strong> = <strong>A<sup>-1</sup></strong><strong>f</strong>:</p>
-
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen14.png" width=90%><p>
-</div>
-
-Habiendo hallado los factores de escalamiento pasamos a resolver el problema del inventario de ciclo de vida. No olvidar como lo referíamos anteriormente, que el factor de escalamiento afecta a todas las entradas y salidas de cada proceso unitario, Así que veamos cómo se vería el resulado desde el punto de vista matricial, teniendo en cuenta que la letra **B** denota la matriz de intervención ambiental, **g** es el vector de inventario y que el inventario se obtendría mediante la ecuación matricial que aparece más abajo. En el cuadro que aparece más abajo, se ha indicado el nombre de los flujos ambientales y el nombre de los procesos unitarios para ayudar en la comprensión de la construcción de la relación matricial respectiva.
-
-<div align="center"><strong>B</strong>s</div><p>
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen15.png" width=150%><p>
-</div>
-
-Teniendo en cuenta las relaciones matriciales anteriormenrte y sabiendo que la multiplicación de matrices también es una operación asociativa, podemos entonces determinar la fórmula para calcular el vector de inventario **g**:
-
-<p align="center"><strong>g = (BA<sup>-1</sup>)f</strong></p>
-
-
-
-
-
-
+Para finalizar, la técnica de la seudoinversa, es un enfoque útil que la mayoría de las veces se puede emplear con matrices que no son cuadradas y que no son invertibles como es el caso cuando se tiene reciclaje de bucle cerrado, pero también es cierto que esta técnica matemática también se puede emplear incluso con matrices invertibles cuadradas.
 
 </div>
 
