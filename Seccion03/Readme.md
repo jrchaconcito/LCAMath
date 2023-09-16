@@ -401,10 +401,12 @@ En el ejemplo anterior, observamos que fue necesario enviar el sobrante de resid
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen87.png" width=100%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen88.png" width=100%><p>
 </div></p>
 
-Para finalizar, la técnica de la seudoinversa, es un enfoque útil que la mayoría de las veces se puede emplear con matrices que no son cuadradas y que no son invertibles como es el caso cuando se tiene reciclaje de bucle cerrado, pero también es cierto que esta técnica matemática también se puede emplear incluso con matrices invertibles cuadradas.
+Tal como se procedió anteriormente para explicar el caso de reciclaje de bucle cerrado donde existía un excedente de residuos de aluminio, comencemos haciendo un escalonamiento manual. Como la unidad funcional corresponde a 100 unidades de probetas, se debe multiplicar las entradas del proceso de producción de probetas por el factor de escalonamiento 100. Al escalar los flujos tecnológicos encontramos que se generan 0.001 x 100 = 0.1 Kg de residuos de aluminio y se requiere 0.0005 x 100 = 0.05 toneladas de aluminio. Luego paso al proceso que produce lingotes de aluminio y como el proceso de producción de probetas requiere 0.05 toneladas de aluminio, debo multiplicar las entradas y salidas del proceso de producción de lingotes de aluminio por el factor de escalamiento 0.05. Ahora, este proceso requiere 30 x 0.05 = 1.5 Kg de residuos de aluminio. Al observar la cantidad de residuos de aluminio que se producen en la producción de la probeta, vemos que es una cantidad inferior a la que se necesita en la producción de los lingotes de aluminio (
+
+Para finalizar una breve observación, la técnica de la seudoinversa, es un enfoque útil que la mayoría de las veces se puede emplear con matrices que no son cuadradas y que no son invertibles como es el caso cuando se tiene reciclaje de bucle cerrado, pero también es cierto que esta técnica matemática también se puede emplear incluso con matrices invertibles cuadradas. 
 
 </div>
 
