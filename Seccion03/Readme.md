@@ -396,6 +396,9 @@ A continuación vamos a indicar todas las demás matrices y vectores que se requ
 
   </p>
 
+En el ejemplo anterior, observamos que fue necesario enviar el sobrante de residuos de aluminio a un proceso de reciclaje de bucle abierto. Pero expliquemos cómo sería el cálculo del inventario con la seudoinversa para cuando se presenta el caso contrario, es decir, que se tiene un faltante o déficit de residuos de aluminio en el proceso de reciclaje del material en la producción de lingotes de aluminio. Para comenzar, hemos cambiado los datos de la **matriz A** para ilustrar con un nuevo ejemplo, el cálculo con la seudoiversa del inventario de ciclo de vida en el caso de reciclaje de bucle cerrado. A continuación presentamos la **matriz A**.
+
+
 
 
 Para finalizar, la técnica de la seudoinversa, es un enfoque útil que la mayoría de las veces se puede emplear con matrices que no son cuadradas y que no son invertibles como es el caso cuando se tiene reciclaje de bucle cerrado, pero también es cierto que esta técnica matemática también se puede emplear incluso con matrices invertibles cuadradas.
