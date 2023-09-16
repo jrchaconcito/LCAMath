@@ -401,7 +401,7 @@ En el ejemplo anterior, observamos que fue necesario enviar el sobrante de resid
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen86.png" width=100%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen87.png" width=100%><p>
 </div></p>
 
 Para finalizar, la técnica de la seudoinversa, es un enfoque útil que la mayoría de las veces se puede emplear con matrices que no son cuadradas y que no son invertibles como es el caso cuando se tiene reciclaje de bucle cerrado, pero también es cierto que esta técnica matemática también se puede emplear incluso con matrices invertibles cuadradas.
