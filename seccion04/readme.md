@@ -17,18 +17,19 @@ Aprenderás cómo es la estructura de cálculo matemático para evaluar el impac
 
 ### 1.2 El conocimiento científico detrás de la evaluación del impacto de ciclo de vida (EICV)
 
-Para comenzar digamos que la EICV es un paso más de la metodología del análisis de ciclo de vida que consiste primero en clasificar en categorías de impacto las intervenciones ambientales que se obtuvieron en el **vector de inventario g**. Una vez se han clasificado estos flujos ambientales en las diferentes categorías de impacto, se procede a la caracterización que consiste en estimar el potencial daño relativo tanto a los seres humanos como a los ecosistemas. La idea de hacer esta actividad es transformar cada uno de los flujos ambientales en medidas de impacto potencial usando los factores de caracerización que se han obtenido a partir de estudios de investigación y aplicación de la ciencia. 
+Para comenzar digamos que la EICV es un paso más de la metodología del análisis de ciclo de vida que consiste en transformar cada uno de los flujos ambientales en medidas de impacto potencial usando los factores de caracerización que se han obtenido a partir de estudios de investigación y aplicación de la ciencia. Tener en cuenta que en el análisis de ciclo de vida se habla de **impactos potenciales** porque modelar impactos reales es muy complejo hacerlo. Las explicaciones sobre la estructura de cálculo matemático para la evaluación del impacto que se ofrecen en esta sección se han basado principalmente en Heijungs and Suh (2002). De acuerdo con ISO 14040:2006, se tiene tres pasos obligatorio  y otros voluntarios para realizar la evaluación  del impacto de ciclo de vida:
 
-Las metodologías del impacto ambiental del ciclo de vida tienen un sustento científico para la evaluación de los impactos potenciales del ciclo de vida. Tener en cuenta que en el análisis de ciclo de vida se habla de **impactos potenciales** porque modelar impactos reales es muy complejo hacerlo. Las explicaciones sobre la estructura de cálculo matemático para la evaluación del impacto que se ofrecen en esta sección se han basado principalmente en Heijungs and Suh (2002). De acuerdo con ISO 14040:2006, se tiene tres pasos obligatorio  y otros voluntarios para realizar la evaluación  del impacto de ciclo de vida:
+* Selección: Escogencia de las categorías de impacto apropiadas al objetivo del estudio de ciclo de vida (Paso obligatorio)
+* Clasificación: La asignación de cada intervención ambiental a una o más categorías de impacto (Paso obligatorio)
+* Caracterización: Estimación de cuánto es el daño potencial relativo  tanto a los seres humanos como a los ecosistemas derivado de una determinada cantidad de flujo ambiental que se ha obtenido en el invetario de ciclo de vida (Paso obligatorio)
+* Normalización: Cálculo de la magnitud de un resultado que se obtiene en una categoría de impacto (que se expresa a través de un indicador de categoría), con respecto a una información de referencia (voluntario)
+* Agrupamiento: Asignación de las categorías de impacto en grupos que tienen impactos parecidos (voluntario)
+* Ponderación: Asignación del peso relativo de diferentes resultados de impacto, lo que puede permitir comparar el grado de importancia de una categoría de impacto frentre a otras.
 
-  -Selección: Escogencia de las categorías de impacto apropiadas al objetivo del estudio de ciclo de vida (Paso obligatorio)
-  -Clasificación: La asignaación de cada intervención ambiental a una o más categorías de impacto (Paso obligatorio)
-  -Caracterización (Paso obligatorio)
-  -Normalización: Cálculo de la magnitud de un resultado que se obtiene en una categoría de impacto (que se expresa a través de un indicador de categoría), con respecto a una información de rferencia
-  -Agrupamiento
+  
 
 
-las categorías de impacto (algo así como los problemas ambientales)
+
 
 
 * Incorporación de procesos ficticios 
