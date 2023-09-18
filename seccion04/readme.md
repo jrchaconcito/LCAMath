@@ -37,6 +37,20 @@ Para comenzar lo primero que hay que construir es la matriz de caracterización 
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen96.png" width=90%><p>
 </div>
 
+Teniendo en cuenta los resultados del inventario de ciclo de vida referido con anterioridad, de acuerdo con la base de datos de la Universidad de Leiden [Factores de caracterización](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors), el dióxido de carbono, metano y óxido nitroso se puede clasificar a la categoría de impacto de **calentamient global**, mientras que el dióxido de azufre se puede clasificar a la categoría de **acidificación**. El petróleo crudo puede clasificarse a la categoría de **deterioro de combustibles fósiles**. Todas estas son **categorías de impacto de punto medio**. Las categorías de punto medio son las más escogidas, porque es más fácil la comprensión del mecanismo ambiental cuando está más cerca del flujo ambiental. El punto medio está en algún lugar entre el flujo ambiental y el punto final (ejemplo, calentamiento global, acidificación, agotamiento del recurso hídrico). Las categorías de impacto de punto final corresponde al impacto que finalmente van a tener los flujos ambientales en términos de daño a lo que se denomina áreas de protección que son: la salud humana, ambiente natural o recursos bióticos (plantas, animales), recursos naturales o abióticos (minierales) y ambiente construido por el hombre (edificios, cosechas, carrerateras). Para el mineral de la bauxita que se extrae de la naturaleza, la base de datos anterior clasifica este flujo ambiental en una categoría de punto final denominada deerioro de los recursos. Por lo que para nuestro ejemplo, tenemos que dejar de lado este flujo, toda vez que no podemos hacer clasificación mezclando categorñías de impacto de punto final y categorías de punto medio como si fueran de la misma naturaleza o del mismo nivel.
+
+<center>
+
+| Nombre del flujo ambiental        | Categoría de impacto        | Factor de caracterización    | Fuente donde se obtuvo el factor de caracterización    |
+|-----------------------------------|-----------------------------|------------------------------|-----------------------------------------------------|
+| Dióxido de carbono                | Calentamiento global        | 1                            | ](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                         | 
+| Metano                            | Calentamiento global        | 25                           | ](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                             |
+| Óxido nitroso                     | Calentamiento global        | 296                          | (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                             |
+| Dióxido de azufre                 | Acidificación               | 1                            |  (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
+| Petróleo crudo                    | Deterioro recursos fósiles  | 41.87                        |      (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
+</center>
+
+
 
 
 
