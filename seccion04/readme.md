@@ -34,7 +34,7 @@ Para comenzar lo primero que hay que construir es la matriz de caracterización 
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen19.png" alt="Ecuación de balance" width=30%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen96.png" width=90%><p>
 </div>
 
 
