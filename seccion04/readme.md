@@ -67,7 +67,7 @@ Para la representación de la "matriz anterior Q", vamos a explicar lo siguiente
   <strong>h = Qg</strong>
 </p>
 
-Veamos entonces cómo sería el vector de impacto h con los datos del ejercicio:
+Veamos entonces cómo sería el vector de impacto h con los datos del ejercicio, teniendo en cuenta que los datos del vector de inventario g se toman en valor absoluto, es decir que aquellos resultados que tengan signo negativo aparecerán con signo positivo.
 
 
 <div align="center">
