@@ -217,11 +217,6 @@ Teniendo en cuenta las relaciones matriciales anteriormenrte y sabiendo que la m
 <p align="center"><strong>g = (BA<sup>-1</sup>)f</strong></p>
 
 
-
-
-
-
-
 </div>
 
 <div align="center">
