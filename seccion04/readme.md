@@ -57,9 +57,17 @@ Por otro lado, es posible que debido al avance de las investigaciones científic
 
 Para iniciar vamos a construir primero la matriz de caracterización que indicaremos con la letra **Q**. Solo para propósitos didácticos vamos a presentar la matriz indicando cuáles serían las unidades con que están representados cada una de los números que forman parte de esta matriz. No olvidar y suena tonto decirlo, pero en una matriz o vector solo se van a ver arreglos de números, nunca aparecerá información en forma de texto, pero para una comprensión mejor de lo que queremos explicar vamos esta vez a suponer que la matriz tiene información textual:
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen97.png" width=90%><p>
+</div>
 
 
+Para la representación de la "matriz anterior Q", vamos a explicar lo siguiente:Si aparece un número en una celda, este se en encuentra entre la intersección entre la sustancia o recurso del inventario y la categoría de impacto, esto lo que significa en primer lugar es que esa sustancia o recurso se ha clasificado en esa categoría de impacto y el valor que aparece en esa intersección es el factor de caracterización respectivo. Esta matriz Q la vamos a multiplicar por el vector de inventario g. Así que cuando se haga este producto matricial, lo que va a suceder es que se está multiplicando el factor de caracterización de la sustancias o recurso por la cantidad de inventario de dciha sustancia o recurso, de tal mamera que al hace el producto y cancelarse unidades, va a quedar como resultado una cantidad que va a tener como unidades el indicador de la categoría respectiva. Tambien es bueno anotar que para esta multiplicación la matriz Q no debe ser cuadrada, simplemente que se cumpla que el númdero de columnas de la matriz Q sea igual al número filas del vector g. Vamos entonces a indicar los resultados de la evaluación del impacto con el vector h, así que la fórmula para calcular el impacto de ciclo de vida es la siguiente:
 
+
+<p style="text-align:center;">
+  <strong>h = Qg</strong>
+</p>
 
 
 
