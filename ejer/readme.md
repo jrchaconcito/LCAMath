@@ -17,6 +17,17 @@ Vamos a proponerte unos ejercicios tomados de Heijungs (s.f). Esperamos puedan s
 
 ### 1.2 Ejercicios
 
+### Ejercicio 1
+
+Con base en el diagrama que se muestra a continuación y la tabla sobre los datos de cada uno de los procesos, indique lo siguiente:</p>
+-Matriz A</p>
+-Matriz B</p>
+-Vector de demanda f</p>
+-Vector de inventario g</p>
+
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen5.png" alt="Ecuación de balance" width=50%>
+</div>
 
 
 
