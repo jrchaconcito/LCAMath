@@ -73,7 +73,7 @@ Veamos entonces cómo sería el vector de impacto h con los datos del ejercicio:
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen99.png" width=90%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen100.png" width=100%><p>
 </div>
 
 
