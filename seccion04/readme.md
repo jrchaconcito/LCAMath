@@ -58,7 +58,7 @@ Por otro lado, es posible que debido al avance de las investigaciones científic
 Para iniciar vamos a construir primero la matriz de caracterización que indicaremos con la letra **Q**. Solo para propósitos didácticos vamos a presentar la matriz indicando cuáles serían las unidades con que están representados cada una de los números que forman parte de esta matriz. No olvidar y suena tonto decirlo, pero en una matriz o vector solo se van a ver arreglos de números, nunca aparecerá información en forma de texto, pero para una comprensión mejor de lo que queremos explicar vamos esta vez a suponer que la matriz tiene información textual:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen97.png" width=90%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen98.png" width=90%><p>
 </div>
 
 
