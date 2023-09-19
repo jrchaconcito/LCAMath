@@ -22,6 +22,7 @@ Vamos a proponerte unos ejercicios tomados de Heijungs (s.f). Esperamos puedan s
 Con base en el diagrama que se muestra a continuación y la tabla sobre los datos de cada uno de los procesos, indique lo siguiente:</p>
 -Matriz A</p>
 -Matriz B</p>
+-Vector de factores de escalamiento s</p>
 -Vector de demanda f</p>
 -Vector de inventario g</p>
 
@@ -29,14 +30,16 @@ Con base en el diagrama que se muestra a continuación y la tabla sobre los dato
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen101.png" alt="Ecuación de balance" width=50%>
 </div>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen102.png" alt="Ecuación de balance" width=100%>
+</div>
 
 
+### Ejercicio 2
 
-![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/DIAGRAMA%20CV_Imagen%201.png)
+Oops!, habíamos olvidado que la producción de electricidad requiere un generador. Es un hecho, que un generador se emplea para producir 10<sup>13</sup> Kwh de electricidad. Desafortunadamente no sabemos cómo se producen los generadores y se descartan, pero en cualquier caso insertemos estos datos en la matriz A. (a) Estudie qué pasa; (b) Halle el inventario de ciclo de vida, para ello indique tambiém, matriz A, vector de demanda f y vector de factores de escalamiento s.
 
-![Datos de los procesos untarios](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/IMAGEN2_DATOS.png)
 
-### 1.3 Modelo básico de inventario: La solución matemática con escalamiento secuencial
 
 Para poder entender más adelante la lógica de la estructura cálculo del inventario basada en el uso del álgebra lineal y que al respecto el referente más importante sigue siendo el libro de  Heijungs & Suh (2002), vamos a comenzar calculando el inventario, cnn el método denominado **secuencial** y en que en este curso algunas veces tambén denominamos como el **método manual** . Lo primero que observamos es que la cantidad de probeta que produce el proceso unitario denominado "producción de la parte de aluminio" no coincide con la cantidad de probetas que le vamos a demandar que es de 100 unidades que están determinadas en la unidad funcional. Por lo tanto, debemos escalar este proceso para que produzca 100 probetas, por lo que debemos multiplicar por 100 la salida de ese proceo para que nos dé las 100 unidades que le estamos demandando al sistema. 
 
