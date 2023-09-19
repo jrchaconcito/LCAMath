@@ -72,6 +72,13 @@ Para la representación de la "matriz anterior Q", vamos a explicar lo siguiente
 Veamos entonces cómo sería el vector de impacto h con los datos del ejercicio:
 
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen98.png" width=90%><p>
+</div>
+
+
+
+
 * Incorporación de procesos ficticios 
 * Eliminar de la matriz de tecnología **A** los flujos económicos de demás y que no tiene asociado un proceso unitario que los haya producido o que posteriormente los trate o los reciba.
 
