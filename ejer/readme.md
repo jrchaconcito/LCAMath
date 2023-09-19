@@ -26,8 +26,9 @@ Con base en el diagrama que se muestra a continuación y la tabla sobre los dato
 -Vector de inventario g</p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen101.png" alt="Ecuación de balance" width=120%>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen101.png" alt="Ecuación de balance" width=50%>
 </div>
+
 
 
 
