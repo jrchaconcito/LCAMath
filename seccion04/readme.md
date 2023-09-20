@@ -90,7 +90,7 @@ Veamos entonces cómo sería el vector de impacto h con los datos del ejercicio,
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen100.png" width=100%><p>
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen103png.png" width=100%><p>
 </div>
 
 Para efectos de cómo llevar la normalización, ponderación y agrupamiento sugerimos consular Heijungs & Suh (2002) y Stranddorf et al. (2005).
