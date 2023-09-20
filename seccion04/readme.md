@@ -93,9 +93,12 @@ Veamos entonces cómo sería el vector de impacto h con los datos del ejercicio,
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen103png.png" width=100%><p>
 </div>
 
-Para efectos de cómo llevar la normalización, ponderación y agrupamiento sugerimos consular Heijungs & Suh (2002) y Stranddorf et al. (2005).
+Como se puede ver en los resultados del impacto que se muestran en el vector h, están en términos del indicador de la categorñia de impacto, que es la unidad de medida en que se expresan los resultados del impacto de esa categoría. Así que todas los flujos ambientales que se clasifiquen en esa categoría, su contribución en términos de impacto en esa categoría se expresan en esta unidad de medida, lo que permite después sumar cada contribución de impacto de cada flujo ambiental para obtener al final un solo resultado de impacto expresado en la unidad de medida o indicador de la categoría de impacto respectiva.
+
 
 Desde el punto de vista de la estructura de cálculo eso es todo lo que habría que explicar de cómo se obtiene el impacto de ciclo de vida habiendo tenido en cuenta los elementos que son obligatorios para este paso en un estudio de análisis de ciclo de vida. 
+
+Finalmente, para efectos de cómo llevar la normalización, ponderación y agrupamiento, que son elementos voluntarios en la evaluación del impacto,  sugerimos consular Heijungs & Suh (2002) y Stranddorf et al. (2005).
 </div>
 
 <div align="center">
