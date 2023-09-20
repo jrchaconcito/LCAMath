@@ -85,8 +85,7 @@ Veamos entonces cómo sería el vector de impacto h con los datos del ejercicio,
 
 Para efectos de cómo llevar la normalización, ponderación y agrupamiento sugerimos consular Heijungs & Suh (2002) y Stranddorf et al. (2005).
 
-Desde el punto de vista de la estructura de cálculo eso es todo lo que habría que explicar de cómo se obtiene el impacto de ciclo de vida habiendo tenido en cuenta los elementos que son obligatorios para este paso en un estudio de análisis de ciclo de vida.
-
+Desde el punto de vista de la estructura de cálculo eso es todo lo que habría que explicar de cómo se obtiene el impacto de ciclo de vida habiendo tenido en cuenta los elementos que son obligatorios para este paso en un estudio de análisis de ciclo de vida. 
 </div>
 
 <div align="center">
