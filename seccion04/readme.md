@@ -56,7 +56,7 @@ Por otro lado, es posible que debido al avance de las investigaciones científic
 | Metano                            | Calentamiento global        | 25                           | ](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                             |
 | Óxido nitroso                     | Calentamiento global        | 296                          | (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                             |
 | Dióxido de azufre                 | Acidificación (Kg SO2 eq)   | 1                            |  (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
-| Petróleo crudo                    | Deterioro recursos fósiles (MJ)  | 41.87                   |   (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
+| Petróleo crudo                    | Deterioro recursos fósiles (MJ)  | 41.87                   |  (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
 </center>
 
 
@@ -68,6 +68,16 @@ Para iniciar vamos a construir primero la matriz de caracterización que indicar
 
 
 Para la representación de la "matriz anterior Q", vamos a explicar lo siguiente:Si aparece un número en una celda, este se en encuentra entre la intersección entre la sustancia o recurso del inventario y la categoría de impacto, esto lo que significa en primer lugar es que esa sustancia o recurso se ha clasificado en esa categoría de impacto y el valor que aparece en esa intersección es el factor de caracterización respectivo. Esta matriz Q la vamos a multiplicar por el vector de inventario g. Así que cuando se haga este producto matricial, lo que va a suceder es que se está multiplicando el factor de caracterización de la sustancias o recurso por la cantidad de inventario de dciha sustancia o recurso, de tal mamera que al hacer el producto y cancelarse unidades, va a quedar como resultado una cantidad que va a tener como unidades el indicador de la categoría respectiva, así que como se tiene una misma unidad de medida, se pueden sumar todas las contribuciones de impacto ambiental que se tuvieron como consecuencia de haber clasificado varias sustancias o recursos en esa categoría de impacto. Tambien es bueno anotar que para esta multiplicación la matriz Q no debe ser cuadrada, simplemente que se cumpla que el númdero de columnas de la matriz Q sea igual al número filas del vector g. También es importante señalar que si una sustancia no está formando parte de una categoría de impacto, entonces su factor de caracterización no existe y esto en la matriz Q se indica con un cero (0). También si una sustancia se puede clasificar a más de una categoría de iimpacto, se puede dividir el valor o cantidad de dicho flujo por el número de categorías de impacto y cada valor obtenido se clasifica a cada una de las categorías de impacto respectivas.
+
+Una observación final, como el vector de inventario arroja un total aproximado de 102 litros de petróleo crudo que se necesitaron para satisfacer la demanda (100 probetas de aluminio) y como el factor de caracterización está dado en la categoría deterrioro de recursos fósiles en MJ/Kg de petróleo crudo, se debe convertir los 102 litros en Kg. Para hacer esto tener en cuenta las siguientes consideraciones:
+
+Para convertir un litro de petróleo crudo a kilogramos, necesitamos conocer la densidad del petróleo crudo en kilogramos por litro (kg/L). La densidad del petróleo crudo puede variar según su tipo y origen, pero generalmente se encuentra en un rango de 0.8 a 0.95 kg/L.
+
+La fórmula para la conversión es la siguiente:
+Masa (en kg) = Volumen (en L) × Densidad (en kg/L)</p>
+Supongamos que la densidad del petróleo crudo es de 0.85 kg/L. Entonces, para convertir un litro de petróleo crudo a kilogramos, usaríamos la fórmula:
+
+Masa (en Kg) = 102 L x 0.85 Kg/L = 86.7 Kg de petróleo crudo
 
 Vamos entonces a indicar los resultados de la evaluación del impacto con el vector h, así que la fórmula para calcular el impacto de ciclo de vida es la siguiente:
 
