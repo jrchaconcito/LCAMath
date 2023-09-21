@@ -34,7 +34,13 @@ Aprenderás en esta sección el modelo matemático general para calcular el inve
 | MICROCONTENIDOS       | CONTENIDOS                 |
 |-----------------------------------|-----------------------------|
 | [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Aprenderás qué propósito tiene lo que vas aprender en la sección
-| [MODELO BÁSICO DE INVENTARIO:REPRESENTANDO LOS PROCESOS UNITARIOS Y LOS FLUJO](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#12-modelo-b%C3%A1sico-de-inventario-representando-los-procesos-unitarios-y-los-flujos)
+| [MODELO BÁSICO DE INVENTARIO: REPRESENTANDO LOS PROCESOS UNITARIOS Y LOS FLUJO](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#12-modelo-b%C3%A1sico-de-inventario-representando-los-procesos-unitarios-y-los-flujos) | Aprenderás  cómo representar a través de un diagrama los procesos unitarios y su interrelación y la construcción de una tabla de entradas y salidas que sirven de fundamento para posteriormmente aplicar la estructura de cálculo matemática básica para modelar el  inventario de ciclo de vida
+| [MODELO BÁSICO DE INVENTARIO: LA SOLUCIÓN MATEMÁTICA CON ESCALAMIENTO SECUENCIAL]()
+
+
+
+
+
 
 </center>
 
