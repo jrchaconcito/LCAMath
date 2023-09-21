@@ -9,5 +9,5 @@
 Industry Perspective. *sustainability* 14, 8837 (2022), 1-19.
 6. Pizzol, M., Laurent, A., sala, S, Weidema, B., Verones, F. & Koffler, C. Normalisation and weigting in life cycle assessment: quo vadis?. *International Journal of Life Cycle Assessment* 22 (2017), 853-866.
 7. Stranddorf, H.K., Hoffmann, L., Schmidt, A. *Impact Categories, Normalisation and Weighting in LCA*. Danish Ministry of the Environment. Environmental News No. 78, 2005.
-8. University of Washington (2012). ME515 Life Cycle Assessment. (Dr. Joyce Cooper, profesora del curso). Recuperado de [https://www.washington.edu/students/crscat/meche.html#me515].
+8. University of Washington (2012). ME515 Life Cycle Assessment. (Dr. Joyce Cooper, profesora del curso). Recuperado de [ref8](https://www.washington.edu/students/crscat/meche.html#me515).
 
