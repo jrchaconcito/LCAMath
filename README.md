@@ -28,6 +28,8 @@ Aprenderás en esta sección qué es el análisis de ciclo de vida, sus benefici
 | [PRINCIPIOS DEL ACV Y SUS LIMITACIONES](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#14-principios-del-acv-y-sus-limitaciones)                 | Aprenderás cuáles son los principios orientadores que la norma internacional ISO 14040:2006 contempla para llevar a cabo un estudio de análisis de ciclo de vida   | 
 | [PASOS PARA LLEVAR A CABO UN ACV](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#15-pasos-para-llevar-a-cabo-un-acv)  | Aprenderás cuáles son los pasos para llevar a cabo un estudio de análisis de ciclo de vida
 
+SECCIÓN 2: Conceptos básicos sobre análisis de ciclo de vida</p>
+Aprenderás en esta sección qué es el análisis de ciclo de vida, sus beneficios y los principios y requisitos para su aplicación.
 
 
 
