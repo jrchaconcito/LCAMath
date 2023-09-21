@@ -37,9 +37,9 @@ Aprenderás en esta sección el modelo matemático general para calcular el inve
 | [MODELO BÁSICO DE INVENTARIO: REPRESENTANDO LOS PROCESOS UNITARIOS Y LOS FLUJO](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#12-modelo-b%C3%A1sico-de-inventario-representando-los-procesos-unitarios-y-los-flujos) | Aprenderás  cómo representar a través de un diagrama los procesos unitarios y su interrelación y la construcción de una tabla de entradas y salidas que sirven de fundamento para posteriormente aplicar la estructura de cálculo matemática básica para modelar el inventario de ciclo de vida
 | [MODELO BÁSICO DE INVENTARIO: LA SOLUCIÓN MATEMÁTICA CON ESCALAMIENTO SECUENCIAL](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#13-modelo-b%C3%A1sico-de-inventario-la-soluci%C3%B3n-matem%C3%A1tica-con-escalamiento-secuencial)  | Aprenderás como hallar los factores de escalamiento mediante el método secuencial |
 | [CÁLCULO DEL MODELO BÁSICO DEL INVENTARIO COMO UNA SOLUCIÓN DE UN SISTEMA DE ECUACIONES LINEALES](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#14-c%C3%A1lculo-del-modelo-b%C3%A1sico-del-inventario-como-una-soluci%C3%B3n-de-un-sistema-de-ecuaciones-lineales)  | Aprenderás el formalismo y la lógica que hay detrás de la estructura básica de cómputo para modelar el inventario de ciclo de vida  |
-|[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL]()
+|[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#15-modelo-b%C3%A1sico-de-inventario-basado-en-%C3%A1lgebra-matricial)  | Aprenderás el tratamiento formal matemático utlizando el álgebra matricial para solucionar el problema del inventario de ciclo de vida |
 
-
+SECCIÓN 3: 
 
 
 </center>
