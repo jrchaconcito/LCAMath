@@ -17,8 +17,8 @@ Aprenderás en esta sección qué es el análisis de ciclo de vida, sus benefici
 |-----------------------------------|-----------------------------|
 | [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#11-prop%C3%B3sito-de-la-secci%C3%B3n)                        |  Aprenderás qué propósito tiene lo que vas aprender en la sección                                    
 | [QUÉ ES EL ANÁLISIS DE CICLO DE VIDA](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#12-qu%C3%A9-es-el-an%C3%A1lisis-de-ciclo-de-vida-acv)                            | Aprenderás qué se entiende por análisis de ciclo de vida de un producto o servicio desde la perspectiva ambiental       |                                    
-| [QUÉ ES EL ACV]()                     | Calentamiento global        |                          
-| Dióxido de azufre                 | Acidificación (Kg SO2 eq)   | 
+| [CONCEPTOS BÁSICOS](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#13-conceptos-b%C3%A1sicos)                     | Aprenderás alguna terminología, conceptos y definiciones básicas sobre el análisis de ciclo de vida que es necesario se comprenda bien para abordar más adelante otras secciones del curso.        |                          
+| []()                 | Acidificación (Kg SO2 eq)   | 
 </center>
 
 
