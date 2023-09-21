@@ -7,7 +7,7 @@
 DESCRIPCION BREVE DEL CURSO
 
 
- </div> style="text-align: justify;">  Este curso tiene como objetivo presentar la estructura de cálculo matemático para modelar el inventario de ciclo de vida y la evaluación del impacto del ciclo de vida de un producto desde una perspectiva ambiental, de manera que se desarrolle en el estudiante la habilidad de aplicar las fórmulas basadas en álgebra lineal que son necesarias para ese propósito y así pueda tener claro las "recetas" y la aplicación numérica de las mismas.</p>
+ <div align="justify">Este curso tiene como objetivo presentar la estructura de cálculo matemático para modelar el inventario de ciclo de vida y la evaluación del impacto del ciclo de vida de un producto desde una perspectiva ambiental, de manera que se desarrolle en el estudiante la habilidad de aplicar las fórmulas basadas en álgebra lineal que son necesarias para ese propósito y así pueda tener claro las "recetas" y la aplicación numérica de las mismas.</p>
 
 
 
