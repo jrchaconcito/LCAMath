@@ -19,7 +19,7 @@ Aprenderás en esta sección qué es el análisis de ciclo de vida, sus benefici
 | [QUÉ ES EL ANÁLISIS DE CICLO DE VIDA (ACV)](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#12-qu%C3%A9-es-el-an%C3%A1lisis-de-ciclo-de-vida-acv)                            | Aprenderás qué se entiende por análisis de ciclo de vida de un producto o servicio desde la perspectiva ambiental       |                                    
 | [CONCEPTOS BÁSICOS DEL ACV](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#13-conceptos-b%C3%A1sicos)                     | Aprenderás alguna terminología, conceptos y definiciones básicas sobre el análisis de ciclo de vida que es necesario se comprenda bien para abordar más adelante otras secciones del curso.        |                          
 | [PRINCIPIOS DEL ACV Y SUS LIMITACIONES](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#14-principios-del-acv-y-sus-limitaciones)                 | Aprenderás cuáles son los principios orientadores que la norma internacional ISO 14040:2006 contempla para llevar a cabo un estudio de análisis de ciclo de vida   | 
-| [PRINCIPIOS ORIENTADORES PARA LLEVAR A CABO UN ANÁLISIS DE CICLO DE VIDA](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#15-pasos-para-llevar-a-cabo-un-acv)
+| [PASOS PARA LLEVAR A CABO UN ACV](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#15-pasos-para-llevar-a-cabo-un-acv)
 
 
 
