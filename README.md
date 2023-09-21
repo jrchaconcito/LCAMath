@@ -39,8 +39,13 @@ Aprenderás en esta sección el modelo matemático general para calcular el inve
 | [CÁLCULO DEL MODELO BÁSICO DEL INVENTARIO COMO UNA SOLUCIÓN DE UN SISTEMA DE ECUACIONES LINEALES](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#14-c%C3%A1lculo-del-modelo-b%C3%A1sico-del-inventario-como-una-soluci%C3%B3n-de-un-sistema-de-ecuaciones-lineales)  | Aprenderás el formalismo y la lógica que hay detrás de la estructura básica de cómputo para modelar el inventario de ciclo de vida  |
 |[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#15-modelo-b%C3%A1sico-de-inventario-basado-en-%C3%A1lgebra-matricial)  | Aprenderás el tratamiento formal matemático utlizando el álgebra matricial para solucionar el problema del inventario de ciclo de vida |
 
-SECCIÓN 3: 
+SECCIÓN 3: Estructura ampliada del cálculo matemático para el modelo del inventario
+Aprenderás en esta sección cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales o sistemas con conocmiento incompleto sobre los flujos de producto entre procesos unitarios
 
+| MICROCONTENIDOS | CONTENIDOS  |
+|-----------------------------------|-----------------------------|
+| [PROPÓSITO DE LA SECCIÓN]()
+ 
 
 </center>
 
