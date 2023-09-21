@@ -45,8 +45,9 @@ Aprenderás en esta sección cómo resolver el problema de inventario del ciclo 
 | MICROCONTENIDOS | CONTENIDOS  |
 |-----------------------------------|-----------------------------|
 | [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |prenderás qué propósito tiene lo que vas aprender en la sección
-| [MODELO DE INVENTARIO: SISTEMAS INCOMPLETOS](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#12-modelo-de-inventario-sistemas-incompletos) |Aprenderás cómo adaptar la solución matricial para resolver el problema del inventario uando hay sistemas incompletos  |
-| [MODELO DE INVENTARIO: PROCESOS MULTIFUNCIONALES]() 
+| [MODELO DE INVENTARIO: SISTEMAS INCOMPLETOS](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#12-modelo-de-inventario-sistemas-incompletos) |Aprenderás cómo adaptar la solución matricial para resolver el problema del inventario cuando hay sistemas incompletos  |
+| [MODELO DE INVENTARIO: PROCESOS MULTIFUNCIONALES](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#13-modelo-de-inventario-procesos-multifuncionales)  | Aprenderás diferentes métodos matemáticos para solucionar el problema del inventario de ciclo de vida cuando se tienen procesos que prestan más de un servicio o función | 
+
 
 </center>
 
