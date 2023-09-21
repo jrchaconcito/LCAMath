@@ -40,13 +40,13 @@ Aprenderás en esta sección el modelo matemático general para calcular el inve
 |[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#15-modelo-b%C3%A1sico-de-inventario-basado-en-%C3%A1lgebra-matricial)  | Aprenderás el tratamiento formal matemático utlizando el álgebra matricial para solucionar el problema del inventario de ciclo de vida |
 
 SECCIÓN 3: Estructura ampliada del cálculo matemático para el modelo del inventario
-Aprenderás en esta sección cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales o sistemas con conocmiento incompleto sobre los flujos de producto entre procesos unitarios
+Aprenderás en esta sección cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales y sistemas con conocmiento incompleto sobre los flujos de producto entre procesos unitarios 
 
 | MICROCONTENIDOS | CONTENIDOS  |
 |-----------------------------------|-----------------------------|
 | [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |prenderás qué propósito tiene lo que vas aprender en la sección
-| [MODELO DE INVENTARIO: SISTEMAS INCOMPLETOS]()
- 
+| [MODELO DE INVENTARIO: SISTEMAS INCOMPLETOS](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#12-modelo-de-inventario-sistemas-incompletos) |Aprenderás cómo adaptar la solución matricial para resolver el problema del inventario uando hay sistemas incompletos  |
+| [MODELO DE INVENTARIO: PROCESOS MULTIFUNCIONALES]() 
 
 </center>
 
