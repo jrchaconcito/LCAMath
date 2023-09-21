@@ -33,7 +33,7 @@ Aprenderás en esta sección el modelo matemático general para calcular el inve
 
 | MICROCONTENIDOS       | CONTENIDOS                 |
 |-----------------------------------|-----------------------------|
-| 
+| []()
 
 
 </center>
