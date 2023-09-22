@@ -76,8 +76,12 @@ DURACIÓN: 4 horas
 
 </center>
 
-(https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/banner-pie-de-pagina.jpg)
 
+<div align="center">
+   
+   <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/banner-pie-de-pagina.jpg" alt="R.LTWB" width="750" border="0" /></a>
+
+</div>
 
 
 
