@@ -17,7 +17,7 @@ Este curso tiene como objetivo presentar la estructura de cálculo matemático p
 </center>
 
 
-SECCIÓN 1: Conceptos básicos sobre análisis de ciclo de vida</p>
+SECCIÓN 1: Conceptos básicos sobre análisis de ciclo de vida
 Aprenderás en esta sección qué es el análisis de ciclo de vida, sus beneficios y los principios y requisitos para su aplicación.
 
 DURACIÓN: 2 horas
@@ -30,9 +30,8 @@ DURACIÓN: 2 horas
 | [PRINCIPIOS DEL ACV Y SUS LIMITACIONES](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#14-principios-del-acv-y-sus-limitaciones)                 | Aprenderás cuáles son los principios orientadores que la norma internacional ISO 14040:2006 contempla para llevar a cabo un estudio de análisis de ciclo de vida   | 
 | [PASOS PARA LLEVAR A CABO UN ACV](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#15-pasos-para-llevar-a-cabo-un-acv)  | Aprenderás cuáles son los pasos para llevar a cabo un estudio de análisis de ciclo de vida
 
-SECCIÓN 2: Modelo básico del inventario de ciclo de vida</p>
+SECCIÓN 2: Modelo básico del inventario de ciclo de vida
 Aprenderás en esta sección el modelo matemático general para calcular el inventario de ciclo de vida con procesos monofuncionales
-
 DURACIÓN: 8 horas
 
 | MICROCONTENIDOS       | CONTENIDOS                 |
@@ -43,8 +42,7 @@ DURACIÓN: 8 horas
 | [CÁLCULO DEL MODELO BÁSICO DEL INVENTARIO COMO UNA SOLUCIÓN DE UN SISTEMA DE ECUACIONES LINEALES](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#14-c%C3%A1lculo-del-modelo-b%C3%A1sico-del-inventario-como-una-soluci%C3%B3n-de-un-sistema-de-ecuaciones-lineales)  | Aprenderás el formalismo y la lógica que hay detrás de la estructura básica de cómputo para modelar el inventario de ciclo de vida  |
 |[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#15-modelo-b%C3%A1sico-de-inventario-basado-en-%C3%A1lgebra-matricial)  | Aprenderás el tratamiento formal matemático utlizando el álgebra matricial para solucionar el problema del inventario de ciclo de vida |
 
-SECCIÓN 3: Aprenderás en esta sección cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales y sistemas con conocimiento incompleto sobre los flujos de producto entre procesos unitarios 
-
+SECCIÓN 3: Aprenderás cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales y sistemas con conocimiento incompleto sobre los flujos de producto entre procesos unitarios 
 DURACIÓN: 10 horas
 
 | MICROCONTENIDOS | CONTENIDOS  |
@@ -52,6 +50,14 @@ DURACIÓN: 10 horas
 | [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |prenderás qué propósito tiene lo que vas aprender en la sección
 | [MODELO DE INVENTARIO: SISTEMAS INCOMPLETOS](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#12-modelo-de-inventario-sistemas-incompletos) |Aprenderás cómo adaptar la solución matricial para resolver el problema del inventario cuando hay sistemas incompletos  |
 | [MODELO DE INVENTARIO: PROCESOS MULTIFUNCIONALES](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#13-modelo-de-inventario-procesos-multifuncionales)  | Aprenderás diferentes métodos matemáticos para solucionar el problema del inventario de ciclo de vida cuando se tienen procesos que prestan más de un servicio o función | 
+
+SECCIÓN 4: Aprenderás cómo es la estructura de cálculo matemático para la evaluación del impacto de ciclo de vida
+
+
+| MICROCONTENIDOS                      | CONTENIDOS    | 
+|-----------------------------------|-----------------------------|
+
+
 
 
 </center>
