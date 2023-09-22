@@ -58,7 +58,8 @@ DURACIÓN: 4 horas
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
 | [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección  | 
-| [ALGUNAS CONSIDERACIONES PRELIMINARES]()
+| [ALGUNAS CONSIDERACIONES PRELIMINARES](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#12-algunas-consideraciones-preliiminares)  |Aprenderas cuáles son los pasos para llevar a cabo el impacto ambiental potencial del ciclo de vida| 
+ | [ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA HALLAR EL IMPACTO DE CICLO DE VIDA]()
 
 </center>
 
