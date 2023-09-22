@@ -33,6 +33,8 @@ DURACIÓN: 2 horas
 SECCIÓN 2: Modelo básico del inventario de ciclo de vida</p>
 Aprenderás en esta sección el modelo matemático general para calcular el inventario de ciclo de vida con procesos monofuncionales
 
+DURACIÓN: 8 horas
+
 | MICROCONTENIDOS       | CONTENIDOS                 |
 |-----------------------------------|-----------------------------|
 | [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Aprenderás qué propósito tiene lo que vas aprender en la sección
@@ -43,6 +45,8 @@ Aprenderás en esta sección el modelo matemático general para calcular el inve
 
 SECCIÓN 3: Estructura ampliada del cálculo matemático para el modelo del inventario
 Aprenderás en esta sección cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales y sistemas con conocmiento incompleto sobre los flujos de producto entre procesos unitarios 
+
+DURACIÓN: 8 horas
 
 | MICROCONTENIDOS | CONTENIDOS  |
 |-----------------------------------|-----------------------------|
