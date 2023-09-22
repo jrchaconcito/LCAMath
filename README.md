@@ -68,7 +68,7 @@ DURACIÓN: 4 horas
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
 | [PRÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |Qué propósito tiene lo que vas aprender en la sección| 
-| [EJERCICIOS PROPUESTOS]()
+| [EJERCICIOS PROPUESTOS](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#12-ejercicios-propuestos) |  |
 
 
 
