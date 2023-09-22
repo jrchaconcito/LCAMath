@@ -72,7 +72,7 @@ DURACIÓN: 4 horas
 
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|  
-| [REFERENCIAS]()
+| [REFERENCIAS](https://github.com/jrchaconcito/REPOTEST/tree/main/.refs#referencias) |La bibliografía proporciona a los lectores la oportunidad de explorar más a fondo los temas tratados en el curso y acceder a fuentes adicionales para obtener información más detallada, diferentes perspectivas o investigaciones relacionadas. | 
 
 </center>
 
