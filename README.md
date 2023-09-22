@@ -60,7 +60,7 @@ DURACIÓN: 4 horas
 | [ALGUNAS CONSIDERACIONES PRELIMINARES](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#12-algunas-consideraciones-preliiminares)  |Aprenderas cuáles son los pasos para llevar a cabo el impacto ambiental potencial del ciclo de vida| 
  |[ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA HALLAR EL IMPACTO DE CICLO DE VIDA](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#13-estructura-de-c%C3%A1lculo-matem%C3%A1tico-para-hallar-el-impacto-de-ciclo-de-vida) | Aprenderás la metodología de cálculo matemático para hallar el impacto ambiental potencial de ciclo de vida teniendo en cuenta los elementos que son obligatorios segúnla norma internacional ISO 14040:2006| 
 
-EJERCICIOS/p>
+EJERCICIOS
 
 DURACIÓN: 4 horas
 
@@ -68,9 +68,11 @@ DURACIÓN: 4 horas
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
 | [PRÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |Qué propósito tiene lo que vas aprender en la sección| 
-| [EJERCICIOS PROPUESTOS](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#12-ejercicios-propuestos) |  |
+| [EJERCICIOS PROPUESTOS](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#12-ejercicios-propuestos) |Proporcionar una herramienta práctica y efectiva para aplicar y reforzar los conceptos y conocimientos adquiridos a lo largo del curso. Estos ejercicios tienen como propósito fundamental consolidar la comprensión de los temas abordados y promover la práctica de la estructura matemática para modelar el inventario e impacto de ciclo de vida  |
 
-
+| MICROCONTENIDOS                      | CONTENIDOS    | 
+|-----------------------------------|-----------------------------|  
+| [REFERENCIAS]()
 
 </center>
 
