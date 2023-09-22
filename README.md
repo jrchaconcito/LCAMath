@@ -60,9 +60,14 @@ DURACIÓN: 4 horas
 | [ALGUNAS CONSIDERACIONES PRELIMINARES](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#12-algunas-consideraciones-preliiminares)  |Aprenderas cuáles son los pasos para llevar a cabo el impacto ambiental potencial del ciclo de vida| 
  |[ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA HALLAR EL IMPACTO DE CICLO DE VIDA](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#13-estructura-de-c%C3%A1lculo-matem%C3%A1tico-para-hallar-el-impacto-de-ciclo-de-vida) | Aprenderás la metodología de cálculo matemático para hallar el impacto ambiental potencial de ciclo de vida teniendo en cuenta los elementos que son obligatorios segúnla norma internacional ISO 14040:2006| 
 
+EJERCICIOS/p>
+
+DURACIÓN: 4 horas
+
+
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
-| 
+| [PRÓSITO DE LA SECCIÓN]()
 
 </center>
 
