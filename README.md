@@ -46,7 +46,7 @@ DURACIÓN: 8 horas
 SECCIÓN 3: Estructura ampliada del cálculo matemático para el modelo del inventario
 Aprenderás en esta sección cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales y sistemas con conocmiento incompleto sobre los flujos de producto entre procesos unitarios 
 
-DURACIÓN: 8 horas
+DURACIÓN: 10 horas
 
 | MICROCONTENIDOS | CONTENIDOS  |
 |-----------------------------------|-----------------------------|
