@@ -15,7 +15,7 @@
 ### 1.1 Propósito de la sección
 Vamos a proponerte unos ejercicios tomados de Heijungs (s.f). Esperamos puedan serte útiles para prácticar los conceptos y metodologías vistas en este curso.
 
-### 1.2 Ejercicios
+### 1.2 Ejercicios propuestos
 
 ### Ejercicio 1
 
