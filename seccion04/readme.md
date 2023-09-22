@@ -52,11 +52,11 @@ Por otro lado, es posible que debido al avance de las investigaciones científic
 
 | Nombre del flujo ambiental        | Categoría de impacto (indicador categoría de impacto)      | Factor de caracterización    | Fuente donde se obtuvo el factor de caracterización    |
 |-----------------------------------|-----------------------------|------------------------------|-----------------------------------------------------|
-| Dióxido de carbono                | Calentamiento global (Kg CO2 eq)                           | 1                            | [qqq](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                         | 
-| Metano                            | Calentamiento global        | 25                           | ](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                             |
-| Óxido nitroso                     | Calentamiento global        | 296                          | (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                             |
-| Dióxido de azufre                 | Acidificación (Kg SO2 eq)   | 1                            |  (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
-| Petróleo crudo                    | Deterioro recursos fósiles (MJ)  | 41.87                   |  (https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
+| Dióxido de carbono                | Calentamiento global (Kg CO2 eq)                           | 1                            | [Facores de emisión Universidad de Leiden](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                         | 
+| Metano                            | Calentamiento global        | 25                           | [Facores de emisión Universidad de Leiden](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                             |
+| Óxido nitroso                     | Calentamiento global        | 296                          | [Facores de emisión Universidad de Leiden](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)                                             |
+| Dióxido de azufre                 | Acidificación (Kg SO2 eq)   | 1                            |  [Facores de emisión Universidad de Leiden](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
+| Petróleo crudo                    | Deterioro recursos fósiles (MJ)  | 41.87                   |  [Facores de emisión Universidad de Leiden](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors)
 </center>
 
 
