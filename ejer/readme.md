@@ -55,5 +55,9 @@ Otra alternativa para solucionar el inconveniente que se encontró para hallar e
 
 Teniendo en cuenta el vector de inventario g obtenido en el ejercicio 4, usted debe proceder a calcular el impacto de ciclo de vida. Para ello se ha decidido escoger tres categorías de impacto: (1) Calentamiento global; (2) Acidificación y (3) deterioro de recursos (fósiles). Para los factores de caracterización, por favor consultar la base de datos de la Universidad de Leiden (Holanda). Indicar la matriz Q, indicar el vector de inventario g y hallar el vector de impacto h.
 
+### Ejercicio 7
+
+Teniendo en cuenta los datos del ejercicio 1, asuma que ahora que el proceso de producción de combustible genera 2 unidades de corriente residual (por ahora no interesa las unidades en que se miden esa corriente residual de 2 unidades, puede ponerle las unidades de medida que mejor considere). A su vez el proceso de producción de energía eléctrica usa la corriente residual que se genera en la producción de combustible y la cantidad que usa corresponde a una corrient residual de 1 unidad.  Indique la matriz A, la matriz B, el vector de demanda f, el vector s y el vector de inventario g.
+
 
 
