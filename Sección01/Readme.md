@@ -53,9 +53,7 @@ La norma internacional ISO 14040:2006 ofrece uno principios orientadores para ll
 - Basado en información científica: Las decisiones en un estudio de ACV tiene principalmente su fundamento en la ciencia y en ausencia de este principio es válido tener en cuenta juicios de valor.
 - Flexibilidad: No existe un único método para realizar un estudio de ACV y por lo tanto las organizaciones tienen la flexibilidad de escoger el método que consideren de acuerdo con los objetivos y alcance del estudio.
 
-Por otro lado, Sevigné-Itoiz et al. (2021, p.2) sugiere que el ACV, presenta algunas limitaciones que son inherentes de los modelos complejos, establecimiento de límites borrosos o inconsistentes, horizontes de corto plazo durante los cuales los resultados se consideran válidos, restricciones de presupuesto o recursos para llevar a cabo los estudios, dificultad en la disponibilidad de datos, tendencias en política, ausencia de modelos de impacto bien establecidos y aplicación selectiva o parcial de la metodología ACV.
-
-![image](https://github.com/jrchaconcito/REPOTEST/assets/143435356/9bd4c4df-1c14-47e4-88d4-db2cd0c12448)
+Por otro lado, Sevigné-Itoiz et al. (2021, p.2) sugiere que el ACV, presenta algunas limitaciones que son inherentes de los modelos complejos, establecimiento de límites borrosos o inconsistentes, horizontes de corto plazo durante los cuales los resultados se consideran válidos, restricciones de presupuesto o recursos para llevar a cabo los estudios, dificultad en la disponibilidad de datos, tendencias en política, ausencia de modelos de impacto bien establecidos y aplicación selectiva o parcial de la metodología ACV. No obstante lo anterior, La aplicación del ACV sigue utiliándose ampliamente para apoyar la formulación de políticas, la definición de agendas políticas, el establecimiento de objetivos de políticas y ofrciendo evidencia científica para el seguimiento y la evaluación de impacto sobre productos y servicios.
 
 
 ### 1.5 Pasos para llevar a cabo un ACV
