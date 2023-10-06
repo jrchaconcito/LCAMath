@@ -72,8 +72,9 @@ Con la evaluación del impacto se convierte el total de cada tipo de flujo ambie
 
 Finalmente en la etapa de interpretación se hace un análisis de la información recolectada y procesada en los pasos anteriores, entre algunos de los aspectos que se estudian está la identificación de los asuntos significativos, análisis de sensibilidad y consistencia, conclusiones, limitaciones y recomendaciones. La figura que viene a continuación muestra cada uno de los pasos para llevar a cabo una evaluación de ciclo de vida.
 
-![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/DIAGRAMA%20CV_Imagen%201.png)
-
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen22.png" alt="Ecuación de balance" width=30%><p>
+</div>
 
 </div>
 
