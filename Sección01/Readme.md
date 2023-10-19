@@ -73,14 +73,11 @@ Finalmente en la etapa de interpretación se hace un análisis de la informació
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen104.png" width=110%><p>
 </div>
 
+<div style="display: flex;">
+  <img src="URL_de_la_primera_imagen" alt="Descripción de la primera imagen" style="width: 50%;" />
+  <img src="URL_de_la_segunda_imagen" alt="Descripción de la segunda imagen" style="width: 50%;" />
 </div>
 
-
-<img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Logotipo-Escuela-Colombiana-de-Ingenieri%CC%81a-Julio-Garavito-1.jpg" alt="Descripción de la primera imagen" width="20%" />
-<img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Logo%20LAURA%20NEGRO%20FULL.png" alt="Descripción de la segunda imagen" width="20%" />
-
-
-<div align="center">
 
    
    <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="https://github.com/MaterialsCompTools/DRX-MaterialesCristalinos/blob/main/.graph/Logo%20Obtener%20certificado%20PNG.png" alt="R.LTWB" width="260" border="0" /></a>
