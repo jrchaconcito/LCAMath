@@ -5,7 +5,7 @@
   <h1>ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA MODELAR EL INVENTARIO Y EL IMPACTO AMBIENTAL DEL CICLO DE VIDA DE UN PRODUCTO </h1>
   <h1>Sección 4</h1>
 
-  <h2>Evaluación del impacto de ciclo de vida</h2>
+  <h2>EVALUACIÓN DEL IMPACTO DE CICLO DE VIDA</h2>
 </p>
 
 </div>
