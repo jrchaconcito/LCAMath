@@ -1,4 +1,4 @@
-## Referencias
+## REFERENCIAS
 
 
 1. Braunschweig, A. (2023, 20 de septiembre). LCA Discussion List. Mensaje enviado a LCALIST@LISTS.PRE-SUSTAINABILITY.COM
