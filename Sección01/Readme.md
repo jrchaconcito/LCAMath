@@ -75,7 +75,7 @@ Finalmente en la etapa de interpretación se hace un análisis de la informació
 
 </div>
 
-![ESCUELA](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Logotipo-Escuela-Colombiana-de-Ingenieri%CC%81a-Julio-Garavito-1.jpg) ![LAURA](URL_de_la_segunda_imagen)
+![ESCUELA](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Logotipo-Escuela-Colombiana-de-Ingenieri%CC%81a-Julio-Garavito-1.jpg) ![LAURA](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Logo%20LAURA%20NEGRO%20FULL.png)
 
 
 
