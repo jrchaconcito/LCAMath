@@ -73,12 +73,7 @@ Finalmente en la etapa de interpretación se hace un análisis de la informació
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen104.png" width=110%><p>
 </div>
 
-<table>
-  <tr>
-    <td><img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Logotipo-Escuela-Colombiana-de-Ingenieri%CC%81a-Julio-Garavito-1.jpg" alt="escuela" style="width: 50%;" /></td>
-    <td><img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Logo%20LAURA%20NEGRO%20FULL.png" alt="laura" style="width: 50%;" /></td>
-  </tr>
-</table>
+
 
 
 
@@ -87,5 +82,7 @@ Finalmente en la etapa de interpretación se hace un análisis de la informació
 
 </div>
 
-
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen104.png" width=110%><p>
+</div>
 
