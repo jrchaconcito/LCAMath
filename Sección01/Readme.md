@@ -81,7 +81,9 @@ Finalmente en la etapa de interpretación se hace un análisis de la informació
 </div>
 
 
-   
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen104.png" width=110%><p>
+</div>
  
 
 
