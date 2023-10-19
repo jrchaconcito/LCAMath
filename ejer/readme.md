@@ -3,7 +3,7 @@
   <div align="center">
   
   <h1>ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA MODELAR EL INVENTARIO Y EL IMPACTO AMBIENTAL DEL CICLO DE VIDA DE UN PRODUCTO </h1>
-  <h1>Ejercicios propuestos</h1>
+  <h1>EJERCICIOS PROPUESTOS</h1>
 
  
 </p>
