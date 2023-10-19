@@ -68,3 +68,7 @@ Teniendo en cuenta los datos del ejercicio 1, asuma que ahora que el proceso de 
 
 <div align="center">
   <img s
+
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/escuela%20laura.png" width=40%><p>
+</div>
