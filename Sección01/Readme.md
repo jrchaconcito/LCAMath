@@ -75,6 +75,10 @@ Finalmente en la etapa de interpretación se hace un análisis de la informació
 
 </div>
 
+![ESCUELA](URL_de_la_primera_image) ![LAURA](URL_de_la_segunda_imagen)
+
+
+
 <div align="center">
 
    
