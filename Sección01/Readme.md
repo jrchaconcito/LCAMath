@@ -12,7 +12,7 @@
   
   <h1>Sección 1</h1>
 
-  <h2>Conceptos básicos sobre análisis de ciclo de vida</h2>
+  <h2>CONCEPTOS BÁSICOS SOBRE ANÁLISIS DE CICLO DE VIDA</h2>
 </p>
 
 </div>
