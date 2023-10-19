@@ -13,6 +13,11 @@ Industry Perspective. *sustainability* 14, 8837 (2022), 1-19.
 9. Stranddorf, H.K., Hoffmann, L., Schmidt, A. *Impact Categories, Normalisation and Weighting in LCA*. Danish Ministry of the Environment. Environmental News No. 78, 2005.
 10. University of Washington (2012). ME515 Life Cycle Assessment. (Dr. Joyce Cooper, profesora del curso). Recuperado de [ref8](https://www.washington.edu/students/crscat/meche.html#me515).
 
+<div align="center">
+   
+   <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="https://github.com/MaterialsCompTools/DRX-MaterialesCristalinos/blob/main/.graph/Logo%20Obtener%20certificado%20PNG.png" alt="R.LTWB" width="260" border="0" /></a>
+
+</div>
 
 <div align="center">
   <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/escuela%20laura.png" width=40%><p>
