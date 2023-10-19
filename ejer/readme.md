@@ -60,4 +60,11 @@ Teniendo en cuenta el vector de inventario g obtenido en el ejercicio 4, usted d
 Teniendo en cuenta los datos del ejercicio 1, asuma que ahora que el proceso de producción de combustible genera 2 unidades de corriente residual (por ahora no interesa las unidades en que se miden esa corriente residual de 2 unidades, puede ponerle las unidades de medida que mejor considere). A su vez el proceso de producción de energía eléctrica usa la corriente residual que se genera en la producción de combustible y la cantidad que usa corresponde a una corrient residual de 1 unidad.  Indique la matriz A, la matriz B, el vector de demanda f, el vector s y el vector de inventario g.
 
 
+<div align="center">
+   
+   <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="https://github.com/MaterialsCompTools/DRX-MaterialesCristalinos/blob/main/.graph/Logo%20Obtener%20certificado%20PNG.png" alt="R.LTWB" width="260" border="0" /></a>
 
+</div>
+
+<div align="center">
+  <img s
