@@ -107,3 +107,6 @@ Finalmente, para efectos de cómo llevar la normalización, ponderación y agrup
 
 </div>
 
+<div align="center">
+  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/escuela%20laura.png" width=40%><p>
+</div>
