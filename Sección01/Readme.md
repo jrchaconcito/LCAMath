@@ -8,7 +8,7 @@
  
 <div align="center">
   
-  <h1>Sección 1</h1>
+  <h1>SECCIÓN 1</h1>
 
   <h2>CONCEPTOS BÁSICOS SOBRE ANÁLISIS DE CICLO DE VIDA</h2>
 </p>
