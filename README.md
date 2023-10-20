@@ -69,7 +69,7 @@ DURACIÓN: 4 horas
 
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
-| [PRÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |Qué propósito tiene lo que vas aprender en la sección| 
+| [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |Qué propósito tiene lo que vas aprender en la sección| 
 | [EJERCICIOS PROPUESTOS](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#12-ejercicios-propuestos) |Proporcionar una herramienta práctica y efectiva para aplicar y reforzar los conceptos y conocimientos adquiridos a lo largo del curso. Estos ejercicios tienen como propósito fundamental consolidar la comprensión de los temas abordados y promover la práctica de la estructura matemática para modelar el inventario e impacto de ciclo de vida  |
 
 | MICROCONTENIDOS                      | CONTENIDOS    | 
