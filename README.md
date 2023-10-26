@@ -26,11 +26,11 @@ DURACIÓN: 2 horas
 
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
-| [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#11-prop%C3%B3sito-de-la-secci%C3%B3n)                        |  Qué propósito tiene lo que vas aprender en la sección                                    
-| [QUÉ ES EL ANÁLISIS DE CICLO DE VIDA (ACV)](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#12-qu%C3%A9-es-el-an%C3%A1lisis-de-ciclo-de-vida-acv)                            | Aprenderás qué se entiende por análisis de ciclo de vida de un producto o servicio desde la perspectiva ambiental       |                                    
-| [CONCEPTOS BÁSICOS DEL ACV](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#13-conceptos-b%C3%A1sicos)                     | Aprenderás alguna terminología, conceptos y definiciones básicas sobre el análisis de ciclo de vida que es necesario se comprenda bien para abordar más adelante otras secciones del curso.        |                          
-| [PRINCIPIOS DEL ACV Y SUS LIMITACIONES](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#14-principios-del-acv-y-sus-limitaciones)                 | Aprenderás cuáles son los principios orientadores que la norma internacional ISO 14040:2006 contempla para llevar a cabo un estudio de análisis de ciclo de vida   | 
-| [PASOS PARA LLEVAR A CABO UN ACV](https://github.com/jrchaconcito/REPOTEST/tree/main/Secci%C3%B3n01#15-pasos-para-llevar-a-cabo-un-acv)  | Aprenderás cuáles son los pasos para llevar a cabo un estudio de análisis de ciclo de vida
+| [PROPÓSITO DE LA SECCIÓN](Secci%C3%B3n01#11-prop%C3%B3sito-de-la-secci%C3%B3n)                        |  Qué propósito tiene lo que vas aprender en la sección                                    
+| [QUÉ ES EL ANÁLISIS DE CICLO DE VIDA (ACV)](Secci%C3%B3n01#12-qu%C3%A9-es-el-an%C3%A1lisis-de-ciclo-de-vida-acv)                            | Aprenderás qué se entiende por análisis de ciclo de vida de un producto o servicio desde la perspectiva ambiental       |                                    
+| [CONCEPTOS BÁSICOS DEL ACV](Secci%C3%B3n01#13-conceptos-b%C3%A1sicos)                     | Aprenderás alguna terminología, conceptos y definiciones básicas sobre el análisis de ciclo de vida que es necesario se comprenda bien para abordar más adelante otras secciones del curso.        |                          
+| [PRINCIPIOS DEL ACV Y SUS LIMITACIONES](Secci%C3%B3n01#14-principios-del-acv-y-sus-limitaciones)                 | Aprenderás cuáles son los principios orientadores que la norma internacional ISO 14040:2006 contempla para llevar a cabo un estudio de análisis de ciclo de vida   | 
+| [PASOS PARA LLEVAR A CABO UN ACV](Secci%C3%B3n01#15-pasos-para-llevar-a-cabo-un-acv)  | Aprenderás cuáles son los pasos para llevar a cabo un estudio de análisis de ciclo de vida
 
 SECCIÓN 2: Modelo básico del inventario de ciclo de vida
 Aprenderás en esta sección el modelo matemático general para calcular el inventario de ciclo de vida con procesos monofuncionales</p>
@@ -38,29 +38,29 @@ DURACIÓN: 8 horas
 
 | MICROCONTENIDOS       | CONTENIDOS                 |
 |-----------------------------------|-----------------------------|
-| [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección
-| [MODELO BÁSICO DE INVENTARIO: REPRESENTANDO LOS PROCESOS UNITARIOS Y LOS FLUJO](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#12-modelo-b%C3%A1sico-de-inventario-representando-los-procesos-unitarios-y-los-flujos) | Aprenderás  cómo representar a través de un diagrama los procesos unitarios y su interrelación y la construcción de una tabla de entradas y salidas que sirven de fundamento para posteriormente aplicar la estructura de cálculo matemática básica para modelar el inventario de ciclo de vida
-| [MODELO BÁSICO DE INVENTARIO: LA SOLUCIÓN MATEMÁTICA CON ESCALAMIENTO SECUENCIAL](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#13-modelo-b%C3%A1sico-de-inventario-la-soluci%C3%B3n-matem%C3%A1tica-con-escalamiento-secuencial)  | Aprenderás como hallar los factores de escalamiento mediante el método secuencial |
-| [CÁLCULO DEL MODELO BÁSICO DEL INVENTARIO COMO UNA SOLUCIÓN DE UN SISTEMA DE ECUACIONES LINEALES](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#14-c%C3%A1lculo-del-modelo-b%C3%A1sico-del-inventario-como-una-soluci%C3%B3n-de-un-sistema-de-ecuaciones-lineales)  | Aprenderás el formalismo y la lógica que hay detrás de la estructura básica de cómputo para modelar el inventario de ciclo de vida  |
-|[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion02#15-modelo-b%C3%A1sico-de-inventario-basado-en-%C3%A1lgebra-matricial)  | Aprenderás el tratamiento formal matemático utlizando el álgebra matricial para solucionar el problema del inventario de ciclo de vida |
+| [PROPÓSITO DE LA SECCIÓN](seccion02#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección
+| [MODELO BÁSICO DE INVENTARIO: REPRESENTANDO LOS PROCESOS UNITARIOS Y LOS FLUJO](seccion02#12-modelo-b%C3%A1sico-de-inventario-representando-los-procesos-unitarios-y-los-flujos) | Aprenderás  cómo representar a través de un diagrama los procesos unitarios y su interrelación y la construcción de una tabla de entradas y salidas que sirven de fundamento para posteriormente aplicar la estructura de cálculo matemática básica para modelar el inventario de ciclo de vida
+| [MODELO BÁSICO DE INVENTARIO: LA SOLUCIÓN MATEMÁTICA CON ESCALAMIENTO SECUENCIAL](seccion02#13-modelo-b%C3%A1sico-de-inventario-la-soluci%C3%B3n-matem%C3%A1tica-con-escalamiento-secuencial)  | Aprenderás como hallar los factores de escalamiento mediante el método secuencial |
+| [CÁLCULO DEL MODELO BÁSICO DEL INVENTARIO COMO UNA SOLUCIÓN DE UN SISTEMA DE ECUACIONES LINEALES](seccion02#14-c%C3%A1lculo-del-modelo-b%C3%A1sico-del-inventario-como-una-soluci%C3%B3n-de-un-sistema-de-ecuaciones-lineales)  | Aprenderás el formalismo y la lógica que hay detrás de la estructura básica de cómputo para modelar el inventario de ciclo de vida  |
+|[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL](seccion02#15-modelo-b%C3%A1sico-de-inventario-basado-en-%C3%A1lgebra-matricial)  | Aprenderás el tratamiento formal matemático utlizando el álgebra matricial para solucionar el problema del inventario de ciclo de vida |
 
 SECCIÓN 3: Aprenderás cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales y sistemas con conocimiento incompleto sobre los flujos de producto entre procesos unitarios</p> 
 DURACIÓN: 10 horas
 
 | MICROCONTENIDOS | CONTENIDOS  |
 |-----------------------------------|-----------------------------|
-| [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |Qué propósito tiene lo que vas aprender en la sección
-| [MODELO DE INVENTARIO: SISTEMAS INCOMPLETOS](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#12-modelo-de-inventario-sistemas-incompletos) |Aprenderás cómo adaptar la solución matricial para resolver el problema del inventario cuando hay sistemas incompletos  |
-| [MODELO DE INVENTARIO: PROCESOS MULTIFUNCIONALES](https://github.com/jrchaconcito/REPOTEST/tree/main/Seccion03#13-modelo-de-inventario-procesos-multifuncionales)  | Aprenderás diferentes métodos matemáticos para solucionar el problema del inventario de ciclo de vida cuando se tienen procesos que prestan más de un servicio o función | 
+| [PROPÓSITO DE LA SECCIÓN](Seccion03#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |Qué propósito tiene lo que vas aprender en la sección
+| [MODELO DE INVENTARIO: SISTEMAS INCOMPLETOS](Seccion03#12-modelo-de-inventario-sistemas-incompletos) |Aprenderás cómo adaptar la solución matricial para resolver el problema del inventario cuando hay sistemas incompletos  |
+| [MODELO DE INVENTARIO: PROCESOS MULTIFUNCIONALES](Seccion03#13-modelo-de-inventario-procesos-multifuncionales)  | Aprenderás diferentes métodos matemáticos para solucionar el problema del inventario de ciclo de vida cuando se tienen procesos que prestan más de un servicio o función | 
 
 SECCIÓN 4: Aprenderás cómo es la estructura de cálculo matemático para la evaluación del impacto de ciclo de vida</p>
 DURACIÓN: 4 horas
 
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
-| [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección  | 
-| [ALGUNAS CONSIDERACIONES PRELIMINARES](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#12-algunas-consideraciones-preliiminares)  |Aprenderas cuáles son los pasos para llevar a cabo el impacto ambiental potencial del ciclo de vida| 
- |[ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA HALLAR EL IMPACTO DE CICLO DE VIDA](https://github.com/jrchaconcito/REPOTEST/tree/main/seccion04#13-estructura-de-c%C3%A1lculo-matem%C3%A1tico-para-hallar-el-impacto-de-ciclo-de-vida) | Aprenderás la metodología de cálculo matemático para hallar el impacto ambiental potencial de ciclo de vida teniendo en cuenta los elementos que son obligatorios segúnla norma internacional ISO 14040:2006| 
+| [PROPÓSITO DE LA SECCIÓN](seccion04#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección  | 
+| [ALGUNAS CONSIDERACIONES PRELIMINARES](seccion04#12-algunas-consideraciones-preliiminares)  |Aprenderas cuáles son los pasos para llevar a cabo el impacto ambiental potencial del ciclo de vida| 
+ |[ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA HALLAR EL IMPACTO DE CICLO DE VIDA](seccion04#13-estructura-de-c%C3%A1lculo-matem%C3%A1tico-para-hallar-el-impacto-de-ciclo-de-vida) | Aprenderás la metodología de cálculo matemático para hallar el impacto ambiental potencial de ciclo de vida teniendo en cuenta los elementos que son obligatorios segúnla norma internacional ISO 14040:2006| 
 
 EJERCICIOS
 
@@ -69,12 +69,12 @@ DURACIÓN: 4 horas
 
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
-| [PROPÓSITO DE LA SECCIÓN](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#11-prop%C3%B3sito-de-la-secci%C3%B3n)  |Qué propósito tiene lo que vas aprender en la sección| 
-| [EJERCICIOS PROPUESTOS](https://github.com/jrchaconcito/REPOTEST/tree/main/ejer#12-ejercicios-propuestos) |Proporcionar una herramienta práctica y efectiva para aplicar y reforzar los conceptos y conocimientos adquiridos a lo largo del curso. Estos ejercicios tienen como propósito fundamental consolidar la comprensión de los temas abordados y promover la práctica de la estructura matemática para modelar el inventario e impacto de ciclo de vida  |
+| [PROPÓSITO DE LA SECCIÓN](Ejercicio11-prop%C3%B3sito-de-la-secci%C3%B3n)  |Qué propósito tiene lo que vas aprender en la sección| 
+| [EJERCICIOS PROPUESTOS](Ejercicio12-ejercicios-propuestos) |Proporcionar una herramienta práctica y efectiva para aplicar y reforzar los conceptos y conocimientos adquiridos a lo largo del curso. Estos ejercicios tienen como propósito fundamental consolidar la comprensión de los temas abordados y promover la práctica de la estructura matemática para modelar el inventario e impacto de ciclo de vida  |
 
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|  
-| [REFERENCIAS](https://github.com/jrchaconcito/REPOTEST/tree/main/.refs#referencias) |La bibliografía proporciona a los lectores la oportunidad de explorar más a fondo los temas tratados en el curso y acceder a fuentes adicionales para obtener información más detallada, diferentes perspectivas o investigaciones relacionadas | 
+| [REFERENCIAS](.refs#referencias) |La bibliografía proporciona a los lectores la oportunidad de explorar más a fondo los temas tratados en el curso y acceder a fuentes adicionales para obtener información más detallada, diferentes perspectivas o investigaciones relacionadas | 
 
 </center>
 

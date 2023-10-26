@@ -1,4 +1,4 @@
-<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-sistemas-de-gestion/" target="_blank"><img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-sistemas-de-gestion/" target="_blank"><img src="../.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
 
   <div align="center">
   
@@ -20,9 +20,9 @@ Aprenderás cómo es la estructura de cálculo matemático para determinar el in
 
 Recordemos que en el paso del inventario de ciclo de vida, el resultado final es la cuantificación de todos las intervenciones ambientales que el sisteme producto a lo largo de su ciclo de vida ha tenido como consecuencia de habérsele demandado o pedido una cantidad de servicio o función que se determina en la unidad funcional. Denominamos como modelo de inventario básico a la estructura fundamental  de naturaleza matemática que siempre nos va a permitir calcular el inventario de ciclo de vida. Lo primero que hay que hacer para determinar el inventario, es haber definido previamente la unidad funcional y los flujos de referencia. Luego hay que determinar cuál es el sistema producto que se va a tener en cuenta. Recordemos que el sistema producto es el conjunto de procesos unitarios que describen el ciclo de vida del producto. En principio una manera práctica de empezar a modelar el ciclo de vida del producto es elaborar un diagrama que visualiza el conjunto de procesos unitarios del sistema y cómo están interrelacionados. Así que para empezar imaginemos que tenemos el diagrama de flujo de los procesos unitarios que se muestra más abajo. Importante señalar que cada uno de los procesos solo presta un servicio o función, si observas bien, verás que cada proceso entrega/produce solamente un solo flujo tecnológico o intermedio (por eso hablamos de procesos monofuncionales). Luego es útil preparar una tabla de entradas y salidas (tanto con flujos tecnológicos como ambientales). Más abajo aparece la tabla respectiva para nuestro ejemplo hipotético. 
 
-![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/DIAGRAMA%20CV_Imagen%201.png)
+![Diagrama de ciclo de vida para la producción de una probeta de aluminio](../.graph/DIAGRAMA%20CV_Imagen%201.png)
 
-![Datos de los procesos untarios](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/IMAGEN2_DATOS.png)
+![Datos de los procesos untarios](../.graph/IMAGEN2_DATOS.png)
 
 ### 1.3 Modelo básico de inventario: La solución matemática con escalamiento secuencial
 
@@ -45,7 +45,7 @@ El total de combustible requerido habiendo hecho los escalonamientos anteriores 
 Nos hemos dado cuenta que cuando se escalona un proceso unitario, no solo los flujos tecnológicos se ven afectados sino que también se afectan todas las demás entradas de forma proporcional, incluyendo las intervenciones ambientales. Así por ejemplo, para el caso del procceso de la minería de la bauxita y teniendo en cuenta el factor de escalamiento de 0.049667, la cantidad de dióxido de carbono que se liberaría sería de 49667.209 x 38.5, que daría como resultado 1912187.547 kg. La siguiente tabla ilustra la cantidad de cada uno de los tipos de flujos ambientales y económicos de cada proceso unitario, habiendo aplicado los factores de escalanamiento respectivos.
 
 
-![Procesos unitarios escalonados con respecto a la unidad funcional](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen3.png)
+![Procesos unitarios escalonados con respecto a la unidad funcional](../.graph/Imagen3.png)
 
 ### 1.4 Cálculo del modelo básico del inventario como una solución de un sistema de ecuaciones lineales
 
@@ -86,7 +86,7 @@ Los factores de escalamiento los denotaremos como **s₁** que significa factor 
 Para el primer flujo económico, toneladas de bauxita, se puede establecer la siguiente ecuación de balance:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen5.png" alt="Ecuación de balance" width=50%>
+  <img src="../.graph/Imagen5.png" alt="Ecuación de balance" width=50%>
 </div>
 
 
@@ -99,19 +99,19 @@ Cuando hacemos **f₁** igual a cero, significa que toneladas de bauxita no debe
 
 
 <p align="center">
-<img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen4.png" alt="Sistema de ecuaciones" width="700" height="350" />
+<img src="../.graph/Imagen4.png" alt="Sistema de ecuaciones" width="700" height="350" />
 </p>
 
 Como se puede observar en el conjunto de ecuaciones simultáneas, lo que allí se está expresando es que el sistema producto está balanceado escalando cada proceso unitario con factores de escalamiento, que son las variables desconocidas. No olvidar que solo se está empleando los flujos económicos para hallar los factores de escalamiento desconocidos. Vemos entonces que tenemmos un conjunto de ecuaciones determinado, por que el número de ecuaciones (nueve ecuaciones) es igual al número de variables desconocidas (nueve variables desconocidas). Más abajo ilustramos con los datos del ejercicio hipótético cuál es el conjunto de ecuaciones. Óbsérvese que el lado de derecho de las ecuaciones todos los valores son iguales a cero, excepto para el total del flujo económico 7 que corresponde a un valor de 100 que es el flujo de referencia derivado de la unidad funcional (en este caso la unidad funcional y el flujo de referencia tienen los mismos valores, pero no siempre es así). Esto significa que de todos los otros flujos no deben sobrar ni faltar (esto matemáticamente se expresa con el valor cero) y para el caso del flujo económico 7, el total debe dar 100 que es la cantidad total que le estamos demandando producir al sistema producto, que de acuerdo con los datos del ejercicio es cien (100) probetas de aluminio. Así que una vez hallados los 9 factores de escalamiento (los mismos que aparecen anteriormente en la tabla sobre los datos de los procesos escalonados), podemos saber cuáles son las cantidades de entradas y salidas de cada proceso en términos de flujos económicos (en este caso denominados flujos de referencia) que satisfacen la unidad funcional especificada en el estudio de análisis de ciclo de vida. 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen7png.png" alt="Ecuación de balance" width=60%>
+  <img src="../.graph/Imagen7png.png" alt="Ecuación de balance" width=60%>
 </div>
 
 Seguidamente vamos a ver los factores de escalamiento a partir de la solución del conjunto de ecuaciones simultáneas que como se puede observar son los mismos que se hallaron cuando se hizo el escalamiento "secuencial".
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen8.png" alt="Ecuación de balance" width=15%>
+  <img src="../.graph/Imagen8.png" alt="Ecuación de balance" width=15%>
 </div>
 
 Una vez hallados los factores de escalamiento podemos construir un conjunto de ecuaciones para determinar el inventario de ciclo de vida, las cuales no es necesario resolver porque dado que utilizan los factores de escalamiento que previamente se han encontrado al resolver el conjunto anterior de ecuaciones simultáneas. Para ellos partimos de las siguientes convenciones:
@@ -145,14 +145,14 @@ A continuación veamos cuál es el conjunto de ecuaciones:
 He aquí el conjunto ecuaciones que con los factores de escalamiento ofrece la clave directa para la solución final del inventario. No olvidar que el escalonamiento de un proceso unitario afecta tanto a los flujos económicos como a los flujos ambientales.
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen9.png" alt="Ecuación de balance" width=60%>
+  <img src="../.graph/Imagen9.png" alt="Ecuación de balance" width=60%>
 </div>
 
 Ahora bien, veamos cómo sería el conjunto de ecuaciones anterior pero con las cantidades de cada uno de los tipos de flujo ambiental.
 
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen10.png" alt="Ecuación de balance" width=100%>
+  <img src="../.graph/Imagen10.png" alt="Ecuación de balance" width=100%>
 </div>
 
  
@@ -161,7 +161,7 @@ Ahora bien, veamos cómo sería el conjunto de ecuaciones anterior pero con las 
 El uso de álgebra lineal y matrices para resolver ecuaciones simultáneas (como las referidas anteriormente) es una elección sólida debido a su eficiencia, precisión, escalabilidad y aplicabilidad general, así como a las herramientas disponibles que facilitan su implementación (ejemplo excel, Matlab, entre otros). Este enfoque matemático es esencial en una amplia gama de campos y garantiza resultados más confiables y rápidos en comparación con los métodos manuales o tradicionales. Así que vamos a aprender cómo cálcular el inventario de ciclo de vida utilizando algebra matricial. A continuación la solución para hallar los factores de escalamiento empleando una solución matricial para el conjunto de ecuaciones simultáneas:
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen11.png" alt="Ecuación de balance" width=50%>
+  <img src="../.graph/Imagen11.png" alt="Ecuación de balance" width=50%>
 </div>
 
 Ahora bien, la matriz que contiene los flujos tecnológicos la denominaremos con la letra **A**, el vector donde aparecen los factores de escalamiento con la letra **s** y el vector donde aparece la demanda final con la letra **f**.
@@ -176,11 +176,11 @@ De la expresión algebraica anterior (matricialmente hablando), la matriz **A** 
 Donde **A<sup>-1</sup>** es la matriz inversa de la matriz de tecnología **A**, para el ejemplo que estamos tratando sería lo siguiente (solo lo que aparece entre corchetes corresponde a las matrices, lo demás se ofrece a modo de ilustración para comprender mejor la construcción de las matrices):
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen12.png" width=70%>
+  <img src="../.graph/Imagen12.png" width=70%>
 </div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen13.png" width=70%>
+  <img src="../.graph/Imagen13.png" width=70%>
 </div>
 
 <br>
@@ -189,7 +189,7 @@ Haciendo la multiplicación correspondiente se tendría el siguiente resultado p
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen14.png" width=90%><p>
+  <img src="../.graph/Imagen14.png" width=90%><p>
 </div>
 
 Habiendo hallado los factores de escalamiento pasamos a resolver el problema del inventario de ciclo de vida. No olvidar como lo referíamos anteriormente, que el factor de escalamiento afecta a todas las entradas y salidas de cada proceso unitario, Así que veamos cómo se vería el resulado desde el punto de vista matricial, teniendo en cuenta que la letra **B** denota la matriz de intervención ambiental, **g** es el vector de inventario y que el inventario se obtendría mediante la ecuación matricial que aparece más abajo. En el cuadro que aparece más abajo, se ha indicado el nombre de los flujos ambientales y el nombre de los procesos unitarios para ayudar en la comprensión de la construcción de la relación matricial respectiva.
@@ -197,7 +197,7 @@ Habiendo hallado los factores de escalamiento pasamos a resolver el problema del
 <div align="center"><strong>B</strong>s</div><p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen15.png" width=150%><p>
+  <img src="../.graph/Imagen15.png" width=150%><p>
 </div>
 
 Teniendo en cuenta las relaciones matriciales anteriores y sabiendo que la multiplicación de matrices también es una operación asociativa, podemos entonces determinar la fórmula para calcular el vector de inventario **g**:
@@ -214,5 +214,5 @@ Teniendo en cuenta las relaciones matriciales anteriores y sabiendo que la multi
 </div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/escuela%20laura.png" width=40%><p>
+  <img src="../.graph/escuela%20laura.png" width=40%><p>
 </div>

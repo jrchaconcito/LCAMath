@@ -1,4 +1,4 @@
-<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-sistemas-de-gestion/" target="_blank"><img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-sistemas-de-gestion/" target="_blank"><img src="../.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
 
   <div align="center">
 <div align="center">
@@ -70,7 +70,7 @@ Con la evaluación del impacto se convierte el total de cada tipo de flujo ambie
 Finalmente en la etapa de interpretación se hace un análisis de la información recolectada y procesada en los pasos anteriores, entre algunos de los aspectos que se estudian está la identificación de los asuntos significativos, análisis de sensibilidad y consistencia, conclusiones, limitaciones y recomendaciones. La figura que viene a continuación muestra cada uno de los pasos para llevar a cabo una evaluación de ciclo de vida.
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen104.png" width=110%><p>
+  <img src="../.graph/Imagen104.png" width=110%><p>
 </div>
 
 
@@ -82,7 +82,7 @@ Finalmente en la etapa de interpretación se hace un análisis de la informació
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/escuela%20laura.png" width=40%><p>
+  <img src="../.graph/escuela%20laura.png" width=40%><p>
 </div>
  
 

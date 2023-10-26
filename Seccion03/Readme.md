@@ -1,4 +1,4 @@
-<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-sistemas-de-gestion/" target="_blank"><img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-sistemas-de-gestion/" target="_blank"><img src="../.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
 
   <div align="center">
   
@@ -26,44 +26,44 @@ Cuando se están llevando a cabo estudios de análisis de ciclo de vida, es com�
 Veamos cómo sería la inclusión de procesos ficticios. Asumamos la siguiente matriz tecnológica teniendo en cuenta que asumimos que la electrólisis  y la producción de ánodo requiere 5 Kg de acero y 2 Kg de acero, respectivamente y que además la producción de la probeta de aluminio necesita 0,0001 Kg de solvente. Así que en principio la matriz de tecnología sería la siguiente:
 
 
-![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen16.png)<p>
+![Diagrama de ciclo de vida para la producción de una probeta de aluminio](../.graph/Imagen16.png)<p>
 
 Ahora vamos a "cuadrar" la matriz de tecnología **A**, adicionando procesos ficticios. Como existe el flujo económico "Kg de acero", incorporamos en la matriz **A**, un proceso ficticio que se asume fue el que produjo los kg de acero que requiere los procesos de electrólisis y de producción de ánodo y otro que se asume fue el que produjo los Kg de solvente que se utilizan en el proceso de producción de la probeta de aluminio.  Como se puede ver a continuación, el proceso ficticio solo tiene el número 1 y las demás dimensiones son cero, tanto en la matriz **A** como en la matriz de intervención ambiental **B**. Obsérvese que los "unos" son con signo "+", por cuanto se asume que si un proceso está necesitando (necesitando significa una entrada y por lo tanto se indica con signo "menos") acero o solvente, entonces otro proceso (ficticio para nuestro caso) debió producir cada uno de estos flujos (producir significa una salida, y por lo tanto se indica con signo "+". Una vez hemos incorporado los procesos ficticios, vemos que ahora la matriz **A** es cuadrada e invertible, veamos como luciría:
 
-![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen20.png)<p>
+![Diagrama de ciclo de vida para la producción de una probeta de aluminio](../.graph/Imagen20.png)<p>
 
 El vector de demanda sería el siguiente:
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen19.png" alt="Ecuación de balance" width=30%><p>
+  <img src="../.graph/Imagen19.png" alt="Ecuación de balance" width=30%><p>
 </div>
 
 La inversa de la anterior matriz sería la siguiente:
 
-![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen17.png)<p>
+![Diagrama de ciclo de vida para la producción de una probeta de aluminio](../.graph/Imagen17.png)<p>
 
 El vector **s** de factores de escalamiento sería el siguiente:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen21.png" alt="Ecuación de balance" width=30%><p>
+  <img src="../.graph/Imagen21.png" alt="Ecuación de balance" width=30%><p>
 </div>
 
 La matriz de intervención ambiental sería la siguiente:
 
-![Diagrama de ciclo de vida para la producción de una probeta de aluminio](https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen18.png)<p>
+![Diagrama de ciclo de vida para la producción de una probeta de aluminio](../.graph/Imagen18.png)<p>
 
 Y finalmente el resultado del modelo de inventario que era a donde queríamos llegar aplicando las relaciones matriciales vistas anteriormente:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen22.png" alt="Ecuación de balance" width=30%><p>
+  <img src="../.graph/Imagen22.png" alt="Ecuación de balance" width=30%><p>
 </div>
 
 Ahora bien, otra forma de tratar los sistemas incompletos es remover los flujos económicos para los cuales en la matriz de procesos no se tienen los procesos unitarios que los haya producido o absorbido. La matriz **A* sería la siguiente resaltando los flujos que habría que remover:
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen23.png" alt="Ecuación de balance" width=80%><p>
+  <img src="../.graph/Imagen23.png" alt="Ecuación de balance" width=80%><p>
 </div>
 
 Una vez se han removido estos flujos económicos, encontramos que la matriz **A** es cuadrada e invertible y por lo tanto podemos aplicar la estructura de cálculo matricial vista anteriormenre para hallar el inventario de ciclo de vida.
@@ -88,11 +88,11 @@ Otro asunto que amerita resaltarse es que con los procesos multifuncionales se t
 Para hacer mejor la explicación, partamos del siguiente ejemplo: asumamos que el proceso de producción del ánodo genera residuos de acero y que estos residuos de acero los recoge una empresa  que los utiliza para hacer envases. Veamos cómo sería el diagrama de flujo del ciclo de vida con la incorporación del coproducto que corresponde a la generaciónd de residuos de acero en una cantidad de 4.7 kilogramos y donde se observa que la matriz no es cuadrada y que de las cargas ambientales (ver matriz intervención ambiental que se mostró anteriormente) del proceso de producción del ánodo, no sabemos cuántas de ellas se las asignamos al flujo en toneladas de ánodo y cuántas al flujo en kilogramos de acero residual. A continuación se muestra el nuevo diagrama de ciclo de vida. Es importante anotar que este residuo de acero como coproducto, indica que es valioso para otra empresa, por ejemplo, para utlizarlo como materia prima. Cuando hablamos "para otra empresa" significa que el residuo puede ir a otro sistema producto diferente al sistema producto donde se está generando este tipo de residuo, esto se conoce como **reciclaje de bucle abierto**. A continuación se ilustra cómo sería el diagrama de ciclo de vida incorporando el coproducto y la **matriz A** que como se ve no es cuadrada:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen28.png" alt="Ecuación de balance" width=80%><p>
+  <img src="../.graph/Imagen28.png" alt="Ecuación de balance" width=80%><p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen54.png" alt="Ecuación de balance" width=100%><p>
+  <img src="../.graph/Imagen54.png" alt="Ecuación de balance" width=100%><p>
 </div>
 
 
@@ -101,36 +101,36 @@ El **método de substitución** consiste en encontrar  un proceso unitario (ya s
 Asumamos que hemos encontrado un proceso unitario cuya función principal es producir acero. Veamos entonces cómo sería la **matriz A** con la incorporación de este nuevo proceso:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen55.png" alt="Ecuación de balanc" width=130%><p>
+  <img src="../.graph/Imagen55.png" alt="Ecuación de balanc" width=130%><p>
 </div>
 
 La anterior matriz podemos volverla "cuadrada" buscando una equivalencia o inequivalencia entre los dos tipos de acero, si asumimos que los dos tipos de flujos en cuanto a su calidad es la misma (por ejemplo, porque tanto los residuos de acero (coproducto) como el acero virgen producido por el nuevo proceso unitario que se incorporó al sistema, sus propiedades inherentes no cambian, entonces los dos flujos es una misma cosa (indistinguibles por así decirlo) y por lo tanto las dos nuevas filas se pueden fusionar en una sola fila:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen56.png" alt="Ecuación de balanc" width=130%><p>
+  <img src="../.graph/Imagen56.png" alt="Ecuación de balanc" width=130%><p>
 </div>
 
 Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de CO<sub>2</sub>, 0.00575 Kg de SO<sub>2</sub> y 0.00384 Kg de N<sub>2</sub>O y produced 947 kilogramos de acero virgen. Veamos entonces cómo quedarían el **vector de demanda f**, **la matriz inversa de A**, el **vector de factores de escalamiento s**, la **matriz de intervención ambiental B**y el **vector de inventario g**, al incorporar este nuevo proceso al sistema (por eso también se le conoce como la técnica de expansión del sistema, porque se está incorporando un nuevo proceso al sistema industrial):
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen58.png" alt="Ecuación de balance" width=15%><p>
+  <img src="../.graph/Imagen58.png" alt="Ecuación de balance" width=15%><p>
 </div>
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen57.png" alt="Ecuación de balance" width=120%><p>
+  <img src="../.graph/Imagen57.png" alt="Ecuación de balance" width=120%><p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen60.png" alt="Ecuación de balance" width=120%><p>
+  <img src="../.graph/Imagen60.png" alt="Ecuación de balance" width=120%><p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen61.png" alt="Ecuación de balance" width=30%><p>
+  <img src="../.graph/Imagen61.png" alt="Ecuación de balance" width=30%><p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen62.png" alt="Ecuación de balance" width=30%><p>
+  <img src="../.graph/Imagen62.png" alt="Ecuación de balance" width=30%><p>
 </div>
 
 
@@ -157,7 +157,7 @@ Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de C
   -  **Partir el proceso multifuncional en procesos monofuncionales**
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen63.png" width=90%><p>
+  <img src="../.graph/Imagen63.png" width=90%><p>
 </div></p>
 
 
@@ -166,30 +166,30 @@ Una vez se ha hecho la partición anterior que se muestra en la imagen, se proce
 
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen65.png" width=30%><p>
+  <img src="../.graph/Imagen65.png" width=30%><p>
 </div></p>
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen67.png" width=100%><p>
+  <img src="../.graph/Imagen67.png" width=100%><p>
 </div></p>
 
 
 
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen66.png" width=100%><p>
+  <img src="../.graph/Imagen66.png" width=100%><p>
 </div></p>
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen68.png" width=100%><p>
+  <img src="../.graph/Imagen68.png" width=100%><p>
 </div></p>
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen69.png" width=20%><p>
+  <img src="../.graph/Imagen69.png" width=20%><p>
 </div></p>
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen70.png" width=20%><p>
+  <img src="../.graph/Imagen70.png" width=20%><p>
 </div></p>
 
 
@@ -212,14 +212,14 @@ Por otro lado, si se utliza el contenido energético o unidades de energía (eje
 El último enfoque para solucionar los problemas que presentan los procesos multifuncionales consiste en el denominado **método del excedente** que tiene su sustento para aplicarlo en que un proceso unitario tiene como función principal prestar un solo servicio o en otras palabras, opera para el flujo principal mientras que para los otros flujos "secundarios", opera en un grado de menor importancia. Así que cuando se tiene un proceso multifuncional, uno podría tratarlo como si hubiera sido diseñado para producir el flujo principal y eliminar (quitar) los flujos secundarios (coproductos). Veamos cómo quedaría el proceso multifuncional:
 
  <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen42.png" width=80%><p>
+  <img src="../.graph/Imagen42.png" width=80%><p>
 </div></p>
 
 Así que las matrices y vectores referidos con anterioridad que forman parte de la estructura básica para el cálculo del inventario serían los siguientes:
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen43.png" width=80%><p>
+  <img src="../.graph/Imagen43.png" width=80%><p>
 </div></p>
 
 Como se puede observar en la imagen anterior, nuevamente se han obtenido los mismos flujos ambientales con que iniciamos nuestra explicación sobre la estructura básica de cálculo para el inventario de ciclo de vida y eso era obvio de esperar por cuanto este método ignora el hecho de que se están produciendo coproductos.
@@ -231,13 +231,13 @@ Como se puede observar en la imagen anterior, nuevamente se han obtenido los mis
 Nos referimos al reciclaje de bucle cerrado cuando un residuo que produce un proceso unitario, **en su totalidad es usado** por otro proceso que forma parte del mismo sistema producto. Por ahora supongamos el siguiente diagrama de ciclo de vida donde se ilustra cómo los residuos de aluminio que se generan para la producción de la parte de aluminio (probeta) se utlizan en la producción de lingotes de aluminio: 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen44.png" width=80%><p>
+  <img src="../.graph/Imagen44.png" width=80%><p>
 </div></p>
 
 Con datos hipotéticos y manteniendo la misma unidad funcional (una demanda de 100 unidades o probetas), más abajo se muestra cómo se vería la **matriz de tecnología A** que como se observa no es cuadrada y por lo tanto no puede ser invertible, por lo tanto, la estructura básica de cálculo del inventario que se explicó al principio no se podría aplicar cuando se tieme un proceso de reciclaje de bucle cerrado. Cuando existe reciclaje de bucle cerrado, se presentan ecuaciones redundantes, al ser combinación lineal de otras del conjunto de ecuaciones simultáneas, por lo que se configura un sistema sobre determinado, porque existen más ecuaciones que variables desconocidas, generalmente un sistema sobre determinado es inconsistente (no tiene solución). Cuando se presenta la anterior situación se procede a hacer uso de la seudoinversa (Heijungs & Frischknecht, 1998).
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen71.png" width=80%><p>
+  <img src="../.graph/Imagen71.png" width=80%><p>
 </div></p>
 
 La seudoinversa es un método matemático para tener una solución matricial aproximada lo más cercana al valor de las variables desconocidas. Lo que se está haciendo con la aplicación de este método no es más que un análisis de regresión de mínimos cuadrados para minimizar el vector de discrepancia.  En este caso emerge el concepto de vector de discrepancia indicado como **d**, el cual se intepreta como la variable que se requiere minimizar. El vector **d**, es la diferencia entre el suministro final y la demanda final. Entendiendo el suministro final como aquél vector obtenido a partir de la técnica de la seudoinversa y la demanda final como el vector de demanda **f**. El vector de suministro final se obtiene como **As**, donde el vector de escalamiento **s** se obtiene con la técnica de la seudoinversa. Este vector de suministro final lo indicaremos como **f'**. Con la técnica de la seudoinversa lo que se busca es minimizar la diferencia **d = f'- f= O**, donde f' denota el vector de suministro. El vector **f'** se obtiene multiplicando la matriz A por el vector de escalamiento obtenido con la seudoinversa.
@@ -275,26 +275,26 @@ A continuación vamos a iniciar aplicando la fórmula de la seudoinversa, para e
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen47.png" width=80%><p>
+  <img src="../.graph/Imagen47.png" width=80%><p>
 </div></p>
 
 Luego procedamos a hallar el resultado de multiplicar la matriz transpuesta de A por la matriz A:
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen48.png" width=80%><p>
+  <img src="../.graph/Imagen48.png" width=80%><p>
 </div></p>
 
 Continuamos ahora hallando la inversa de la multiplicación entre la transpuesta de A por A:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen49.png" width=80%><p>
+  <img src="../.graph/Imagen49.png" width=80%><p>
 </div></p>
 
 Continuamos multiplicando la anterior matriz por la transpuesta de A:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen50.png" width=80%><p>
+  <img src="../.graph/Imagen50.png" width=80%><p>
 </div></p>
 
 Finalmente multiplico la anterior matriz por el vector de demanda f, sabiendo que el vector de demanda f es el siguiente, con el fin de obtener el vector de escalamiento s:
@@ -302,17 +302,17 @@ Finalmente multiplico la anterior matriz por el vector de demanda f, sabiendo qu
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen51.png" width=30%><p>
+  <img src="../.graph/Imagen51.png" width=30%><p>
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen52.png" width=40%><p>
+  <img src="../.graph/Imagen52.png" width=40%><p>
 </div></p>
 
 Si repasamos las fórmulas de la estructura básica para el cálculo del inventarios, el vector **f**, es el resultado de multiplicar la matriz **A** por el vector de escalamiento **s**, así que revisemos si hay un ajuste al multiplicar la matriz **A** por el vector de escalamiento que se obtuvo utilizando la seudoinversa, para ver si nos da el vector **f**:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen85.png" width=100%><p>
+  <img src="../.graph/Imagen85.png" width=100%><p>
 </div></p>
 
 
@@ -341,45 +341,45 @@ Despejando X, encuentro que este valor debe ser igual a 0.0001 Kg de residuos de
 Despejando Y encontramos que su valor corresponde a 0.029999 Kg de residuos. Estos residuos de más de aluminio (excedente) que no requiere el proceso de producción de lingotes de aluminio, se envían a un proceso de reciclaje de bucle abierto. Veamos entonces cómo sería la matriz **A** incorporando la información anterior:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen74.png" width=110%><p>
+  <img src="../.graph/Imagen74.png" width=110%><p>
 </div></p>
 
 A continuación vamos a indicar todas las demás matrices y vectores que se requiere con el fin de calcular el vector de escalamiento **s** con la técnica de la seudoinversa y se finaliza mostrando los resultados del inventario de ciclo de vida (vector g).
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen75.png" width=60%><p>
+  <img src="../.graph/Imagen75.png" width=60%><p>
 </div></p>
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen77.png" width=80%><p>
+  <img src="../.graph/Imagen77.png" width=80%><p>
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen79.png" width=80%><p>
-</div></p>
-
-
-<div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen80.png" width=80%><p>
+  <img src="../.graph/Imagen79.png" width=80%><p>
 </div></p>
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen81.png" width=45%><p>
+  <img src="../.graph/Imagen80.png" width=80%><p>
+</div></p>
+
+
+<div align="center">
+  <img src="../.graph/Imagen81.png" width=45%><p>
 </div></p>
  
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen82.png" width=100%><p>
+  <img src="../.graph/Imagen82.png" width=100%><p>
 </div></p>
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen83.png" width=100%><p>
+  <img src="../.graph/Imagen83.png" width=100%><p>
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen84.png" width=50%><p>
+  <img src="../.graph/Imagen84.png" width=50%><p>
 </div></p>
 
   </p>
@@ -389,39 +389,39 @@ En el ejemplo anterior, observamos que fue necesario enviar el sobrante de resid
 
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen88.png" width=100%><p>
+  <img src="../.graph/Imagen88.png" width=100%><p>
 </div></p>
 
 Tal como se procedió anteriormente para explicar el caso de reciclaje de bucle cerrado donde existía un excedente de residuos de aluminio, comencemos haciendo un escalamiento secuencial. Como la unidad funcional corresponde a 100 unidades de probetas, se debe multiplicar las entradas del proceso de producción de probetas por el factor de escalonamiento 100. Al escalar los flujos tecnológicos encontramos que se generan **0.001 x 100 = 0.1** Kg de residuos de aluminio y se requiere **0.0005 x 100 = 0.05 toneladas de aluminio**. Luego paso al proceso que produce lingotes de aluminio y como el proceso de producción de probetas requiere 0.05 toneladas de aluminio, debo multiplicar las entradas y salidas del proceso de producción de lingotes de aluminio por el factor de escalamiento 0.05. Ahora, este proceso requiere **30 x 0.05 = 1.5** Kg de residuos de aluminio. Al observar la cantidad de residuos de aluminio que se producen en la producción de la probeta, vemos que es una cantidad inferior a la que se necesita en la producción de los lingotes de aluminio (0.1 < 1.5). Por lo tanto, se requiere incorporar un proceso que suministre el faltante para el proceso de producción de lingotes de aluminio. Ahora bien, el faltante o déficit de residuos de aluminio es **1.5 – 0.1 = 1.4** Kg de residuos de alumnio. Como ese nuevo proceso hay que escalonarlo también por el valor de 100, requerimos que ese proceso produzca una salida de residuos de aluminio tal que al multplicarla por 100 de como resultado el faltante que es de 1.4, así que con una ecuación como Zx100 = 1.4, podemos despejar Z = 0.014 Kg de residuos de aluminio. Veamos entonces cómo entonces incorporamos este nuevo proceso en la **matriz A**:
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen89.png" width=100%><p>
+  <img src="../.graph/Imagen89.png" width=100%><p>
 </div></p>
 
 Como se hizo con anterioridad, se procede a través por ejemplo de una hoja excel con los cálculos de rutina aplicando la técnica de la seudoinversa. A continuación los resultados respectivos.
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen90.png" width=10%><p>
+  <img src="../.graph/Imagen90.png" width=10%><p>
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen91.png" width=70%><p>
+  <img src="../.graph/Imagen91.png" width=70%><p>
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen92.png" width=50%><p>
+  <img src="../.graph/Imagen92.png" width=50%><p>
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen93.png" width=80%><p>
+  <img src="../.graph/Imagen93.png" width=80%><p>
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen94.png" width=80%><p>
+  <img src="../.graph/Imagen94.png" width=80%><p>
 </div></p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen95.png" width=30%><p>
+  <img src="../.graph/Imagen95.png" width=30%><p>
 </div></p>
 
 
@@ -437,5 +437,5 @@ Para finalizar una breve observación, la **técnica de la seudoinversa**, es un
 </div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/escuela%20laura.png" width=40%><p>
+  <img src="../.graph/escuela%20laura.png" width=40%><p>
 </div>

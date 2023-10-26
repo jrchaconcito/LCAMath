@@ -1,4 +1,4 @@
-<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-sistemas-de-gestion/" target="_blank"><img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-sistemas-de-gestion/" target="_blank"><img src="../.graph/Centro%20de%20Estudios%20en%20Sistemas%20de%20Gestio%CC%81n.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
 
   <div align="center">
   
@@ -27,11 +27,11 @@ Con base en el diagrama que se muestra a continuación y la tabla sobre los dato
 -Vector de inventario g</p>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen101.png" alt="Ecuación de balance" width=50%>
+  <img src="../.graph/Imagen101.png" alt="Ecuación de balance" width=50%>
 </div>
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/Imagen102.png" alt="Ecuación de balance" width=100%>
+  <img src="../.graph/Imagen102.png" alt="Ecuación de balance" width=100%>
 </div>
 
 
@@ -70,5 +70,5 @@ Teniendo en cuenta los datos del ejercicio 1, asuma que ahora que el proceso de 
   <img s
 
 <div align="center">
-  <img src="https://github.com/jrchaconcito/REPOTEST/blob/main/.graph/escuela%20laura.png" width=40%><p>
+  <img src="../.graph/escuela%20laura.png" width=40%><p>
 </div>

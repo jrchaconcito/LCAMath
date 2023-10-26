@@ -41,7 +41,7 @@ Para comenzar lo primero que hay que construir es la matriz de caracterización 
 
 
 <div align="center">
-  <img src="..//.graph/Imagen96.png" width=90%><p>
+  <img src="../.graph/Imagen96.png" width=90%><p>
 </div>
 
 Ahora bien, teniendo en cuenta los resultados del inventario de ciclo de vida referido con anterioridad, de acuerdo con la base de datos de la Universidad de Leiden [Factores de caracterización](https://www.universiteitleiden.nl/en/research/research-output/science/cml-ia-characterisation-factors), el dióxido de carbono, metano y óxido nitroso se puede clasificar a la categoría de impacto denominada **calentamient global**, mientras que el dióxido de azufre se puede clasificar a la categoría de **acidificación**. El petróleo crudo puede clasificarse a la categoría de **deterioro de combustibles fósiles**. Todas estas son **categorías de impacto de punto medio**. Las categorías de punto medio son las más escogidas, porque es más fácil la comprensión del mecanismo ambiental cuando está más cerca del flujo ambiental. El punto medio (ejemplo, calentamiento global, acidificación, agotamiento del recurso hídrico) está en algún lugar entre el flujo ambiental y el punto final. Las categorías de impacto de punto final correspondeN al impacto que finalmente van a tener los flujos ambientales en términos de daño a lo que se denomina áreas de protección que son: **la salud humana**, **ambiente natural o recursos bióticos (plantas, animales)**, **recursos naturales o abióticos (minierales)** y **ambiente construido por el hombre (edificios, cosechas, carreteras)**. Para el mineral de la bauxita que se extrae de la naturaleza, la base de datos anterior clasifica este flujo ambiental en una categoría de punto final denominada deterioro de los recursos. Por lo que para nuestro ejemplo, tenemos que dejar de lado este flujo, toda vez que no podemos hacer clasificación mezclando categorías de impacto de punto final y categorías de punto medio como si fueran de la misma naturaleza o del mismo nivel. 
@@ -63,7 +63,7 @@ Por otro lado, es posible que debido al avance de las investigaciones científic
 Para iniciar vamos a construir primero la matriz de caracterización que indicaremos con la letra **Q**. Solo para propósitos didácticos vamos a presentar la matriz indicando cuáles serían las unidades con que están representados cada una de los números que forman parte de esta matriz. No olvidar y suena tonto decirlo, pero en una matriz o vector solo se van a ver arreglos de números, nunca aparecerá información en forma de texto, pero para una comprensión mejor de lo que queremos explicar vamos esta vez a suponer que la matriz tiene información textual:
 
 <div align="center">
-  <img src="..//.graph/Imagen98.png" width=90%><p>
+  <img src="../.graph/Imagen98.png" width=90%><p>
 </div>
 
 
@@ -90,7 +90,7 @@ Veamos entonces cómo sería el vector de impacto **h** con los datos del ejerci
 
 
 <div align="center">
-  <img src="..//.graph/Imagen103png.png" width=100%><p>
+  <img src="../.graph/Imagen103png.png" width=100%><p>
 </div>
 
 Como se puede ver en los resultados del impacto que se muestran en el vector h, están en términos del indicador de la categorñia de impacto, que es la unidad de medida en que se expresan los resultados del impacto de esa categoría. Así que todas los flujos ambientales que se clasifiquen en esa categoría, su contribución en términos de impacto en esa categoría se expresan en esta unidad de medida, lo que permite después sumar cada contribución de impacto de cada flujo ambiental para obtener al final un solo resultado de impacto expresado en la unidad de medida o indicador de la categoría de impacto respectiva.
@@ -108,5 +108,5 @@ Finalmente, para efectos de cómo llevar la normalización, ponderación y agrup
 </div>
 
 <div align="center">
-  <img src="..//.graph/escuela%20laura.png" width=40%><p>
+  <img src="../.graph/escuela%20laura.png" width=40%><p>
 </div>
