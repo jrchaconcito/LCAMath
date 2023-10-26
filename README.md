@@ -24,13 +24,13 @@ Aprenderás en esta sección qué es el análisis de ciclo de vida, sus benefici
 
 DURACIÓN: 2 horas
 
-| MICROCONTENIDOS                      | CONTENIDOS    | 
-|-----------------------------------|-----------------------------|
-| [PROPÓSITO DE LA SECCIÓN](Secci%C3%B3n01#11-prop%C3%B3sito-de-la-secci%C3%B3n)                        |  Qué propósito tiene lo que vas aprender en la sección                                    
-| [QUÉ ES EL ANÁLISIS DE CICLO DE VIDA (ACV)](Secci%C3%B3n01#12-qu%C3%A9-es-el-an%C3%A1lisis-de-ciclo-de-vida-acv)                            | Aprenderás qué se entiende por análisis de ciclo de vida de un producto o servicio desde la perspectiva ambiental       |                                    
-| [CONCEPTOS BÁSICOS DEL ACV](Secci%C3%B3n01#13-conceptos-b%C3%A1sicos)                     | Aprenderás alguna terminología, conceptos y definiciones básicas sobre el análisis de ciclo de vida que es necesario se comprenda bien para abordar más adelante otras secciones del curso.        |                          
-| [PRINCIPIOS DEL ACV Y SUS LIMITACIONES](Secci%C3%B3n01#14-principios-del-acv-y-sus-limitaciones)                 | Aprenderás cuáles son los principios orientadores que la norma internacional ISO 14040:2006 contempla para llevar a cabo un estudio de análisis de ciclo de vida   | 
-| [PASOS PARA LLEVAR A CABO UN ACV](Secci%C3%B3n01#15-pasos-para-llevar-a-cabo-un-acv)  | Aprenderás cuáles son los pasos para llevar a cabo un estudio de análisis de ciclo de vida
+| MICROCONTENIDOS                                                                                                  | CONTENIDOS    | 
+|------------------------------------------------------------------------------------------------------------------|-----------------------------|
+| [PROPÓSITO DE LA SECCIÓN](Seccion01#11-prop%C3%B3sito-de-la-secci%C3%B3n)                                        |  Qué propósito tiene lo que vas aprender en la sección                                    
+| [QUÉ ES EL ANÁLISIS DE CICLO DE VIDA (ACV)](Seccion01#12-qu%C3%A9-es-el-an%C3%A1lisis-de-ciclo-de-vida-acv) | Aprenderás qué se entiende por análisis de ciclo de vida de un producto o servicio desde la perspectiva ambiental       |                                    
+| [CONCEPTOS BÁSICOS DEL ACV](Seccion01#13-conceptos-b%C3%A1sicos)                                                 | Aprenderás alguna terminología, conceptos y definiciones básicas sobre el análisis de ciclo de vida que es necesario se comprenda bien para abordar más adelante otras secciones del curso.        |                          
+| [PRINCIPIOS DEL ACV Y SUS LIMITACIONES](Seccion01#14-principios-del-acv-y-sus-limitaciones)                 | Aprenderás cuáles son los principios orientadores que la norma internacional ISO 14040:2006 contempla para llevar a cabo un estudio de análisis de ciclo de vida   | 
+| [PASOS PARA LLEVAR A CABO UN ACV](Seccion01#15-pasos-para-llevar-a-cabo-un-acv)                             | Aprenderás cuáles son los pasos para llevar a cabo un estudio de análisis de ciclo de vida
 
 SECCIÓN 2: Modelo básico del inventario de ciclo de vida
 Aprenderás en esta sección el modelo matemático general para calcular el inventario de ciclo de vida con procesos monofuncionales</p>
@@ -38,11 +38,11 @@ DURACIÓN: 8 horas
 
 | MICROCONTENIDOS       | CONTENIDOS                 |
 |-----------------------------------|-----------------------------|
-| [PROPÓSITO DE LA SECCIÓN](seccion02#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección
-| [MODELO BÁSICO DE INVENTARIO: REPRESENTANDO LOS PROCESOS UNITARIOS Y LOS FLUJO](seccion02#12-modelo-b%C3%A1sico-de-inventario-representando-los-procesos-unitarios-y-los-flujos) | Aprenderás  cómo representar a través de un diagrama los procesos unitarios y su interrelación y la construcción de una tabla de entradas y salidas que sirven de fundamento para posteriormente aplicar la estructura de cálculo matemática básica para modelar el inventario de ciclo de vida
-| [MODELO BÁSICO DE INVENTARIO: LA SOLUCIÓN MATEMÁTICA CON ESCALAMIENTO SECUENCIAL](seccion02#13-modelo-b%C3%A1sico-de-inventario-la-soluci%C3%B3n-matem%C3%A1tica-con-escalamiento-secuencial)  | Aprenderás como hallar los factores de escalamiento mediante el método secuencial |
-| [CÁLCULO DEL MODELO BÁSICO DEL INVENTARIO COMO UNA SOLUCIÓN DE UN SISTEMA DE ECUACIONES LINEALES](seccion02#14-c%C3%A1lculo-del-modelo-b%C3%A1sico-del-inventario-como-una-soluci%C3%B3n-de-un-sistema-de-ecuaciones-lineales)  | Aprenderás el formalismo y la lógica que hay detrás de la estructura básica de cómputo para modelar el inventario de ciclo de vida  |
-|[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL](seccion02#15-modelo-b%C3%A1sico-de-inventario-basado-en-%C3%A1lgebra-matricial)  | Aprenderás el tratamiento formal matemático utlizando el álgebra matricial para solucionar el problema del inventario de ciclo de vida |
+| [PROPÓSITO DE LA SECCIÓN](Seccion02#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección
+| [MODELO BÁSICO DE INVENTARIO: REPRESENTANDO LOS PROCESOS UNITARIOS Y LOS FLUJO](Seccion02#12-modelo-b%C3%A1sico-de-inventario-representando-los-procesos-unitarios-y-los-flujos) | Aprenderás  cómo representar a través de un diagrama los procesos unitarios y su interrelación y la construcción de una tabla de entradas y salidas que sirven de fundamento para posteriormente aplicar la estructura de cálculo matemática básica para modelar el inventario de ciclo de vida
+| [MODELO BÁSICO DE INVENTARIO: LA SOLUCIÓN MATEMÁTICA CON ESCALAMIENTO SECUENCIAL](Seccion02#13-modelo-b%C3%A1sico-de-inventario-la-soluci%C3%B3n-matem%C3%A1tica-con-escalamiento-secuencial)  | Aprenderás como hallar los factores de escalamiento mediante el método secuencial |
+| [CÁLCULO DEL MODELO BÁSICO DEL INVENTARIO COMO UNA SOLUCIÓN DE UN SISTEMA DE ECUACIONES LINEALES](Seccion02#14-c%C3%A1lculo-del-modelo-b%C3%A1sico-del-inventario-como-una-soluci%C3%B3n-de-un-sistema-de-ecuaciones-lineales)  | Aprenderás el formalismo y la lógica que hay detrás de la estructura básica de cómputo para modelar el inventario de ciclo de vida  |
+|[MODELO BÁSICO DE INVENTARIO BASADO EN ÁLGEBRA MATRICIAL](Seccion02#15-modelo-b%C3%A1sico-de-inventario-basado-en-%C3%A1lgebra-matricial)  | Aprenderás el tratamiento formal matemático utlizando el álgebra matricial para solucionar el problema del inventario de ciclo de vida |
 
 SECCIÓN 3: Aprenderás cómo resolver el problema de inventario del ciclo de vida con procesos multifuncionales y sistemas con conocimiento incompleto sobre los flujos de producto entre procesos unitarios</p> 
 DURACIÓN: 10 horas
@@ -58,9 +58,9 @@ DURACIÓN: 4 horas
 
 | MICROCONTENIDOS                      | CONTENIDOS    | 
 |-----------------------------------|-----------------------------|
-| [PROPÓSITO DE LA SECCIÓN](seccion04#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección  | 
-| [ALGUNAS CONSIDERACIONES PRELIMINARES](seccion04#12-algunas-consideraciones-preliiminares)  |Aprenderas cuáles son los pasos para llevar a cabo el impacto ambiental potencial del ciclo de vida| 
- |[ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA HALLAR EL IMPACTO DE CICLO DE VIDA](seccion04#13-estructura-de-c%C3%A1lculo-matem%C3%A1tico-para-hallar-el-impacto-de-ciclo-de-vida) | Aprenderás la metodología de cálculo matemático para hallar el impacto ambiental potencial de ciclo de vida teniendo en cuenta los elementos que son obligatorios segúnla norma internacional ISO 14040:2006| 
+| [PROPÓSITO DE LA SECCIÓN](Seccion04#11-prop%C3%B3sito-de-la-secci%C3%B3n) | Qué propósito tiene lo que vas aprender en la sección  | 
+| [ALGUNAS CONSIDERACIONES PRELIMINARES](Seccion04#12-algunas-consideraciones-preliiminares)  |Aprenderas cuáles son los pasos para llevar a cabo el impacto ambiental potencial del ciclo de vida| 
+ |[ESTRUCTURA DE CÁLCULO MATEMÁTICO PARA HALLAR EL IMPACTO DE CICLO DE VIDA](Seccion04#13-estructura-de-c%C3%A1lculo-matem%C3%A1tico-para-hallar-el-impacto-de-ciclo-de-vida) | Aprenderás la metodología de cálculo matemático para hallar el impacto ambiental potencial de ciclo de vida teniendo en cuenta los elementos que son obligatorios segúnla norma internacional ISO 14040:2006| 
 
 EJERCICIOS
 
