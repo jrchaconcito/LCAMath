@@ -324,9 +324,9 @@ Lo que vamos a llevar a cabo a continuación es buscar que la cantidad de residu
 
 Teniendo en cuenta las anteriores consideraciones, observe lo siguiente, una vez hecho este escalamiento secuencial: El proceso unitario de producción de probetas genera 3 Kg de residuos de aluminio, sin embargo, el proceso unitario que produce los lingotes de aluminio, solo necesita 0.01 Kg de residuos de aluminio, es decir, el proceso unitario de la producción de las probetas está produciendo más residuo del que se necesita en la producción de los lingotes de alumninio (hay excedentes del material a reciclar). 
 
-En  el ejemplo que nos ocupa, la producción de probetas produce más residuo de aluminio del que se requiere en la producción de lingotes de aluminio, pero puede suceder lo contrario, que la producción de probetas genere menos residuo del que se requiere en la producción de lingotes. En este caso se debe suministrar el faltante agregando un proceso que produzca el material faltante o requerido.
+En  el ejemplo que nos ocupa, la producción de probetas produce más residuo de aluminio del que se requiere en la producción de lingotes de aluminio (pero puede suceder lo contrario, que la producción de probetas genere menos residuo del que se requiere en la producción de lingotesm, para este caso se debe suministrar el faltante agregando un proceso que produzca el material faltante o requerido).
 
-Ahiora bien, retomando nuestro ejemplo y con base en las consideraciones anteriores,  lo que se hace es que la producción de probetas solo genere 0.01 Kg de residuos de aluminio pero como ese proceso tiene como factor de escalamiento 100, entonces debo colocar una cantidad de residuos de aluminio que al multiplicarla me de como resultado 0.01 kg de residuos de aluminio. Entonces esablezco la siguiente expresión:
+Ahiora bien, retomando nuestro ejemplo y con base en las consideraciones anteriores, lo que se hace es que la producción de probetas sólo debería generar 0.01 Kg de residuos de aluminio pero como ese proceso tiene como factor de escalamiento 100, entonces debo colocar una cantidad X de residuos de aluminio que al multiplicarla me de como resultado 0.01 kg de residuos de aluminio. Entonces esablezco la siguiente expresión:
 
 <p align="center">
   100X = 0.01
