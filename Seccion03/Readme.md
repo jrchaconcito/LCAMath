@@ -135,7 +135,7 @@ Por otro lado, este proceso unitario de producción de acero emite 28.28 Kg de C
 
 
 
- -**Algunas consideraciones adicionales sobre el método de sustitución**
+ -**Algunas consideraciones adicionales sobre el método de substitución**
 
  Teniendo en cuenta las indicaciones dadas por Heijungs % Suh (2002), a continuación las siguientes consideraciones sobre el método de sustitución:
 
@@ -338,7 +338,7 @@ Despejando X, encuentro que este valor debe ser igual a 0.0001 Kg de residuos de
   100Y = 2.9999
 </p>
 
-Despejando Y encontramos que su valor corresponde a 0.029999 Kg de residuos. Estos residuos de más de aluminio (excedente) que no requiere el proceso de producción de lingotes de aluminio, se envían a un proceso de reciclaje de bucle abierto. Veamos entonces cómo sería la matriz **A** incorporando la información anterior:
+Despejando Y encontramos que su valor corresponde a 0.029999 Kg de residuos. Estos residuos de más de aluminio (excedente) que no requiere el proceso de producción de lingotes de aluminio, se envían a un proceso de reciclaje de bucle abierto (utilizando la técnica de procesos ficticios). Veamos entonces cómo sería la matriz **A** incorporando la información anterior:
 
 <div align="center">
   <img src="../.graph/Imagen74.png" width=110%><p>
