@@ -264,7 +264,12 @@ Donde la seudoinversa la indicaremos con la letra <b>A<sup>+</sup></b> y corresp
   <span style="font-size:larger"><b>A<sup>+</sup></b> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</<//span>
 </p>
 
+Y el vector de escalonamiento se obtiene mediante la siguiente expresión:
 
+<p align="center">
+  <span style="font-size:larger"><b>A<sup>+</sup></b> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T<A<sup>T</sup>f/<//span>
+</p>
+    
 La letra T significa que corresponde a la transpuesta de la matriz **A**.
 
 A continuación vamos a ver cómo funciona esta estructura de cálculo.
